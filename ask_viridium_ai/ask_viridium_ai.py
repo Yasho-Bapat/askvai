@@ -9,8 +9,8 @@ from langchain_openai import AzureChatOpenAI
 from langchain_core.output_parsers.openai_functions import JsonOutputFunctionsParser
 from langchain_community.callbacks import get_openai_callback
 
-from askviridium.app.global_constants import GlobalConstants
-from askviridium.app.models import ChemicalComposition, MaterialInfo
+from global_constants import GlobalConstants
+from models import ChemicalComposition, MaterialInfo
 from .tracking import Logger
 
 dotenv.load_dotenv()

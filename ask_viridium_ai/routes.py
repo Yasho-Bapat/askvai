@@ -46,7 +46,7 @@ class MainRoutes:
         return True, None
 
     def home(self):
-        return render_template("pages/index.html")
+        return render_template("index.html")
 
     def ask_viridium_ai(self):
         request_data = request.get_json()
