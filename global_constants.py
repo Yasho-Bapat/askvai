@@ -14,7 +14,6 @@ class DotAccessDict(dict):
             )
 
 
-
 class GlobalConstants(DotAccessDict):
     api_version = "/v1"
     utf_8 = "utf-8"
@@ -31,12 +30,12 @@ class GlobalConstants(DotAccessDict):
     azure_enpoint = "AZURE_TENANT_ID"
 
     swagger_config = {
-        "app_name": "Keyword Analysis API",  # Set the title of your API
-        "docExpansion": "none",  # Controls the default expansion setting for the operations and tags
-        "displayOperationId": True,  # Controls the display of operation Ids in operations list
-        "displayRequestDuration": True,  # Controls the display of the request duration in the response
-        "defaultModelsExpandDepth": 0,  # The default expansion depth for the model on the model-example section
-        "defaultModelExpandDepth": 1,  # The default expansion depth for the model on the model section
+        "app_name": "Keyword Analysis API",
+        "docExpansion": "none",
+        "displayOperationId": True,
+        "displayRequestDuration": True,
+        "defaultModelsExpandDepth": 0,
+        "defaultModelExpandDepth": 1,
     }
 
     api_response_parameters = {
@@ -131,4 +130,3 @@ class GlobalConstants(DotAccessDict):
 
     model_name = os.getenv("AZURE_MODEL_NAME")
     deployment_name = os.getenv("AZURE_DEPLOYMENT_NAME")
-
