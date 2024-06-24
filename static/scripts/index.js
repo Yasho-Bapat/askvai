@@ -26,9 +26,16 @@ function handleAskAIClick() {
     const manufacturerInput = document.querySelector('.manufacturer-input');
     const workContentInput = document.querySelector('.work-content-input');
 
+
     // Clear the chat window
     const chatWindow = document.querySelector('.chat-messages');
+    const chatInput = document.querySelector('.chat-input');
+    const additional_info =  chatInput.value.trim();
+
+    displayMessage("User", additional_info);
+
     chatWindow.innerHTML = '';
+    chatInput.innerHTML = '';
 
     showSpinner();
 
@@ -37,7 +44,7 @@ function handleAskAIClick() {
         headers: {
             'Content-Type': 'application/json'
         },
-        body: JSON.stringify({ material_name: materialNameInput.value, manufacturer_name: manufacturerInput.value, work_content: workContentInput.value })
+        body: JSON.stringify({ material_name: materialNameInput.value, manufacturer_name: manufacturerInput.value, work_content: workContentInput.value, additional_info: additional_info })
         })
         .then(response => {
             if (!response.ok){
@@ -100,6 +107,7 @@ function handleRetryClick() {
 function displayMessage(sender, message) {
     const chatWindow = document.querySelector('.chat-messages');
     const messageElement = document.createElement('div');
+
     messageElement.classList.add('message');
 
     if (typeof message === 'object') {
