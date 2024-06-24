@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ask AI Service</title>
+    <title>Ask Viridium AI Service</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='/css/styles.css') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='assets/favicon.ico') }}">
     <script src="{{ url_for('static', filename='/scripts/index.js') }}"></script>
 </head>
 <body>
@@ -14,11 +15,11 @@
             <div class="input-card">
                 <div class="input-data">
                     <label for="material_name">Material Name:</label>
-                    <input type="text" id="material_name" class="material-name-input" placeholder="Type Material Name...">
+                    <input type="text" id="material_name" class="material-name-input" placeholder="Ex - Isopropyl Alcohol">
                     <label for="manufacturer">Manufacturer:</label>
-                    <input type="text" id="manufacturer" class="manufacturer-input" placeholder="Type Manufacturer...">
+                    <input type="text" id="manufacturer" class="manufacturer-input" placeholder="Ex - ExxonMobil Chemical">
                     <label for="work_content">Work Content:</label>
-                    <input type="text" id="work_content" class="work-content-input" placeholder="Type Work Content...">
+                    <input type="text" id="work_content" class="work-content-input" placeholder="Ex - Cleaning">
                 </div>
                 <div class="ask-button-container">
                     <button class="ask-button">Ask AI</button>
