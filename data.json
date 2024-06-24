@@ -1,0 +1,733 @@
+[
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar, Glass",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar, Glass) are inorganic materials and do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with non-PFAS materials",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar) are inorganic materials that do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with inorganic materials",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Clay, Feldspar",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Silicon Carbide, Aluminum Oxide, Clay, Feldspar) are inorganic materials that do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Silicon Carbide, Aluminum Oxide, Clay, and Feldspar are well-documented inorganic materials with no association to PFAS.",
+            "Trade name association with vitrified bonded materials, which typically do not contain PFAS."
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar) are inorganic materials that do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Silicon Carbide, Aluminum Oxide, Kaolin, and Feldspar are well-documented inorganic materials with no association to PFAS.",
+            "Trade name association with vitrified bonded materials, which typically do not contain PFAS."
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar) are inorganic materials that do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with inorganic materials",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar, Glass",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar, Glass) are inorganic materials that do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with inorganic materials",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "",
+        "composition": "",
+        "analysis_method": "Insufficient information provided",
+        "decision": "Undetermined",
+        "confidence": 0.1,
+        "primary_reason": "No specific material name, manufacturer, or chemical composition provided.",
+        "secondary_reason": null,
+        "evidence": [],
+        "health_problems": [],
+        "confidence_level": "Low",
+        "recommendation": "Provide specific material name, manufacturer, and chemical composition for accurate PFAS assessment.",
+        "suggestion": "Gather detailed information about the material, including its trade name, manufacturer, and chemical composition.",
+        "limitations_and_uncertainties": "Unable to perform PFAS assessment due to lack of detailed information."
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Clay, Feldspar",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Silicon Carbide, Aluminum Oxide, Clay, Feldspar) are inorganic materials and do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Silicon Carbide, Aluminum Oxide, Clay, and Feldspar are well-known inorganic materials with no association to PFAS.",
+            "Trade name association with vitrified bonded materials, which typically do not contain PFAS."
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar, Glass",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar, Glass) are inorganic materials and do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with inorganic materials",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [
+            "None related to PFAS"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Clay",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "Silicon Carbide, Aluminum Oxide, and Clay are inorganic materials that do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with inorganic materials, which are non-PFAS",
+            "Lack of information suggesting PFAS presence in these materials"
+        ],
+        "health_problems": [
+            "None related to PFAS"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar) are inorganic materials that do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with inorganic materials",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar) are inorganic materials that do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with inorganic materials, which are non-PFAS",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar) are inorganic materials that do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Silicon Carbide, Aluminum Oxide, Kaolin, and Feldspar are well-documented inorganic materials with no association to PFAS.",
+            "Trade name association with vitrified bonded materials, which typically do not contain PFAS."
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "",
+        "composition": "",
+        "analysis_method": "Insufficient information provided",
+        "decision": "Undetermined",
+        "confidence": 0.1,
+        "primary_reason": "No specific material name, manufacturer, or chemical composition provided.",
+        "secondary_reason": null,
+        "evidence": [],
+        "health_problems": [],
+        "confidence_level": "Low",
+        "recommendation": "Provide specific material name, manufacturer, and chemical composition for accurate PFAS assessment.",
+        "suggestion": "Gather detailed information about the material, including its trade name, manufacturer, and chemical composition.",
+        "limitations_and_uncertainties": "Unable to perform PFAS assessment due to lack of detailed information."
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar) are inorganic materials that do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with non-PFAS materials",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar) are inorganic materials that do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with non-PFAS materials",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar) are inorganic materials that do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with non-PFAS materials",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar) are inorganic materials that do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with non-PFAS materials",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar) are inorganic materials that do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with inorganic materials",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar) are inorganic materials and do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with inorganic materials, which are non-PFAS",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Clay, Feldspar",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Silicon Carbide, Aluminum Oxide, Clay, Feldspar) are inorganic materials and do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Silicon Carbide, Aluminum Oxide, Clay, and Feldspar are well-documented inorganic materials with no association to PFAS.",
+            "Trade name association with vitrified bonded materials, which typically do not contain PFAS."
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Kaolin, Sodium Silicate",
+        "analysis_method": "Literature review, chemical composition analysis",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Silicon Carbide, Aluminum Oxide, Kaolin, Sodium Silicate) are not PFAS substances and do not typically contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Chemical composition analysis showing no PFAS-related substances",
+            "Literature review confirming the absence of PFAS in the listed materials"
+        ],
+        "health_problems": [
+            "None related to PFAS"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "None"
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar) are inorganic materials that do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with inorganic materials",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar) are inorganic materials and do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Scientific literature confirming the inorganic nature of the listed components",
+            "Lack of association between the listed components and PFAS in authoritative databases"
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar) are inorganic materials that do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Silicon Carbide, Aluminum Oxide, Kaolin, and Feldspar are well-documented inorganic materials with no association to PFAS.",
+            "Trade name association with vitrified bonded materials, which typically do not contain PFAS."
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Sodium Carbonate",
+        "composition": "Sodium Carbonate",
+        "analysis_method": "Literature review, chemical composition analysis",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "Sodium Carbonate is an inorganic compound and does not contain carbon-fluorine bonds, which are characteristic of PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Chemical structure of Sodium Carbonate (Na2CO3) does not include any PFAS-related functional groups",
+            "Literature review confirms that Sodium Carbonate is not associated with PFAS"
+        ],
+        "health_problems": [
+            "Irritation to eyes and respiratory tract if inhaled or contacted"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as Sodium Carbonate is not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar) are inorganic materials and do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with inorganic materials, which are non-PFAS",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Nitrogen Cryogenic Liquid",
+        "composition": "Nitrogen",
+        "analysis_method": "Literature review, chemical composition analysis",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "Nitrogen is a diatomic molecule (N2) and does not contain carbon-fluorine bonds, which are characteristic of PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Chemical composition of nitrogen (N2) does not include PFAS",
+            "Literature review confirms nitrogen as a non-PFAS substance"
+        ],
+        "health_problems": [
+            "Asphyxia due to displacement of oxygen in confined spaces"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed material is not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Clay, Feldspar",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Silicon Carbide, Aluminum Oxide, Clay, Feldspar) are inorganic materials and do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with inorganic materials",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [
+            "None related to PFAS"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar) are inorganic materials that do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with inorganic materials, which are non-PFAS",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "nicotine",
+        "composition": "Nicotine",
+        "analysis_method": "Literature review, chemical structure analysis",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "Nicotine is a naturally occurring alkaloid and does not contain fluorine atoms, which are characteristic of PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Chemical structure of nicotine does not include any fluorine atoms",
+            "Literature review confirms nicotine is not associated with PFAS"
+        ],
+        "health_problems": [
+            "Addiction",
+            "Increased heart rate",
+            "High blood pressure",
+            "Potential carcinogenic effects"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as nicotine is not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar) are inorganic materials and do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Silicon Carbide, Aluminum Oxide, Kaolin, and Feldspar are well-documented inorganic materials with no association to PFAS.",
+            "Trade name association with vitrified bonded materials, which typically do not contain PFAS."
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar) are inorganic materials and do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Silicon Carbide, Aluminum Oxide, Kaolin, and Feldspar are well-known inorganic materials with no association to PFAS.",
+            "Literature review and trade name association confirm the absence of PFAS in these materials."
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar) are inorganic materials and do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Silicon Carbide, Aluminum Oxide, Kaolin, and Feldspar are well-known inorganic materials with no association to PFAS.",
+            "Literature review and trade name association confirm the absence of PFAS in these materials."
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar) are inorganic materials that do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with non-PFAS materials",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar, Glass",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar, Glass) are inorganic materials and do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with inorganic materials, which are non-PFAS",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar) are inorganic materials and do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with inorganic materials",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar) are inorganic materials that do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with inorganic materials",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar, Glass",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar, Glass) are inorganic materials that do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with non-PFAS materials",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Silicon Carbide, Aluminum Oxide, Kaolin, Feldspar) are inorganic materials that do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with inorganic materials",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    }
+]
