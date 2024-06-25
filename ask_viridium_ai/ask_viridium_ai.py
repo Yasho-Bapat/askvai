@@ -10,7 +10,7 @@ from langchain_core.output_parsers.openai_functions import JsonOutputFunctionsPa
 from langchain_community.callbacks import get_openai_callback
 
 from global_constants import GlobalConstants
-from models import ChemicalComposition, MaterialInfo
+from models import MaterialComposition, MaterialInfo
 from .tracking import Logger
 
 dotenv.load_dotenv()
@@ -65,7 +65,7 @@ class AskViridium:
         return prompt
 
     def openai_functions_creation(self):
-        cheminfo_function = [convert_to_openai_function(ChemicalComposition)]
+        cheminfo_function = [convert_to_openai_function(MaterialComposition)]
 
         # convert MaterialInfo into an OpenAI function to use for function calling.
         analysis_function = [convert_to_openai_function(MaterialInfo)]
@@ -74,7 +74,7 @@ class AskViridium:
     def bind_function(self):
         cheminfo_model = self.llm.bind_functions(
             functions=self.cheminfo_function,
-            function_call={"name": "ChemicalComposition"}
+            function_call={"name": "MaterialComposition"}
         )
         # binding the function to our LLM to enable function calling.
         analysis_model = self.llm.bind_functions(
@@ -107,6 +107,7 @@ class AskViridium:
         with get_openai_callback() as cb:
             self.chemical_composition = self.cheminfo_chain.invoke(
                 {"material": material, "example": self.constants.chemical_composition_example})
+            print(self.chemical_composition["chemicals"])
             chemicals_list = [chemical["name"] for chemical in self.chemical_composition["chemicals"]]
             tokens_for_cheminfo = cb.total_tokens
             cost_for_cheminfo = cb.total_cost
