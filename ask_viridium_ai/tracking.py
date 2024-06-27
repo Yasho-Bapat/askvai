@@ -1,8 +1,8 @@
 import pandas as pd
 
 class Logger:
-
     def __init__(self):
+        """Initialize the Logger class."""
         self.columns = [
             'time', 'user_id', 'material_name',
             'tokens_used_for_chemical_composition', 'cost_chemical_composition',
@@ -11,6 +11,11 @@ class Logger:
         self.df = pd.DataFrame(columns=self.columns)
 
     def log(self, info):
+        """Log information provided in the 'info' dictionary.
+
+        Args:
+            info (dict): A dictionary containing information to log.
+        """
         time = info["time"]
         user_id = info["user_id"]
         material_name = info["material_name"]
@@ -28,4 +33,6 @@ class Logger:
         self.df = pd.concat([self.df, tdf])
 
     def save(self):
-        self.df.to_csv('ask_viridium_ai/log.csv', index=False)
+        tdf = pd.read_csv("log.csv")
+        self.df = pd.concat([tdf, self.df])
+        self.df.to_csv('log.csv', index=False)
