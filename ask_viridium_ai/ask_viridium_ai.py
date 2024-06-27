@@ -13,6 +13,7 @@ from global_constants import GlobalConstants  # Global constants used in the scr
 from models import ChemicalComposition, MaterialInfo  # Models for chemical composition and material information
 from .tracking import Logger  # Logger for tracking and logging information
 
+
 dotenv.load_dotenv()  # Load environment variables from a .env file
 
 
@@ -99,7 +100,7 @@ class AskViridium:
         """
         cheminfo_model = self.llm.bind_functions(
             functions=self.cheminfo_function,
-            function_call={"name": "ChemicalComposition"}
+            function_call={"name": "MaterialComposition"}
         )
         # Bind the analysis function to the LLM
         analysis_model = self.llm.bind_functions(
@@ -158,6 +159,7 @@ class AskViridium:
             # Invoke the chemical info chain and get the chemical composition
             self.chemical_composition = self.cheminfo_chain.invoke(
                 {"material": material, "example": self.constants.chemical_composition_example})
+            print(self.chemical_composition["chemicals"])
             chemicals_list = [chemical["name"] for chemical in self.chemical_composition["chemicals"]]
             tokens_for_cheminfo = cb.total_tokens
             cost_for_cheminfo = cb.total_cost
