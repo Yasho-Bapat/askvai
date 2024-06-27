@@ -729,5 +729,83 @@
         "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
         "suggestion": null,
         "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "3M Trizact 463FC Belt",
+        "composition": "Aluminum Oxide, Polyester Cloth",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "Aluminum Oxide and Polyester Cloth are not known to contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with non-PFAS materials",
+            "Lack of information suggesting PFAS presence in Aluminum Oxide and Polyester Cloth"
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The analysis is based on the known composition and typical use of the materials. If there are additional components not listed, further investigation may be required."
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Clay, Feldspar",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Silicon Carbide, Aluminum Oxide, Clay, Feldspar) are inorganic materials and do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with inorganic materials, which are non-PFAS",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Scotch-Brite Products, 7747, 7777, 8447, Production Clean & Finish AVFN Sheets, Rolls, Discs, Roloc, Hookit, HookitII, manufactured by 3M",
+        "composition": "Aluminum Oxide, Phenol-Formaldehyde Polymer, Nylon Fiber",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed components (Aluminum Oxide, Phenol-Formaldehyde Polymer, Nylon Fiber) do not typically contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with non-PFAS materials",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [
+            "Could lead to asphyxia",
+            "Linked to cancer"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Marks-A-Lot Permanent Markers Inks",
+        "composition": "Ethanol, 1-Propanol, Ethylene Glycol Monobutyl Ether, Dye",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed components (Ethanol, 1-Propanol, Ethylene Glycol Monobutyl Ether, Dye) are not PFAS substances.",
+        "secondary_reason": "No evidence or indication that the dyes used in these markers contain PFAS.",
+        "evidence": [
+            "Chemical composition does not include any known PFAS substances",
+            "Literature review and trade name association with non-PFAS components"
+        ],
+        "health_problems": [
+            "Ethanol and 1-Propanol can cause respiratory and skin irritation",
+            "Ethylene Glycol Monobutyl Ether is a potential reproductive toxin"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The specific dye composition is not detailed, but common dyes used in markers do not typically contain PFAS."
     }
 ]
