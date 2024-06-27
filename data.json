@@ -807,5 +807,90 @@
         "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
         "suggestion": null,
         "limitations_and_uncertainties": "The specific dye composition is not detailed, but common dyes used in markers do not typically contain PFAS."
+    },
+    {
+        "analyzed_material": "3M SCOTCH-BRITE HAND PADS, 5440, 7449",
+        "composition": "Aluminum Oxide, Nylon Fiber, Resin",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "Nylon and Aluminum Oxide are non-PFAS materials. Resins used in such products typically do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with non-PFAS materials like Nylon and Aluminum Oxide",
+            "Lack of information suggesting PFAS presence in typical resins used in such products"
+        ],
+        "health_problems": [
+            "Could lead to asphyxia",
+            "Linked to cancer"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "There is a small possibility that specific resins could contain PFAS, but this is unlikely based on typical formulations."
+    },
+    {
+        "analyzed_material": "RB 306 J-Flex (30660)",
+        "composition": "Aluminum Oxide, Phenolic Resin, Calcium Carbonate",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed components (Aluminum Oxide, Phenolic Resin, Calcium Carbonate) do not typically contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with non-PFAS materials",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [
+            "Could lead to asphyxia",
+            "Linked to cancer"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Dykem Transparent Stain Bulk - Steel Blue, Steel Red and Black",
+        "composition": "Ethyl Alcohol, Isopropyl Alcohol, Ethylene Glycol Monobutyl Ether, Methyl Isobutyl Ketone",
+        "analysis_method": "Literature review, trade name association, chemical structure analysis",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed components are common solvents and do not contain PFAS based on their chemical structures.",
+        "secondary_reason": null,
+        "evidence": [
+            "Chemical structure analysis of Ethyl Alcohol, Isopropyl Alcohol, Ethylene Glycol Monobutyl Ether, and Methyl Isobutyl Ketone shows no fluorine atoms, which are characteristic of PFAS.",
+            "Literature review and trade name association with Dykem products, which are typically solvent-based and not known to contain PFAS."
+        ],
+        "health_problems": [
+            "Flammability risk",
+            "Potential respiratory irritation",
+            "Possible skin irritation"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The analysis is based on the provided chemical composition. If there are any unlisted additives or impurities, further investigation may be required."
+    },
+    {
+        "analyzed_material": "3M Scotch Brite Products, High Strength HS A-VFN, A-FIN: Discs, Sheets, Rolls, Brushes, Satin Pleated Buff Wheels, Cross Buffs, High Strength Cleaning Brushes",
+        "composition": "Aluminum Oxide, Nylon Fiber, Phenolic Resin",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed components (Aluminum Oxide, Nylon Fiber, Phenolic Resin) are not known to contain PFAS.",
+        "secondary_reason": "3M Scotch Brite products are generally not associated with PFAS content based on available information.",
+        "evidence": [
+            "Trade name association with non-PFAS materials",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [
+            "Could lead to asphyxia",
+            "Linked to cancer"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The analysis is based on the provided composition and available information. If there are additional unlisted components, further investigation may be required."
     }
 ]
