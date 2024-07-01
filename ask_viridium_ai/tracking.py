@@ -28,6 +28,6 @@ class Logger:
         self.df = pd.concat([self.df, tdf])
 
     def save(self):
-        tdf = pd.read_csv("log.csv")
+        tdf = pd.read_csv("log.csv") # saving saving
         self.df = pd.concat([tdf, self.df])
         self.df.to_csv('log.csv', index=False)
