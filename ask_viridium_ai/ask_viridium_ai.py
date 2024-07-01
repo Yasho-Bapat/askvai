@@ -10,7 +10,7 @@ from langchain_core.output_parsers.openai_functions import JsonOutputFunctionsPa
 from langchain_community.callbacks import get_openai_callback
 
 from global_constants import GlobalConstants  # Global constants used in the script
-from models import ChemicalComposition, MaterialInfo  # Models for chemical composition and material information
+from models import MaterialComposition, MaterialInfo  # Models for chemical composition and material information
 from .tracking import Logger  # Logger for tracking and logging information
 
 
@@ -69,7 +69,7 @@ class AskViridium:
         Returns:
             ChatPromptTemplate: The prompt template for analysis.
         """
-        with open('ask_viridium_ai/newprompt.txt', 'r') as file:
+        with open('ask_viridium_ai/new_prompt.txt', 'r') as file:
             analysis_system_prompt = file.read()
 
         prompt = ChatPromptTemplate.from_messages([
@@ -86,7 +86,7 @@ class AskViridium:
         Returns:
             list: A list containing the chemical info function and analysis function.
         """
-        cheminfo_function = [convert_to_openai_function(ChemicalComposition)]
+        cheminfo_function = [convert_to_openai_function(MaterialComposition)]
 
         analysis_function = [convert_to_openai_function(MaterialInfo)]
         return [cheminfo_function, analysis_function]

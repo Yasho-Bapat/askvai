@@ -1,2 +1,3 @@
 time,user_id,material_name,tokens_used_for_chemical_composition,cost_chemical_composition,tokens_used_for_analysis,cost_analysis,total_cost,chemical_composition,PFAS_status,manufacturer_name
-1719470493.428266,umesh,"3M Scotch Brite Products, High Strength HS A-VFN, A-FIN: Discs, Sheets, Rolls, Brushes, Satin Pleated Buff Wheels, Cross Buffs, High Strength Cleaning Brushes",1229,0.014125,1912,0.01679,0.030914999999999998,"['Aluminum Oxide', 'Nylon Fiber', 'Phenolic Resin']",PFAS (No),3M
+1719470493.428266,umesh,"3M Scotch Brite Products, High Strength HS A-VFN, A-FIN: Discs, Sheets, Rolls, Brushes, Satin Pleated Buff Wheels, Cross Buffs, High Strength Cleaning Brushes",1229,0.014125,1912,0.01679,0.0309149999999999,"['Aluminum Oxide', 'Nylon Fiber', 'Phenolic Resin']",PFAS (No),3M
+1719836596.376249,umesh,Vitrified Bonded Stick,820,0.00746,1643,0.012924999999999999,0.020385,"['Silicon Carbide', 'Aluminum Oxide']",PFAS (No),
