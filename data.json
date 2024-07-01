@@ -892,5 +892,23 @@
         "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
         "suggestion": null,
         "limitations_and_uncertainties": "The analysis is based on the provided composition and available information. If there are additional unlisted components, further investigation may be required."
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "Silicon Carbide and Aluminum Oxide are inorganic compounds that do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Silicon Carbide and Aluminum Oxide are well-characterized materials with no known association with PFAS.",
+            "Vitrified bonding typically involves inorganic materials and does not include PFAS."
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
     }
 ]
