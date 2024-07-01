@@ -42,4 +42,4 @@ class ExperimentLogger():
     def save(self, filename):
         tdf = pd.read_csv(filename)
         self.df = pd.concat([tdf, self.df])
-        self.df.to_csv(filename, index=False)
+        self.df.to_csv(filename, index=False) # saving
