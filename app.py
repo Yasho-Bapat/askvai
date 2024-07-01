@@ -1,10 +1,11 @@
 from dotenv import load_dotenv
 
 from ask_viridium_ai.routes import MainRoutes
+from ask_viridium_ai.tracking import AppInsightsConnector
 
 load_dotenv()
 
-from flask import Flask, jsonify, redirect
+from flask import Flask, jsonify, redirect, request
 from flask_cors import CORS
 from apispec import APISpec
 from flask_swagger_ui import get_swaggerui_blueprint
@@ -17,6 +18,8 @@ global_constants = GlobalConstants
 
 app = Flask(__name__)
 CORS(app)
+
+logger = AppInsightsConnector().get_logger()
 
 main_routes = MainRoutes()
 app.register_blueprint(main_routes.blueprint, url_prefix=GlobalConstants.api_version)
@@ -59,13 +62,13 @@ def create_swagger_spec():
 
 @app.before_request
 def log_request_info():
-    # logger.info(f"API REQUEST : {request.method} {request.path}")
+    logger.info(f"API REQUEST : {request.method} {request.path}")
     pass
 
 
 @app.after_request
 def log_response_info(response):
-    # logger.info(f"API RESPONSE : {response.status}")
+    logger.info(f"API RESPONSE : {response.status}")
     return response
 
 

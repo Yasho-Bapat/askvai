@@ -1,4 +1,10 @@
+import os
+import dotenv
 import pandas as pd
+import logging
+from opencensus.ext.azure.log_exporter import AzureLogHandler
+
+dotenv.load_dotenv()
 
 class Logger:
     def __init__(self):
@@ -36,3 +42,19 @@ class Logger:
         tdf = pd.read_csv("log.csv")
         self.df = pd.concat([tdf, self.df])
         self.df.to_csv('log.csv', index=False)
+
+
+class AppInsightsConnector:
+    def __init__(self):
+        self.ai_conn_string = os.getenv("APPINSIGHTS_CONNECTION_STRING")
+
+        self.logger = logging.getLogger(__name__)
+
+        self.logger.setLevel(logging.INFO)
+
+        self.azure_handler = AzureLogHandler(connection_string=self.ai_conn_string)
+
+        self.logger.addHandler(self.azure_handler)
+
+    def get_logger(self):
+        return self.logger

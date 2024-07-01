@@ -11,7 +11,7 @@ from langchain_community.callbacks import get_openai_callback
 
 from global_constants import GlobalConstants  # Global constants used in the script
 from models import MaterialComposition, MaterialInfo  # Models for chemical composition and material information
-from .tracking import Logger  # Logger for tracking and logging information
+from .tracking import AppInsightsConnector  # Logger for tracking and logging information
 
 
 dotenv.load_dotenv()  # Load environment variables from a .env file
@@ -20,7 +20,7 @@ dotenv.load_dotenv()  # Load environment variables from a .env file
 class AskViridium:
     def __init__(self):
         """Initialize the AskViridium class."""
-        self.logger = Logger()  # Initialize the logger
+        self.logger = AppInsightsConnector().get_logger()  # Initialize the logger
         self.loginfo = dict()  # Dictionary to store log information
         self.constants = GlobalConstants()  # Initialize global constants
         self.model_name = self.constants.model_name  # Model name from constants
@@ -135,7 +135,7 @@ class AskViridium:
         self.loginfo["PFAS_status"] = self.pfas
         self.loginfo["user_id"] = "umesh"  # placeholder
 
-        self.logger.log(info=self.loginfo)  # Log the information
+        self.logger.info(self.loginfo)  # Log the information
 
     def query(self, material_name, manufacturer_name: Optional[str] = "Not Available", work_content: Optional[str] = "Not Available", additional_info: Optional[str] = None):
         """
@@ -176,7 +176,7 @@ class AskViridium:
 
         # Log the query and results
         self.log(rn, material_name, manufacturer_name, tokens_for_cheminfo, tokens_for_analysis, cost_for_cheminfo, cost_for_analysis, chemicals_list)
-        self.logger.save()  # Save the log
+        # self.logger.save()  # Save the log
 
         store = self.store()  # Store the result
         print(store)
