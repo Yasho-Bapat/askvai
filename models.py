@@ -9,7 +9,7 @@ class ChemicalInfo(BaseModel):
     source: str = Field(description="Source for this piece of information, will be a hyperlink")
 
 
-class ChemicalComposition(BaseModel):
+class MaterialComposition(BaseModel):
     product_name: str = Field(description="Name of the product specified")
     chemicals: List[ChemicalInfo] = Field(description="List of chemicals present in the product.")
     confidence: int = Field(description="Confidence score of the result")

@@ -1,0 +1,2 @@
+time,user_id,material_name,tokens_used_for_chemical_composition,cost_chemical_composition,tokens_used_for_analysis,cost_analysis,total_cost,chemical_composition,PFAS_status,manufacturer_name
+1719836318.527551,umesh,Vitrified Bonded Stick,835,0.008435,1834,0.01514,0.023575,"['Silicon Carbide', 'Aluminum Oxide', 'Vitrified Bond']",PFAS (No),

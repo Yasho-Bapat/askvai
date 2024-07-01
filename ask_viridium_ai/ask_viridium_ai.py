@@ -10,7 +10,7 @@ from langchain_core.output_parsers.openai_functions import JsonOutputFunctionsPa
 from langchain_community.callbacks import get_openai_callback
 
 from global_constants import GlobalConstants  # Global constants used in the script
-from models import ChemicalComposition, MaterialInfo  # Models for chemical composition and material information
+from models import MaterialComposition, MaterialInfo  # Models for chemical composition and material information
 from .tracking import Logger  # Logger for tracking and logging information
 
 dotenv.load_dotenv()  # Load environment variables from a .env file
@@ -68,7 +68,7 @@ class AskViridium:
         Returns:
             ChatPromptTemplate: The prompt template for analysis.
         """
-        with open('ask_viridium_ai/newprompt.txt', 'r') as file:
+        with open('ask_viridium_ai/new_prompt.txt', 'r') as file:
             analysis_system_prompt = file.read()
 
         prompt = ChatPromptTemplate.from_messages([
@@ -85,7 +85,7 @@ class AskViridium:
         Returns:
             list: A list containing the chemical info function and analysis function.
         """
-        cheminfo_function = [convert_to_openai_function(ChemicalComposition)]
+        cheminfo_function = [convert_to_openai_function(MaterialComposition)]
 
         analysis_function = [convert_to_openai_function(MaterialInfo)]
         return [cheminfo_function, analysis_function]
@@ -99,7 +99,7 @@ class AskViridium:
         """
         cheminfo_model = self.llm.bind_functions(
             functions=self.cheminfo_function,
-            function_call={"name": "ChemicalComposition"}
+            function_call={"name": "MaterialComposition"}
         )
         # Bind the analysis function to the LLM
         analysis_model = self.llm.bind_functions(
@@ -174,7 +174,7 @@ class AskViridium:
 
         # Log the query and results
         self.log(rn, material_name, manufacturer_name, tokens_for_cheminfo, tokens_for_analysis, cost_for_cheminfo, cost_for_analysis, chemicals_list)
-        self.logger.save()  # Save the log
+        self.logger.save(filename="log.log")  # Save the log
 
         store = self.store()  # Store the result
         print(store)
@@ -213,7 +213,10 @@ class AskViridium:
             data = []
 
         # Append the new result
+        self.result["material_composition"] = self.chemical_composition
         data.append(self.result)
+
+        print(self.result)
 
         # Write the updated data back to the file
         with open("data.json", 'w') as file:
@@ -224,5 +227,5 @@ class AskViridium:
 
 if __name__ == '__main__':
     ask_vai = AskViridium()  # Initialize the AskViridium class
-    ans = ask_vai.query("Nitrogen, Cryogenic Liquid", "Matheson Tri-Gas, Inc.",
-                        "Heat Treatment, Hipping, Annealing and Tempering")  # Query the system with specific parameters
+    ans = ask_vai.query("CHEM-CREST' 270\0", "CREST ULTRASONICS CORPORATION\0",
+                        None)  # Query the system with specific parameters

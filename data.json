@@ -729,5 +729,394 @@
         "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
         "suggestion": null,
         "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "3M Trizact 463FC Belt",
+        "composition": "Aluminum Oxide, Polyester Cloth",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "Aluminum Oxide and Polyester Cloth are not known to contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with non-PFAS materials",
+            "Lack of information suggesting PFAS presence in Aluminum Oxide and Polyester Cloth"
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The analysis is based on the known composition and typical use of the materials. If there are additional components not listed, further investigation may be required."
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Clay, Feldspar",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Silicon Carbide, Aluminum Oxide, Clay, Feldspar) are inorganic materials and do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with inorganic materials, which are non-PFAS",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Scotch-Brite Products, 7747, 7777, 8447, Production Clean & Finish AVFN Sheets, Rolls, Discs, Roloc, Hookit, HookitII, manufactured by 3M",
+        "composition": "Aluminum Oxide, Phenol-Formaldehyde Polymer, Nylon Fiber",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed components (Aluminum Oxide, Phenol-Formaldehyde Polymer, Nylon Fiber) do not typically contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with non-PFAS materials",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [
+            "Could lead to asphyxia",
+            "Linked to cancer"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Marks-A-Lot Permanent Markers Inks",
+        "composition": "Ethanol, 1-Propanol, Ethylene Glycol Monobutyl Ether, Dye",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed components (Ethanol, 1-Propanol, Ethylene Glycol Monobutyl Ether, Dye) are not PFAS substances.",
+        "secondary_reason": "No evidence or indication that the dyes used in these markers contain PFAS.",
+        "evidence": [
+            "Chemical composition does not include any known PFAS substances",
+            "Literature review and trade name association with non-PFAS components"
+        ],
+        "health_problems": [
+            "Ethanol and 1-Propanol can cause respiratory and skin irritation",
+            "Ethylene Glycol Monobutyl Ether is a potential reproductive toxin"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The specific dye composition is not detailed, but common dyes used in markers do not typically contain PFAS."
+    },
+    {
+        "analyzed_material": "3M SCOTCH-BRITE HAND PADS, 5440, 7449",
+        "composition": "Aluminum Oxide, Nylon Fiber, Resin",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "Nylon and Aluminum Oxide are non-PFAS materials. Resins used in such products typically do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with non-PFAS materials like Nylon and Aluminum Oxide",
+            "Lack of information suggesting PFAS presence in typical resins used in such products"
+        ],
+        "health_problems": [
+            "Could lead to asphyxia",
+            "Linked to cancer"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "There is a small possibility that specific resins could contain PFAS, but this is unlikely based on typical formulations."
+    },
+    {
+        "analyzed_material": "RB 306 J-Flex (30660)",
+        "composition": "Aluminum Oxide, Phenolic Resin, Calcium Carbonate",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed components (Aluminum Oxide, Phenolic Resin, Calcium Carbonate) do not typically contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with non-PFAS materials",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [
+            "Could lead to asphyxia",
+            "Linked to cancer"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Dykem Transparent Stain Bulk - Steel Blue, Steel Red and Black",
+        "composition": "Ethyl Alcohol, Isopropyl Alcohol, Ethylene Glycol Monobutyl Ether, Methyl Isobutyl Ketone",
+        "analysis_method": "Literature review, trade name association, chemical structure analysis",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed components are common solvents and do not contain PFAS based on their chemical structures.",
+        "secondary_reason": null,
+        "evidence": [
+            "Chemical structure analysis of Ethyl Alcohol, Isopropyl Alcohol, Ethylene Glycol Monobutyl Ether, and Methyl Isobutyl Ketone shows no fluorine atoms, which are characteristic of PFAS.",
+            "Literature review and trade name association with Dykem products, which are typically solvent-based and not known to contain PFAS."
+        ],
+        "health_problems": [
+            "Flammability risk",
+            "Potential respiratory irritation",
+            "Possible skin irritation"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The analysis is based on the provided chemical composition. If there are any unlisted additives or impurities, further investigation may be required."
+    },
+    {
+        "analyzed_material": "3M Scotch Brite Products, High Strength HS A-VFN, A-FIN: Discs, Sheets, Rolls, Brushes, Satin Pleated Buff Wheels, Cross Buffs, High Strength Cleaning Brushes",
+        "composition": "Aluminum Oxide, Nylon Fiber, Phenolic Resin",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed components (Aluminum Oxide, Nylon Fiber, Phenolic Resin) are not known to contain PFAS.",
+        "secondary_reason": "3M Scotch Brite products are generally not associated with PFAS content based on available information.",
+        "evidence": [
+            "Trade name association with non-PFAS materials",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [
+            "Could lead to asphyxia",
+            "Linked to cancer"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The analysis is based on the provided composition and available information. If there are additional unlisted components, further investigation may be required."
+    },
+    {
+        "analyzed_material": "CHEM-CREST 270",
+        "composition": "Water, Sodium Metasilicate, Sodium Carbonate, Sodium Tripolyphosphate",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed chemicals (Water, Sodium Metasilicate, Sodium Carbonate, Sodium Tripolyphosphate) are not PFAS compounds and do not contain fluorine atoms.",
+        "secondary_reason": null,
+        "evidence": [
+            "Chemical structure analysis of listed components",
+            "Lack of information suggesting PFAS presence in the listed chemicals"
+        ],
+        "health_problems": [
+            "None related to PFAS"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "None",
+        "material_composition": {
+            "product_name": "CHEM-CREST 270",
+            "chemicals": [
+                {
+                    "name": "Water",
+                    "cas_no": "7732-18-5",
+                    "source": "https://www.fishersci.com/shop/products/chem-crest-270-ultrasonic-detergent-1/p-7020014"
+                },
+                {
+                    "name": "Sodium Metasilicate",
+                    "cas_no": "6834-92-0",
+                    "source": "https://www.fishersci.com/shop/products/chem-crest-270-ultrasonic-detergent-1/p-7020014"
+                },
+                {
+                    "name": "Sodium Carbonate",
+                    "cas_no": "497-19-8",
+                    "source": "https://www.fishersci.com/shop/products/chem-crest-270-ultrasonic-detergent-1/p-7020014"
+                },
+                {
+                    "name": "Sodium Tripolyphosphate",
+                    "cas_no": "7758-29-4",
+                    "source": "https://www.fishersci.com/shop/products/chem-crest-270-ultrasonic-detergent-1/p-7020014"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "CHEM-CREST 270",
+        "composition": "Water",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The material composition is listed as water, which does not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Water is a well-known substance that does not contain PFAS.",
+            "No information suggesting PFAS presence in CHEM-CREST 270 based on trade name association."
+        ],
+        "health_problems": [
+            "None related to PFAS"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed material is not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The assessment is based on the provided composition being solely water. If there are other unlisted components, further investigation may be required.",
+        "material_composition": {
+            "product_name": "CHEM-CREST 270",
+            "chemicals": [
+                {
+                    "name": "Water",
+                    "cas_no": "7732-18-5",
+                    "source": "https://www.fishersci.com/shop/products/water-hplc-uv-gradient-1l-2/p-702"
+                }
+            ],
+            "confidence": 0.85
+        }
+    },
+    {
+        "analyzed_material": "CHEM-CREST 270",
+        "composition": "Water",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The material is composed solely of water, which does not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with water, which is a non-PFAS material",
+            "Lack of information suggesting PFAS presence in water"
+        ],
+        "health_problems": [
+            "None related to PFAS"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed material is not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null,
+        "material_composition": {
+            "product_name": "CHEM-CREST 270",
+            "chemicals": [
+                {
+                    "name": "Water",
+                    "cas_no": "7732-18-5",
+                    "source": "https://www.fishersci.com/shop/products/water-hplc-grade-4/p-702"
+                }
+            ],
+            "confidence": 0.85
+        }
+    },
+    {
+        "analyzed_material": "CHEM-CREST 270",
+        "composition": "Water",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The material composition is listed as water, which does not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Water is a well-known substance that does not contain PFAS.",
+            "No information suggesting PFAS presence in CHEM-CREST 270 based on trade name association."
+        ],
+        "health_problems": [
+            "None related to PFAS"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed material is not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The assessment is based on the provided composition being solely water. If there are other unlisted components, further investigation may be required.",
+        "material_composition": {
+            "product_name": "CHEM-CREST 270",
+            "chemicals": [
+                {
+                    "name": "Water",
+                    "cas_no": "7732-18-5",
+                    "source": "https://www.fishersci.com/shop/products/water-hplc-uv-gradient-grade-thermo-scientific-2/p-702"
+                }
+            ],
+            "confidence": 0.85
+        }
+    },
+    {
+        "analyzed_material": "CHEM-CREST 270",
+        "composition": "Water, Sodium Metasilicate, Sodium Carbonate, Sodium Tripolyphosphate",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed chemicals (Water, Sodium Metasilicate, Sodium Carbonate, Sodium Tripolyphosphate) are not PFAS compounds and do not contain fluorine atoms.",
+        "secondary_reason": null,
+        "evidence": [
+            "Chemical structures and properties of Water, Sodium Metasilicate, Sodium Carbonate, and Sodium Tripolyphosphate do not indicate the presence of PFAS.",
+            "Trade name association with non-PFAS chemicals."
+        ],
+        "health_problems": [
+            "None related to PFAS"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "None",
+        "material_composition": {
+            "product_name": "CHEM-CREST 270",
+            "chemicals": [
+                {
+                    "name": "Water",
+                    "cas_no": "7732-18-5",
+                    "source": "https://www.fishersci.com/shop/products/chem-crest-270-ultrasonic-detergent-1/p-7020012"
+                },
+                {
+                    "name": "Sodium Metasilicate",
+                    "cas_no": "6834-92-0",
+                    "source": "https://www.fishersci.com/shop/products/chem-crest-270-ultrasonic-detergent-1/p-7020012"
+                },
+                {
+                    "name": "Sodium Carbonate",
+                    "cas_no": "497-19-8",
+                    "source": "https://www.fishersci.com/shop/products/chem-crest-270-ultrasonic-detergent-1/p-7020012"
+                },
+                {
+                    "name": "Sodium Tripolyphosphate",
+                    "cas_no": "7758-29-4",
+                    "source": "https://www.fishersci.com/shop/products/chem-crest-270-ultrasonic-detergent-1/p-7020012"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Vitrified Bond",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "Silicon Carbide and Aluminum Oxide are inorganic compounds that do not contain PFAS. Vitrified bonds are typically made from glass or ceramic materials, which do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with non-PFAS materials",
+            "Lack of information suggesting PFAS presence in vitrified bonds"
+        ],
+        "health_problems": [
+            "None related to PFAS"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "Limited information on the exact composition of the vitrified bond, but based on typical materials used, PFAS presence is unlikely.",
+        "material_composition": {
+            "product_name": "Vitrified Bonded Stick",
+            "chemicals": [
+                {
+                    "name": "Silicon Carbide",
+                    "cas_no": "409-21-2",
+                    "source": "https://www.freemansupply.com/MSDS/GC%20Abrasive%20Sticks.pdf"
+                },
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_no": "1344-28-1",
+                    "source": "https://www.freemansupply.com/MSDS/GC%20Abrasive%20Sticks.pdf"
+                },
+                {
+                    "name": "Vitrified Bond",
+                    "cas_no": "unknown",
+                    "source": "https://www.freemansupply.com/MSDS/GC%20Abrasive%20Sticks.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
     }
 ]
