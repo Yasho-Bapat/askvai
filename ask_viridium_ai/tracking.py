@@ -27,7 +27,20 @@ class Logger:
         tdf = pd.DataFrame(info, index=[0])
         self.df = pd.concat([self.df, tdf])
 
-    def save(self):
-        tdf = pd.read_csv("log.csv") # saving saving
+    def save(self, filename):
+        self.df.to_csv(filename, index=False)
+
+class ExperimentLogger():
+    def __init__(self):
+        self.columns = ["material_id", "material_name", "manufacturer_id", "manufacturer_name", "pfas_status"]
+        self.df = pd.DataFrame(columns=self.columns)
+        self.logger = Logger()
+
+    def log(self, info):
+        tdf = pd.DataFrame(info, index=[0])
+        self.df = pd.concat([self.df, tdf])
+
+    def save(self, filename):
+        tdf = pd.read_csv(filename)
         self.df = pd.concat([tdf, self.df])
-        self.df.to_csv('log.csv', index=False)
+        self.df.to_csv(filename, index=False) # saving
