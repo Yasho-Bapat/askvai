@@ -1,8 +1,9 @@
 from langchain_community.tools.tavily_search import TavilySearchResults
 import getpass
 import os
+import dotenv
 
-os.environ["TAVILY_API_KEY"] = "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"
+dotenv.load_dotenv()
 
 tool = TavilySearchResults()
 
