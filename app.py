@@ -1,9 +1,6 @@
+from http.client import HTTPException
+
 from dotenv import load_dotenv
-
-from ask_viridium_ai.routes import MainRoutes
-from ask_viridium_ai.tracking import AppInsightsConnector
-
-load_dotenv()
 
 from flask import Flask, jsonify, redirect, request
 from flask_cors import CORS
@@ -12,9 +9,14 @@ from flask_swagger_ui import get_swaggerui_blueprint
 from apispec.ext.marshmallow import MarshmallowPlugin
 from apispec_webframeworks.flask import FlaskPlugin
 
+from ask_viridium_ai.routes import MainRoutes
+from ask_viridium_ai.tracking import AppInsightsConnector
+
 from global_constants import GlobalConstants
 
 global_constants = GlobalConstants
+
+load_dotenv()
 
 app = Flask(__name__)
 CORS(app)
@@ -25,6 +27,7 @@ main_routes = MainRoutes()
 app.register_blueprint(main_routes.blueprint, url_prefix=GlobalConstants.api_version)
 
 swagger_endpoint = global_constants.swagger_endpoint
+
 # Swagger and APISpec setup
 spec = APISpec(
     title=global_constants.apispec_config.title,
@@ -62,28 +65,26 @@ def create_swagger_spec():
 
 @app.before_request
 def log_request_info():
-    logger.info(f"API REQUEST : {request.method} {request.path}")
-    pass
+    logger.info(f"API REQUEST : {request.method} {request.path} - Headers: {dict(request.headers)} - Body: {request.get_data()}")
 
 
 @app.after_request
 def log_response_info(response):
-    logger.info(f"API RESPONSE : {response.status}")
+    logger.info(f"API RESPONSE : {response.status} - Headers: {dict(response.headers)}")
     return response
 
 
-# Create 20 threads to process waiting api calls
-# threads = threading_tool.create_and_start_threads(
-#     process_waiting_api_calls,
-#     num_threads=global_constants.no_of_threads,
-#     daemon=True,
-# )
+@app.errorhandler(Exception)
+def handle_exception(e):
+    # Pass through HTTP errors
+    if isinstance(e, HTTPException):
+        logger.error(f"HTTP Exception: {e}")
+        return jsonify(error=str(e)), e.code
+    else:
+        # Handle non-HTTP exceptions only
+        logger.exception("Unhandled Exception: %s", e)
+        return jsonify(error="An unexpected error occurred. Please try again later."), 500
 
-if __name__ == "__main__":
-    # Main thread will serve the api calls
-    app.run(
-        threaded=True,
-        debug=True,
-        port=global_constants.flask_app_port,
-        host=global_constants.flask_host,
-    )
+
+if __name__ == '__main__':
+    app.run(debug=True)

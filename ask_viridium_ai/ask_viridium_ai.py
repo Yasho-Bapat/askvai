@@ -1,11 +1,25 @@
-import dotenv
+"""
+AskViridium class is used to handle the query and get results.
+
+Usage:
+    from ask_viridium_ai import AskViridium
+
+    ask_vai = AskViridium()  # Initialize the AskViridium class
+    ans = ask_vai.query("Nitrogen, Cryogenic Liquid", "Matheson Tri-Gas, Inc.",
+                        "Heat Treatment, Hipping, Annealing and Tempering")  # Query the system with specific parameters
+
+logs are stored in AppInsights and data.json
+"""
+
 import json
-from typing import Optional, List
 import time
+from dotenv import load_dotenv
+from typing import Optional
 
 from langchain.prompts import ChatPromptTemplate
 from langchain_core.utils.function_calling import convert_to_openai_function
 from langchain_openai import AzureChatOpenAI
+from openai import BadRequestError
 from langchain_core.output_parsers.openai_functions import JsonOutputFunctionsParser
 from langchain_community.callbacks import get_openai_callback
 
@@ -13,8 +27,7 @@ from global_constants import GlobalConstants  # Global constants used in the scr
 from models import MaterialComposition, MaterialInfo  # Models for chemical composition and material information
 from .tracking import AppInsightsConnector  # Logger for tracking and logging information
 
-
-dotenv.load_dotenv()  # Load environment variables from a .env file
+load_dotenv()
 
 
 class AskViridium:
@@ -53,7 +66,7 @@ class AskViridium:
         Returns:
             ChatPromptTemplate: The prompt template for finding chemical composition of the material provided.
         """
-        with open('ask_viridium_ai/findchemicals_prompt.txt', 'r') as file:
+        with open('ask_viridium_ai/system_prompt_templates/findchemicals_prompt.txt', 'r') as file:
             cheminfo_system_prompt = file.read()
 
         prompt = ChatPromptTemplate.from_messages([
@@ -69,7 +82,7 @@ class AskViridium:
         Returns:
             ChatPromptTemplate: The prompt template for analysis.
         """
-        with open('ask_viridium_ai/new_prompt.txt', 'r') as file:
+        with open('ask_viridium_ai/system_prompt_templates/new_prompt.txt', 'r') as file:
             analysis_system_prompt = file.read()
 
         prompt = ChatPromptTemplate.from_messages([
@@ -109,35 +122,8 @@ class AskViridium:
         )
         return [cheminfo_model, analysis_model]
 
-    def log(self, time, material_name, manufacturer_name, tokens_for_cheminfo, tokens_for_analysis, cost_cheminfo, cost_analysis, chemlist):
-        """
-        Log information about the query and results.
-
-        Args:
-            time (float): The current time.
-            material_name (str): The name of the material.
-            manufacturer_name (str): The name of the manufacturer.
-            tokens_for_cheminfo (int): Tokens used for chemical information.
-            tokens_for_analysis (int): Tokens used for analysis.
-            cost_cheminfo (float): Cost for chemical information.
-            cost_analysis (float): Cost for analysis.
-            chemlist (list): List of chemicals.
-        """
-        self.loginfo["time"] = time
-        self.loginfo["material_name"] = material_name
-        self.loginfo["manufacturer_name"] = manufacturer_name
-        self.loginfo["tokens_used_for_chemical_composition"] = tokens_for_cheminfo
-        self.loginfo["cost_chemical_composition"] = cost_cheminfo
-        self.loginfo["tokens_used_for_analysis"] = tokens_for_analysis
-        self.loginfo["cost_analysis"] = cost_analysis
-        self.loginfo["total_cost"] = cost_analysis + cost_cheminfo
-        self.loginfo["chemical_composition"] = str(chemlist)
-        self.loginfo["PFAS_status"] = self.pfas
-        self.loginfo["user_id"] = "umesh"  # placeholder
-
-        self.logger.info(self.loginfo)  # Log the information
-
-    def query(self, material_name, manufacturer_name: Optional[str] = "Not Available", work_content: Optional[str] = "Not Available", additional_info: Optional[str] = None):
+    def query(self, material_name, manufacturer_name: Optional[str] = "Not Available",
+              work_content: Optional[str] = "Not Available"):
         """
         Handle the query and get results.
 
@@ -145,41 +131,80 @@ class AskViridium:
             material_name (str): The name of the material.
             manufacturer_name (Optional[str]): The name of the manufacturer. Defaults to "Not Available".
             work_content (Optional[str]): The use case or context. Defaults to "Not Available".
-            additional_info (Optional[str]): Additional information. Defaults to None.
 
         Returns:
             str: The result of the analysis.
         """
+        start = time.perf_counter()
+
+        self.logger.info("Received query: Material=%s, Manufacturer=%s, Work Content=%s",
+                         material_name, manufacturer_name, work_content)
         material = material_name
         manufacturer = manufacturer_name
         work_content = work_content
-        rn = time.time()  # Current time for logging
 
-        with get_openai_callback() as cb:
-            # Invoke the chemical info chain and get the chemical composition
-            self.chemical_composition = self.cheminfo_chain.invoke(
-                {"material": material, "example": self.constants.chemical_composition_example})
-            print(self.chemical_composition["chemicals"])
-            chemicals_list = [chemical["name"] for chemical in self.chemical_composition["chemicals"]]
-            tokens_for_cheminfo = cb.total_tokens
-            cost_for_cheminfo = cb.total_cost
+        try:
+            with get_openai_callback() as cb:
+                # Invoke the chemical info chain and get the chemical composition
+                self.logger.info("Invoking chemical information chain")
+                self.chemical_composition = self.cheminfo_chain.invoke(
+                    {"material": material, "example": self.constants.chemical_composition_example})
+                self.logger.info("Chemical composition received: %s", self.chemical_composition)
+                chemicals_list = [chemical["name"] for chemical in self.chemical_composition["chemicals"]]
+                tokens_for_cheminfo = cb.total_tokens
+                cost_for_cheminfo = cb.total_cost
+        except BadRequestError as e:
+            self.logger.error("OpenAI BadRequestError during chemical composition retrieval: %s", e)
+            self.chemical_composition = None
+            chemicals_list = list()
+            tokens_for_cheminfo = 0
+            cost_for_cheminfo = 0
+        except Exception as e:
+            self.logger.exception("Unexpected error during chemical composition retrieval: %s", e)
+            self.chemical_composition = None
+            chemicals_list = list()
+            tokens_for_cheminfo = 0
+            cost_for_cheminfo = 0
 
-        with get_openai_callback() as cb:
-            # Invoke the analysis chain and get the analysis result
-            self.result = self.analysis_chain.invoke(
-                {"material": material, "manufacturer": manufacturer, "usecase": work_content,
-                 "chemical_composition": chemicals_list, "example": self.constants.analysis_example,
-                 "additional_info": None})
-            tokens_for_analysis = cb.total_tokens
-            cost_for_analysis = cb.total_cost
-            self.pfas = self.result["decision"]
+        try:
+            with get_openai_callback() as cb:
+                # Invoke the analysis chain and get the analysis result
+                self.logger.info("Invoking analysis chain")
+                self.result = self.analysis_chain.invoke(
+                    {"material": material, "manufacturer": manufacturer, "usecase": work_content,
+                     "chemical_composition": chemicals_list, "example": self.constants.analysis_example,
+                     "additional_info": None})
+                self.logger.info("Analysis result received: %s", self.result)
+                tokens_for_analysis = cb.total_tokens
+                cost_for_analysis = cb.total_cost
+                self.pfas = self.result["decision"]
+        except BadRequestError as e:
+            self.logger.error("OpenAI BadRequestError during analysis: %s", e)
+            self.pfas = None
+            tokens_for_analysis = 0
+            cost_for_analysis = 0
+        except Exception as e:
+            self.logger.exception("Unexpected error during analysis: %s", e)
+            self.pfas = None
+            tokens_for_analysis = 0
+            cost_for_analysis = 0
 
-        # Log the query and results
-        self.log(rn, material_name, manufacturer_name, tokens_for_cheminfo, tokens_for_analysis, cost_for_cheminfo, cost_for_analysis, chemicals_list)
-        # self.logger.save()  # Save the log
+        self.loginfo = {
+            "timestamp": time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),
+            "duration": time.perf_counter() - start,
+            "material": material_name,
+            "manufacturer": manufacturer_name,
+            "tokens_used_for_chemical_composition": tokens_for_cheminfo,
+            "tokens_used_for_analysis": tokens_for_analysis,
+            "cost_chemical_composition": cost_for_cheminfo,
+            "cost_analysis": cost_for_analysis,
+            "total_cost": cost_for_cheminfo + cost_for_analysis,
+            "chemical_composition": self.chemical_composition,
+            "PFAS_status": self.pfas,
+            "result": self.result
+        }
 
-        store = self.store()  # Store the result
-        print(store)
+        self.store()  # Store the result in data.json
 
         return self.result
 
@@ -194,11 +219,16 @@ class AskViridium:
             work_content (str): The use case or context.
             chemicals_list (list): List of chemicals.
         """
-        with get_openai_callback() as cb:
-            self.result = self.analysis_chain.invoke(
-                {"material": material, "manufacturer": manufacturer, "usecase": work_content,
-                 "chemical_composition": chemicals_list, "example": self.constants.analysis_example,
-                 "additional_info": additional_info})
+        try:
+            with get_openai_callback() as cb:
+                self.logger.info("Handling user query with additional info")
+                self.result = self.analysis_chain.invoke(
+                    {"material": material, "manufacturer": manufacturer, "usecase": work_content,
+                     "chemical_composition": chemicals_list, "example": self.constants.analysis_example,
+                     "additional_info": additional_info})
+                self.logger.info("Result of user query with additional info: %s", self.result)
+        except Exception as e:
+            self.logger.exception("Unexpected error during user query handling: %s", e)
 
     def store(self):
         """
@@ -207,24 +237,27 @@ class AskViridium:
         Returns:
             str: Confirmation message indicating that the results are saved.
         """
-        # Read existing data from the file
         try:
-            with open("data.json", 'r') as file:
+            with open("data_dump/data.json", 'r') as file:
                 data = json.load(file)
         except FileNotFoundError:
+            self.logger.warning("data.json not found, creating a new one")
             data = []
 
-        # Append the new result
-        data.append(self.result)
+        try:
+            data.append(self.loginfo)
 
-        # Write the updated data back to the file
-        with open("data.json", 'w') as file:
-            json.dump(data, file, indent=4)
+            with open("data_dump/data.json", 'w') as file:
+                json.dump(data, file, indent=4)
 
-        return "results saved"  # Return a confirmation message
+            self.logger.info("Results stored in data.json")
+            return True
+        except Exception as e:
+            self.logger.exception("Data could not be stored due to the following exception: %s", e)
+            return False
 
 
 if __name__ == '__main__':
-    ask_vai = AskViridium()  # Initialize the AskViridium class
+    ask_vai = AskViridium()
     ans = ask_vai.query("Nitrogen, Cryogenic Liquid", "Matheson Tri-Gas, Inc.",
                         "Heat Treatment, Hipping, Annealing and Tempering")  # Query the system with specific parameters

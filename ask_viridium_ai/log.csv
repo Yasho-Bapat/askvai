@@ -1,2 +1,0 @@
-time,user_id,material_name,tokens_used_for_chemical_composition,cost_chemical_composition,tokens_used_for_analysis,cost_analysis,total_cost,chemical_composition,PFAS_status,manufacturer_name
-1719394063.12525,umesh,"Dykem Transparent Stain Bulk - Steel Blue, Steel Red and Black",1514,0.018670000000000003,1891,0.017375,0.03604500000000001,"['Ethyl Alcohol', 'Isopropyl Alcohol', 'Ethylene Glycol Monobutyl Ether', 'Methyl Isobutyl Ketone']",PFAS (No),ITW Pro Brands
