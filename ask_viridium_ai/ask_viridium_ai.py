@@ -8,6 +8,7 @@ from langchain_core.utils.function_calling import convert_to_openai_function
 from langchain_openai import AzureChatOpenAI
 from langchain_core.output_parsers.openai_functions import JsonOutputFunctionsParser
 from langchain_community.callbacks import get_openai_callback
+import logging
 
 from global_constants import GlobalConstants  # Global constants used in the script
 from models import MaterialComposition, MaterialInfo  # Models for chemical composition and material information
