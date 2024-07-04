@@ -910,5 +910,233 @@
         "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
         "suggestion": null,
         "limitations_and_uncertainties": null
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "Silicon Carbide and Aluminum Oxide are inorganic compounds that do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Silicon Carbide and Aluminum Oxide are well-characterized materials with no known association with PFAS.",
+            "Vitrified bonds typically do not contain PFAS."
+        ],
+        "health_problems": [
+            "Silicon Carbide can cause respiratory issues if inhaled as dust.",
+            "Aluminum Oxide can cause respiratory issues if inhaled as dust."
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The analysis is based on the typical composition of vitrified bonded materials and the known properties of Silicon Carbide and Aluminum Oxide. If there are proprietary additives or undisclosed components, further investigation may be required."
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "Silicon Carbide and Aluminum Oxide are inorganic compounds and do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Silicon Carbide and Aluminum Oxide are well-characterized inorganic materials with no association to PFAS.",
+            "Vitrified bonds typically do not contain PFAS."
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The analysis is based on the typical composition of the materials and the absence of any proprietary additives that may contain PFAS."
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "Silicon Carbide and Aluminum Oxide are inorganic compounds that do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Silicon Carbide and Aluminum Oxide are well-characterized materials with no known association with PFAS.",
+            "Vitrified bonds typically do not contain PFAS."
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The analysis is based on the typical composition of vitrified bonded materials and the known properties of Silicon Carbide and Aluminum Oxide. If there are proprietary additives not disclosed, further investigation may be required."
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Undetermined",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "Undetermined",
+        "confidence": 0.2,
+        "primary_reason": "Insufficient information on chemical composition and manufacturer details.",
+        "secondary_reason": "Vitrified bonded materials can vary widely in composition.",
+        "confidence_level": "Low",
+        "recommendation": "Further investigation is needed to determine PFAS content.",
+        "suggestion": "Consult specific databases, analyze chemical structure, or seek expert guidance.",
+        "limitations_and_uncertainties": "Lack of detailed chemical composition and manufacturer information limits the assessment."
+    },
+    {
+        "analyzed_material": "Coated Belts",
+        "composition": "Undetermined",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "Undetermined",
+        "confidence": 0.3,
+        "primary_reason": "Insufficient information on the chemical composition of the material.",
+        "secondary_reason": "3M manufactures a wide range of products, some of which may contain PFAS.",
+        "confidence_level": "Low",
+        "recommendation": "Further investigation is needed to determine the presence of PFAS.",
+        "suggestion": "Consult specific databases, analyze chemical structure, or seek expert guidance.",
+        "limitations_and_uncertainties": "Lack of detailed chemical composition and potential proprietary ingredients."
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Undetermined",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "Undetermined",
+        "confidence": 0.2,
+        "primary_reason": "Insufficient information on chemical composition and manufacturer details.",
+        "secondary_reason": "Vitrified bonded materials can vary widely in composition, making it difficult to assess PFAS content without specific details.",
+        "confidence_level": "Low",
+        "recommendation": "Further investigation is needed to determine the PFAS content of the material.",
+        "suggestion": "Obtain detailed chemical composition from the manufacturer or conduct analytical testing (e.g., mass spectrometry, chromatography) to identify potential PFAS content.",
+        "limitations_and_uncertainties": "Lack of specific chemical composition and manufacturer details limits the ability to accurately assess PFAS content."
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Undetermined",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "Undetermined",
+        "confidence": 0.2,
+        "primary_reason": "Insufficient information on chemical composition and manufacturer details.",
+        "secondary_reason": "Vitrified bonded materials can vary widely in composition, making it difficult to assess PFAS content without specific details.",
+        "confidence_level": "Low",
+        "recommendation": "Further investigation is needed to determine the exact composition and potential PFAS content.",
+        "suggestion": "Consult the manufacturer for detailed material composition and perform analytical testing (e.g., mass spectrometry, chromatography) to confirm PFAS presence or absence.",
+        "limitations_and_uncertainties": "Lack of specific chemical composition and manufacturer details limits the ability to make a definitive assessment."
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Undetermined",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "Undetermined",
+        "confidence": 0.2,
+        "primary_reason": "Insufficient information on chemical composition and manufacturer details.",
+        "secondary_reason": "Vitrified bonded materials can vary widely in composition, making it difficult to assess PFAS content without specific details.",
+        "confidence_level": "Low",
+        "recommendation": "Further investigation is needed to determine the presence of PFAS.",
+        "suggestion": "Obtain detailed chemical composition and consult specific databases or analytical techniques such as mass spectrometry or chromatography.",
+        "limitations_and_uncertainties": "Lack of detailed chemical composition and manufacturer information limits the ability to make a definitive assessment."
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Undetermined",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "Undetermined",
+        "confidence": 0.2,
+        "primary_reason": "Insufficient information on chemical composition and manufacturer details.",
+        "secondary_reason": "Vitrified bonded materials can vary widely in composition, making it difficult to assess PFAS content without specific details.",
+        "confidence_level": "Low",
+        "recommendation": "Further investigation is needed to determine the PFAS content.",
+        "suggestion": "Obtain detailed chemical composition and consult specific databases or analytical techniques such as mass spectrometry or chromatography.",
+        "limitations_and_uncertainties": "Lack of detailed chemical composition and manufacturer information limits the ability to make a definitive assessment."
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Clay",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "Silicon Carbide, Aluminum Oxide, and Clay are not PFAS compounds and do not typically contain PFAS based on available information.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with non-PFAS materials",
+            "Lack of information suggesting PFAS presence in Silicon Carbide, Aluminum Oxide, and Clay"
+        ],
+        "health_problems": [
+            "None related to PFAS"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The assessment is based on the provided composition and available information. If there are undisclosed additives or proprietary components, further investigation may be required."
+    },
+    {
+        "analyzed_material": "Vitrified Bonded Stick",
+        "composition": "Silicon Carbide, Aluminum Oxide, Clay",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The provided chemical composition (Silicon Carbide, Aluminum Oxide, Clay) does not include any known PFAS compounds.",
+        "secondary_reason": "Vitrified bonded materials typically do not contain PFAS based on their common usage and composition.",
+        "evidence": [
+            "Chemical composition review indicating no PFAS presence",
+            "Trade name association with non-PFAS materials"
+        ],
+        "health_problems": [
+            "None related to PFAS"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The analysis is based on the provided composition and common knowledge of vitrified bonded materials. If there are undisclosed additives, further investigation may be required."
+    },
+    {
+        "timestamp": "2024-07-02 11:40:49",
+        "duration": 8.97779991698917,
+        "material": "Vitrified Bonded Stick",
+        "manufacturer": "",
+        "tokens_used_for_chemical_composition": 826,
+        "tokens_used_for_analysis": 1776,
+        "cost_chemical_composition": 0.00845,
+        "cost_analysis": 0.01446,
+        "total_cost": 0.02291,
+        "chemical_composition": {
+            "product_name": "Vitrified Bonded Stick",
+            "chemicals": [
+                {
+                    "name": "Silicon Carbide",
+                    "cas_no": "409-21-2",
+                    "source": "https://www.freemansupply.com/MSDS/GC%20Abrasive%20Sticks.pdf"
+                },
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_no": "1344-28-1",
+                    "source": "https://www.freemansupply.com/MSDS/GC%20Abrasive%20Sticks.pdf"
+                },
+                {
+                    "name": "Clay",
+                    "cas_no": "1332-58-7",
+                    "source": "https://www.freemansupply.com/MSDS/GC%20Abrasive%20Sticks.pdf"
+                }
+            ],
+            "confidence": 0.9
+        },
+        "PFAS_status": "PFAS (No)",
+        "result": {
+            "analyzed_material": "Vitrified Bonded Stick",
+            "composition": "Silicon Carbide, Aluminum Oxide, Clay",
+            "analysis_method": "Literature review, trade name association",
+            "decision": "PFAS (No)",
+            "confidence": 0.85,
+            "primary_reason": "The provided chemical composition does not include any known PFAS compounds. Silicon Carbide, Aluminum Oxide, and Clay are not associated with PFAS.",
+            "secondary_reason": null,
+            "evidence": [
+                "Chemical composition review indicating no PFAS presence",
+                "Trade name association with non-PFAS materials"
+            ],
+            "health_problems": [
+                "None related to PFAS"
+            ],
+            "confidence_level": "High",
+            "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+            "suggestion": null,
+            "limitations_and_uncertainties": "The assessment is based on the provided chemical composition and available information. If there are undisclosed proprietary ingredients, further investigation may be required."
+        }
     }
 ]

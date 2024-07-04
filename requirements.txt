@@ -57,4 +57,11 @@ typing-inspect==0.9.0 ; python_version >= "3.11" and python_version < "4.0"
 urllib3==2.2.2 ; python_version >= "3.11" and python_version < "4.0"
 werkzeug==3.0.3 ; python_version >= "3.11" and python_version < "4.0"
 yarl==1.9.4 ; python_version >= "3.11" and python_version < "4.0"
-pandas
+pandas~=2.2.2
+opencensus-ext-azure
+python-dotenv~=0.21.1
+Flask~=3.0.3
+apispec~=6.6.1
+pydantic~=2.7.4
+opencensus~=0.11.4
+langchain~=0.2.5
