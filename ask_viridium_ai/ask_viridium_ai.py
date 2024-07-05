@@ -11,7 +11,7 @@ from langchain_community.callbacks import get_openai_callback
 
 from global_constants import GlobalConstants  # Global constants used in the script
 from models import MaterialComposition, MaterialInfo  # Models for chemical composition and material information
-from .tracking import Logger  # Logger for tracking and logging information
+from tracking import Logger  # Logger for tracking and logging information
 
 dotenv.load_dotenv()  # Load environment variables from a .env file
 
@@ -52,12 +52,12 @@ class AskViridium:
         Returns:
             ChatPromptTemplate: The prompt template for finding chemical composition of the material provided.
         """
-        with open('ask_viridium_ai/findchemicals_prompt.txt', 'r') as file:
+        with open('findchemicals_prompt.txt', 'r') as file:
             cheminfo_system_prompt = file.read()
 
         prompt = ChatPromptTemplate.from_messages([
             ("system", cheminfo_system_prompt),
-            ("human", "Material Name: {material}"),
+            ("human", "Material Name: {material}, Manufacturer Name: {manufacturer}"),
         ])
         return prompt
 
@@ -68,7 +68,7 @@ class AskViridium:
         Returns:
             ChatPromptTemplate: The prompt template for analysis.
         """
-        with open('ask_viridium_ai/new_prompt.txt', 'r') as file:
+        with open('new_prompt.txt', 'r') as file:
             analysis_system_prompt = file.read()
 
         prompt = ChatPromptTemplate.from_messages([
@@ -157,7 +157,7 @@ class AskViridium:
         with get_openai_callback() as cb:
             # Invoke the chemical info chain and get the chemical composition
             self.chemical_composition = self.cheminfo_chain.invoke(
-                {"material": material, "example": self.constants.chemical_composition_example})
+                {"material": material, "manufacturer": manufacturer_name, "example": self.constants.chemical_composition_example})
             chemicals_list = [chemical["name"] for chemical in self.chemical_composition["chemicals"]]
             tokens_for_cheminfo = cb.total_tokens
             cost_for_cheminfo = cb.total_cost
@@ -207,7 +207,7 @@ class AskViridium:
         """
         # Read existing data from the file
         try:
-            with open("data.json", 'r') as file:
+            with open("data4.json", 'r') as file:
                 data = json.load(file)
         except FileNotFoundError:
             data = []
@@ -219,7 +219,7 @@ class AskViridium:
         print(self.result)
 
         # Write the updated data back to the file
-        with open("data.json", 'w') as file:
+        with open("data4.json", 'w') as file:
             json.dump(data, file, indent=4)
 
         return "results saved"  # Return a confirmation message
@@ -227,5 +227,5 @@ class AskViridium:
 
 if __name__ == '__main__':
     ask_vai = AskViridium()  # Initialize the AskViridium class
-    ans = ask_vai.query("CHEM-CREST' 270\0", "CREST ULTRASONICS CORPORATION\0",
+    ans = ask_vai.query("Additive A34 (29108-02)\0", "BLASER SWISSLUBE, Inc.\0",
                         None)  # Query the system with specific parameters

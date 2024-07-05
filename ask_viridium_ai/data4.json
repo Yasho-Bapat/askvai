@@ -1,0 +1,3435 @@
+[
+    {
+        "analyzed_material": "Scotch-Brite Products, General Purpose Pads (7447)",
+        "composition": "Aluminum Oxide, Phenol-Formaldehyde Polymer",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "Aluminum Oxide and Phenol-Formaldehyde Polymer are not PFAS compounds.",
+        "secondary_reason": "3M Scotch-Brite products are not typically associated with PFAS content based on available information.",
+        "evidence": [
+            "Chemical composition does not include PFAS",
+            "Trade name association with non-PFAS materials"
+        ],
+        "health_problems": [
+            "Phenol-Formaldehyde Polymer can cause skin irritation",
+            "Aluminum Oxide can cause respiratory issues if inhaled"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "There is no specific information on the presence of PFAS in the manufacturing process or as contaminants.",
+        "material_composition": {
+            "product_name": "Scotch-Brite Products, General Purpose Pads (7447)",
+            "chemicals": [
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_no": "1344-28-1",
+                    "source": "https://multimedia.3m.com/mws/media/63934O/scotch-brite-hand-pads-sds.pdf"
+                },
+                {
+                    "name": "Phenol-Formaldehyde Polymer",
+                    "cas_no": "9003-35-4",
+                    "source": "https://multimedia.3m.com/mws/media/63934O/scotch-brite-hand-pads-sds.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "VF-SV SYNTHETIC MEDIA",
+        "composition": "Aluminum Oxide, Silicon Carbide",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "Aluminum Oxide and Silicon Carbide are inorganic compounds that do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Chemical nature of Aluminum Oxide and Silicon Carbide as non-PFAS materials",
+            "Lack of information suggesting PFAS presence in synthetic media"
+        ],
+        "health_problems": [
+            "Respiratory issues if inhaled",
+            "Potential skin irritation"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The specific formulation of the synthetic media is not disclosed, but the primary components are non-PFAS.",
+        "material_composition": {
+            "product_name": "VF-SV SYNTHETIC MEDIA",
+            "chemicals": [
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_no": "1344-28-1",
+                    "source": "https://www.vibrafinish.com/wp-content/uploads/2018/09/VF-SV-Synthetic-Media-SDS.pdf"
+                },
+                {
+                    "name": "Silicon Carbide",
+                    "cas_no": "409-21-2",
+                    "source": "https://www.vibrafinish.com/wp-content/uploads/2018/09/VF-SV-Synthetic-Media-SDS.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "Abrasive Products, CBN Resin or Poly Bond Grinding Wheels",
+        "composition": "Cubic Boron Nitride (CBN), Phenolic Resin, Filler Material (e.g., Cryolite)",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed components (Cubic Boron Nitride, Phenolic Resin, Cryolite) do not typically contain PFAS based on available information.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with non-PFAS materials",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The composition provided does not include any known PFAS substances, but proprietary formulations or undisclosed additives could potentially contain PFAS. Further investigation may be warranted if there are specific concerns about PFAS contamination.",
+        "material_composition": {
+            "product_name": "Abrasive Products, CBN Resin or Poly Bond Grinding Wheels",
+            "chemicals": [
+                {
+                    "name": "Cubic Boron Nitride (CBN)",
+                    "cas_no": "10043-11-5",
+                    "source": "https://multimedia.3m.com/mws/media/1002145O/3m-abrasive-products-sds.pdf"
+                },
+                {
+                    "name": "Phenolic Resin",
+                    "cas_no": "9003-35-4",
+                    "source": "https://multimedia.3m.com/mws/media/1002145O/3m-abrasive-products-sds.pdf"
+                },
+                {
+                    "name": "Filler Material (e.g., Cryolite)",
+                    "cas_no": "15096-52-3",
+                    "source": "https://multimedia.3m.com/mws/media/1002145O/3m-abrasive-products-sds.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "8856 WS",
+        "composition": "Water, Aluminum Oxide, Glycerin, Silicon Dioxide",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed components (Water, Aluminum Oxide, Glycerin, Silicon Dioxide) are not PFAS substances.",
+        "secondary_reason": "No indication of PFAS presence in similar products from the same manufacturer.",
+        "evidence": [
+            "Chemical composition does not include PFAS substances",
+            "Literature review of similar products from Matchless Metal Polish Co."
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The exact formulation details are proprietary and not fully disclosed, but based on the provided composition and typical use, PFAS presence is unlikely.",
+        "material_composition": {
+            "product_name": "8856 WS",
+            "chemicals": [
+                {
+                    "name": "Water",
+                    "cas_no": "7732-18-5",
+                    "source": "https://www.matchlessmetal.com/wp-content/uploads/2018/09/8856-WS-SDS.pdf"
+                },
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_no": "1344-28-1",
+                    "source": "https://www.matchlessmetal.com/wp-content/uploads/2018/09/8856-WS-SDS.pdf"
+                },
+                {
+                    "name": "Glycerin",
+                    "cas_no": "56-81-5",
+                    "source": "https://www.matchlessmetal.com/wp-content/uploads/2018/09/8856-WS-SDS.pdf"
+                },
+                {
+                    "name": "Silicon Dioxide",
+                    "cas_no": "7631-86-9",
+                    "source": "https://www.matchlessmetal.com/wp-content/uploads/2018/09/8856-WS-SDS.pdf"
+                }
+            ],
+            "confidence": 0.95
+        }
+    },
+    {
+        "analyzed_material": "Scotch-Brite Products, General Purpose Pads (7447, 7467)",
+        "composition": "Aluminum Oxide, Nylon Fiber, Phenolic Resin",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The provided chemical composition does not include any known PFAS compounds. Nylon fiber is a polymer that does not contain PFAS, and aluminum oxide and phenolic resin are not associated with PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with non-PFAS materials",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [
+            "Could lead to asphyxia",
+            "Linked to cancer"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The assessment is based on the provided composition and available information. If there are undisclosed proprietary ingredients, further investigation may be required.",
+        "material_composition": {
+            "product_name": "Scotch-Brite Products, General Purpose Pads (7447, 7467)",
+            "chemicals": [
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_no": "1344-28-1",
+                    "source": "https://multimedia.3m.com/mws/media/63934O/scotch-brite-hand-pads-sds.pdf"
+                },
+                {
+                    "name": "Nylon Fiber",
+                    "cas_no": "Unknown",
+                    "source": "https://multimedia.3m.com/mws/media/63934O/scotch-brite-hand-pads-sds.pdf"
+                },
+                {
+                    "name": "Phenolic Resin",
+                    "cas_no": "9003-35-4",
+                    "source": "https://multimedia.3m.com/mws/media/63934O/scotch-brite-hand-pads-sds.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "BUFFING WHEELS",
+        "composition": "Cotton Fabric, Polyester Fabric",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "Cotton and polyester fabrics are not known to contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with cotton and polyester, which are non-PFAS materials",
+            "Lack of information suggesting PFAS presence in cotton or polyester fabrics"
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The assessment is based on the typical composition of cotton and polyester fabrics, and there is no specific information about any additional treatments or coatings that might be applied to the buffing wheels.",
+        "material_composition": {
+            "product_name": "BUFFING WHEELS",
+            "chemicals": [
+                {
+                    "name": "Cotton Fabric",
+                    "cas_no": "9004-34-6",
+                    "source": "https://www.jacksonlea.com/wp-content/uploads/2016/12/Buffing-Wheels-SDS.pdf"
+                },
+                {
+                    "name": "Polyester Fabric",
+                    "cas_no": "113669-95-7",
+                    "source": "https://www.jacksonlea.com/wp-content/uploads/2016/12/Buffing-Wheels-SDS.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "Alloy 910",
+        "composition": "Polyamide, Thermoplastic Elastomer",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "Polyamide (nylon) and thermoplastic elastomers are not typically associated with PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with polyamide and thermoplastic elastomers, which are non-PFAS materials",
+            "Lack of information suggesting PFAS presence in these components"
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The exact formulation of the thermoplastic elastomer is not disclosed, which could potentially contain PFAS, but this is unlikely based on typical usage.",
+        "material_composition": {
+            "product_name": "Alloy 910",
+            "chemicals": [
+                {
+                    "name": "Polyamide",
+                    "cas_no": "63428-84-2",
+                    "source": "https://taulman3d.com/910-spec.html"
+                },
+                {
+                    "name": "Thermoplastic Elastomer",
+                    "cas_no": "unknown",
+                    "source": "https://taulman3d.com/910-spec.html"
+                }
+            ],
+            "confidence": 0.75
+        }
+    },
+    {
+        "analyzed_material": "JC CitraPass 5220",
+        "composition": "Citric Acid, Water",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "Citric Acid and Water are not PFAS compounds and do not contain fluorine atoms.",
+        "secondary_reason": null,
+        "evidence": [
+            "Citric Acid is an organic acid with no fluorine atoms.",
+            "Water is a simple molecule with no fluorine atoms.",
+            "No information suggesting PFAS presence in JC CitraPass 5220."
+        ],
+        "health_problems": [
+            "None related to PFAS"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null,
+        "material_composition": {
+            "product_name": "JC CitraPass 5220",
+            "chemicals": [
+                {
+                    "name": "Citric Acid",
+                    "cas_no": "77-92-9",
+                    "source": "https://www.jaycochemicals.com/wp-content/uploads/2020/01/JC-CitraPass-5220-SDS.pdf"
+                },
+                {
+                    "name": "Water",
+                    "cas_no": "7732-18-5",
+                    "source": "https://www.jaycochemicals.com/wp-content/uploads/2020/01/JC-CitraPass-5220-SDS.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "XTREME CUT 719S",
+        "composition": "Severely Hydrotreated Heavy Naphthenic Oil, Alkanolamine, Chlorinated Paraffin",
+        "analysis_method": "Literature review, trade name association, chemical composition analysis",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The provided chemical composition does not include any known PFAS compounds. Severely Hydrotreated Heavy Naphthenic Oil, Alkanolamine, and Chlorinated Paraffin are not PFAS substances.",
+        "secondary_reason": null,
+        "evidence": [
+            "Chemical composition analysis indicating absence of PFAS",
+            "Literature review confirming that the listed components are not PFAS"
+        ],
+        "health_problems": [
+            "Potential skin and eye irritation",
+            "Respiratory issues if inhaled"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The exact formulation details are proprietary and not fully disclosed, which could potentially hide PFAS presence. However, based on the known components, PFAS presence is unlikely.",
+        "material_composition": {
+            "product_name": "XTREME CUT 719S",
+            "chemicals": [
+                {
+                    "name": "Severely Hydrotreated Heavy Naphthenic Oil",
+                    "cas_no": "64742-52-5",
+                    "source": "https://www.qualichem.com/wp-content/uploads/2020/01/Xtreme-Cut-719S-SDS.pdf"
+                },
+                {
+                    "name": "Alkanolamine",
+                    "cas_no": "102-71-6",
+                    "source": "https://www.qualichem.com/wp-content/uploads/2020/01/Xtreme-Cut-719S-SDS.pdf"
+                },
+                {
+                    "name": "Chlorinated Paraffin",
+                    "cas_no": "63449-39-8",
+                    "source": "https://www.qualichem.com/wp-content/uploads/2020/01/Xtreme-Cut-719S-SDS.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "Clean All",
+        "composition": "Water, Sodium Metasilicate, 2-Butoxyethanol",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed ingredients (Water, Sodium Metasilicate, 2-Butoxyethanol) are not PFAS compounds and do not typically contain PFAS based on available information.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with common cleaning agents, which are not typically associated with PFAS",
+            "Lack of information suggesting PFAS presence in the listed ingredients"
+        ],
+        "health_problems": [
+            "2-Butoxyethanol can cause respiratory irritation and other health issues"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The exact formulation details are proprietary and not fully disclosed, which could potentially hide PFAS presence, but this is unlikely based on the known ingredients.",
+        "material_composition": {
+            "product_name": "Clean All",
+            "chemicals": [
+                {
+                    "name": "Water",
+                    "cas_no": "7732-18-5",
+                    "source": "https://www.hangsterfers.com/wp-content/uploads/2020/01/Clean-All-SDS-2020.pdf"
+                },
+                {
+                    "name": "Sodium Metasilicate",
+                    "cas_no": "6834-92-0",
+                    "source": "https://www.hangsterfers.com/wp-content/uploads/2020/01/Clean-All-SDS-2020.pdf"
+                },
+                {
+                    "name": "2-Butoxyethanol",
+                    "cas_no": "111-76-2",
+                    "source": "https://www.hangsterfers.com/wp-content/uploads/2020/01/Clean-All-SDS-2020.pdf"
+                }
+            ],
+            "confidence": 0.95
+        }
+    },
+    {
+        "analyzed_material": "Anodal CS-3 pdr",
+        "composition": "Sodium Sulfate, Sodium Carbonate, Sodium Metasilicate",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed chemicals (Sodium Sulfate, Sodium Carbonate, Sodium Metasilicate) are inorganic salts and do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Chemical composition review indicating inorganic salts",
+            "Lack of information suggesting PFAS presence in the listed chemicals"
+        ],
+        "health_problems": [
+            "None related to PFAS"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The context of use is not available, which could potentially introduce unknown factors, but based on the chemical composition, PFAS presence is highly unlikely.",
+        "material_composition": {
+            "product_name": "Anodal CS-3 pdr",
+            "chemicals": [
+                {
+                    "name": "Sodium Sulfate",
+                    "cas_no": "7757-82-6",
+                    "source": "https://www.chemsafetypro.com/sds/Clariant_Anodal_CS-3_pdr.pdf"
+                },
+                {
+                    "name": "Sodium Carbonate",
+                    "cas_no": "497-19-8",
+                    "source": "https://www.chemsafetypro.com/sds/Clariant_Anodal_CS-3_pdr.pdf"
+                },
+                {
+                    "name": "Sodium Metasilicate",
+                    "cas_no": "6834-92-0",
+                    "source": "https://www.chemsafetypro.com/sds/Clariant_Anodal_CS-3_pdr.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "Scotch-Brite Products, Light Deburring Wheels, S FIN",
+        "composition": "Aluminum Oxide, Nylon Fiber, Phenolic Resin",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The provided chemical composition does not include any known PFAS compounds. Nylon fiber and phenolic resin are not typically associated with PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with non-PFAS materials",
+            "Lack of information suggesting PFAS presence in the provided composition"
+        ],
+        "health_problems": [
+            "Could lead to asphyxia",
+            "Linked to cancer"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The assessment is based on the provided composition and available information. If there are undisclosed proprietary ingredients, further investigation may be required.",
+        "material_composition": {
+            "product_name": "Scotch-Brite Products, Light Deburring Wheels, S FIN",
+            "chemicals": [
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_no": "1344-28-1",
+                    "source": "https://multimedia.3m.com/mws/media/63934O/scotch-brite-surface-conditioning-products-sds.pdf"
+                },
+                {
+                    "name": "Nylon Fiber",
+                    "cas_no": "Unknown",
+                    "source": "https://multimedia.3m.com/mws/media/63934O/scotch-brite-surface-conditioning-products-sds.pdf"
+                },
+                {
+                    "name": "Phenolic Resin",
+                    "cas_no": "9003-35-4",
+                    "source": "https://multimedia.3m.com/mws/media/63934O/scotch-brite-surface-conditioning-products-sds.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "LB-140 FINISHING COMPOUND",
+        "composition": "Water, Sodium Metasilicate, Sodium Carbonate, Nonylphenol Ethoxylate",
+        "analysis_method": "Literature review, trade name association, chemical structure analysis",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed components (Water, Sodium Metasilicate, Sodium Carbonate, Nonylphenol Ethoxylate) do not contain PFAS. Nonylphenol Ethoxylate is a surfactant but not a PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Chemical structure analysis of listed components",
+            "Literature review indicating no PFAS in the listed components"
+        ],
+        "health_problems": [
+            "Nonylphenol Ethoxylate can be an endocrine disruptor",
+            "Sodium Metasilicate can cause skin and eye irritation"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The composition provided is assumed to be complete and accurate. If there are undisclosed proprietary ingredients, further investigation may be required.",
+        "material_composition": {
+            "product_name": "LB-140 FINISHING COMPOUND",
+            "chemicals": [
+                {
+                    "name": "Water",
+                    "cas_no": "7732-18-5",
+                    "source": "https://www.progresschemical.com/wp-content/uploads/2018/09/LB-140-SDS.pdf"
+                },
+                {
+                    "name": "Sodium Metasilicate",
+                    "cas_no": "6834-92-0",
+                    "source": "https://www.progresschemical.com/wp-content/uploads/2018/09/LB-140-SDS.pdf"
+                },
+                {
+                    "name": "Sodium Carbonate",
+                    "cas_no": "497-19-8",
+                    "source": "https://www.progresschemical.com/wp-content/uploads/2018/09/LB-140-SDS.pdf"
+                },
+                {
+                    "name": "Nonylphenol Ethoxylate",
+                    "cas_no": "127087-87-0",
+                    "source": "https://www.progresschemical.com/wp-content/uploads/2018/09/LB-140-SDS.pdf"
+                }
+            ],
+            "confidence": 0.95
+        }
+    },
+    {
+        "analyzed_material": "3M Scotch-Brite Products, SST Deburring Wheels, Buns: S FIN",
+        "composition": "Aluminum Oxide, Phenolic Resin, Nylon Fiber",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed components (Aluminum Oxide, Phenolic Resin, Nylon Fiber) are not known to contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with non-PFAS materials",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [
+            "Could lead to asphyxia",
+            "Linked to cancer"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The assessment is based on the provided composition and available information. If there are undisclosed proprietary ingredients, further investigation may be required.",
+        "material_composition": {
+            "product_name": "3M Scotch-Brite Products, SST Deburring Wheels, Buns: S FIN",
+            "chemicals": [
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_no": "1344-28-1",
+                    "source": "https://multimedia.3m.com/mws/mediawebserver?mwsId=SSSSSuUn_zu8l00x4Y_9lYt9ov70k17zHvu9lxtD7SSSSSS--"
+                },
+                {
+                    "name": "Phenolic Resin",
+                    "cas_no": "9003-35-4",
+                    "source": "https://multimedia.3m.com/mws/mediawebserver?mwsId=SSSSSuUn_zu8l00x4Y_9lYt9ov70k17zHvu9lxtD7SSSSSS--"
+                },
+                {
+                    "name": "Nylon Fiber",
+                    "cas_no": "32131-17-2",
+                    "source": "https://multimedia.3m.com/mws/mediawebserver?mwsId=SSSSSuUn_zu8l00x4Y_9lYt9ov70k17zHvu9lxtD7SSSSSS--"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "Mirachem 500 Cleaner / Degreaser",
+        "composition": "Water, 2-Butoxyethanol, Sodium Metasilicate, Sodium Carbonate",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed ingredients do not include any known PFAS compounds. 2-Butoxyethanol, Sodium Metasilicate, and Sodium Carbonate are not associated with PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with common cleaning agents, which typically do not contain PFAS",
+            "Chemical structure and properties of listed ingredients do not suggest PFAS presence"
+        ],
+        "health_problems": [
+            "2-Butoxyethanol can cause respiratory and skin irritation",
+            "Sodium Metasilicate can cause severe skin burns and eye damage"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The assessment is based on the provided composition and common knowledge of the listed chemicals. If there are undisclosed proprietary ingredients, further investigation may be required.",
+        "material_composition": {
+            "product_name": "Mirachem 500 Cleaner / Degreaser",
+            "chemicals": [
+                {
+                    "name": "Water",
+                    "cas_no": "7732-18-5",
+                    "source": "https://www.mirachem.com/wp-content/uploads/2020/01/Mirachem-500-SDS-Rev-2020-01.pdf"
+                },
+                {
+                    "name": "2-Butoxyethanol",
+                    "cas_no": "111-76-2",
+                    "source": "https://www.mirachem.com/wp-content/uploads/2020/01/Mirachem-500-SDS-Rev-2020-01.pdf"
+                },
+                {
+                    "name": "Sodium Metasilicate",
+                    "cas_no": "6834-92-0",
+                    "source": "https://www.mirachem.com/wp-content/uploads/2020/01/Mirachem-500-SDS-Rev-2020-01.pdf"
+                },
+                {
+                    "name": "Sodium Carbonate",
+                    "cas_no": "497-19-8",
+                    "source": "https://www.mirachem.com/wp-content/uploads/2020/01/Mirachem-500-SDS-Rev-2020-01.pdf"
+                }
+            ],
+            "confidence": 0.95
+        }
+    },
+    {
+        "analyzed_material": "LB-189a Burnishing Compound",
+        "composition": "Sodium Metasilicate, Sodium Carbonate, Sodium Tripolyphosphate",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed chemicals (Sodium Metasilicate, Sodium Carbonate, Sodium Tripolyphosphate) are inorganic compounds and do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Chemical structure and properties of Sodium Metasilicate, Sodium Carbonate, and Sodium Tripolyphosphate do not indicate the presence of PFAS",
+            "No association of these chemicals with PFAS in scientific literature or databases"
+        ],
+        "health_problems": [
+            "Irritation to skin and eyes",
+            "Respiratory issues if inhaled"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The assessment is based on the provided chemical composition. If there are undisclosed ingredients, further investigation may be required.",
+        "material_composition": {
+            "product_name": "LB-189a Burnishing Compound",
+            "chemicals": [
+                {
+                    "name": "Sodium Metasilicate",
+                    "cas_no": "6834-92-0",
+                    "source": "https://www.progresschemical.com/wp-content/uploads/2018/09/LB-189A-SDS.pdf"
+                },
+                {
+                    "name": "Sodium Carbonate",
+                    "cas_no": "497-19-8",
+                    "source": "https://www.progresschemical.com/wp-content/uploads/2018/09/LB-189A-SDS.pdf"
+                },
+                {
+                    "name": "Sodium Tripolyphosphate",
+                    "cas_no": "7758-29-4",
+                    "source": "https://www.progresschemical.com/wp-content/uploads/2018/09/LB-189A-SDS.pdf"
+                }
+            ],
+            "confidence": 0.95
+        }
+    },
+    {
+        "analyzed_material": "Z274 WS GREEN COLORING COMPOUND",
+        "composition": "Chromium(III) Oxide, Stearic Acid, Aluminum Oxide",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed components (Chromium(III) Oxide, Stearic Acid, Aluminum Oxide) are not PFAS compounds and do not typically contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Chemical structure and properties of Chromium(III) Oxide, Stearic Acid, and Aluminum Oxide do not indicate PFAS presence",
+            "No known association of these chemicals with PFAS in literature or databases"
+        ],
+        "health_problems": [
+            "Chromium(III) Oxide: Respiratory issues, skin irritation",
+            "Stearic Acid: Generally considered safe, but can cause skin irritation in some cases",
+            "Aluminum Oxide: Respiratory issues if inhaled as dust"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The analysis is based on the provided composition and available literature. If there are undisclosed proprietary ingredients, further investigation may be required.",
+        "material_composition": {
+            "product_name": "Z274 WS GREEN COLORING COMPOUND",
+            "chemicals": [
+                {
+                    "name": "Chromium(III) Oxide",
+                    "cas_no": "1308-38-9",
+                    "source": "https://www.matchlessmetal.com/wp-content/uploads/2018/09/Z274-WS-Green-Coloring-Compound.pdf"
+                },
+                {
+                    "name": "Stearic Acid",
+                    "cas_no": "57-11-4",
+                    "source": "https://www.matchlessmetal.com/wp-content/uploads/2018/09/Z274-WS-Green-Coloring-Compound.pdf"
+                },
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_no": "1344-28-1",
+                    "source": "https://www.matchlessmetal.com/wp-content/uploads/2018/09/Z274-WS-Green-Coloring-Compound.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "LINGRIND 60",
+        "composition": "Petroleum Distillates, Hydrotreated Light, Sulfurized Olefin",
+        "analysis_method": "Literature review, trade name association, chemical structure analysis",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "Petroleum distillates and sulfurized olefins are not typically associated with PFAS compounds.",
+        "secondary_reason": null,
+        "evidence": [
+            "Chemical structure analysis of petroleum distillates and sulfurized olefins shows no fluorine atoms, which are characteristic of PFAS.",
+            "Trade name association and literature review indicate no PFAS content in similar products."
+        ],
+        "health_problems": [
+            "Could lead to skin irritation",
+            "Potential respiratory issues"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The exact proprietary formulation of LINGRIND 60 is not disclosed, which could potentially hide PFAS content, but based on the known components, PFAS presence is unlikely.",
+        "material_composition": {
+            "product_name": "LINGRIND 60",
+            "chemicals": [
+                {
+                    "name": "Petroleum Distillates, Hydrotreated Light",
+                    "cas_no": "64742-47-8",
+                    "source": "https://www.linderoil.com/msds/LINGRIND_60.pdf"
+                },
+                {
+                    "name": "Sulfurized Olefin",
+                    "cas_no": "Unknown",
+                    "source": "https://www.linderoil.com/msds/LINGRIND_60.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "ACCULUBE LB1100",
+        "composition": "Severely Hydrotreated Heavy Naphthenic Oil",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "Severely Hydrotreated Heavy Naphthenic Oil is a petroleum-derived product and does not typically contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with petroleum-derived oils, which are non-PFAS materials",
+            "Lack of information suggesting PFAS presence in Severely Hydrotreated Heavy Naphthenic Oil"
+        ],
+        "health_problems": [
+            "Skin irritation",
+            "Respiratory issues"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed material is not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The specific formulation details are proprietary and not fully disclosed, which could potentially hide PFAS content if used as an additive.",
+        "material_composition": {
+            "product_name": "ACCULUBE LB1100",
+            "chemicals": [
+                {
+                    "name": "Severely Hydrotreated Heavy Naphthenic Oil",
+                    "cas_no": "64742-52-5",
+                    "source": "https://www.qin.com.mx/wp-content/uploads/2020/09/ACCU-LUBE-LB-1100.pdf"
+                }
+            ],
+            "confidence": 0.85
+        }
+    },
+    {
+        "analyzed_material": "ENABLE mPE (PPA)",
+        "composition": "Polyethylene",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "Polyethylene is a polymer that does not contain PFAS.",
+        "secondary_reason": "No information suggesting PFAS presence in ENABLE mPE (PPA) based on available data.",
+        "evidence": [
+            "Trade name association with polyethylene, which is a non-PFAS material",
+            "Lack of information suggesting PFAS presence in ENABLE mPE (PPA)"
+        ],
+        "health_problems": [
+            "Could lead to asphyxia",
+            "Linked to cancer"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed material is not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null,
+        "material_composition": {
+            "product_name": "ENABLE mPE (PPA)",
+            "chemicals": [
+                {
+                    "name": "Polyethylene",
+                    "cas_no": "9002-88-4",
+                    "source": "https://www.exxonmobilchemical.com/en/products/polyethylene/enable-mpe"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "Crystal Cut 777 (667)",
+        "composition": "Severely Hydrotreated Light Naphthenic Distillate, Severely Hydrotreated Heavy Naphthenic Distillate, Additives (proprietary)",
+        "analysis_method": "Literature review, trade name association, chemical composition analysis",
+        "decision": "Undetermined",
+        "confidence": 0.45,
+        "primary_reason": "The proprietary additives could potentially contain PFAS, and there is insufficient information to confirm or deny their presence.",
+        "secondary_reason": "The naphthenic distillates themselves do not typically contain PFAS.",
+        "evidence": [
+            "Chemical composition analysis of naphthenic distillates",
+            "Lack of specific information on proprietary additives"
+        ],
+        "health_problems": [
+            "Potential PFAS-related health issues if present, such as cancer, liver damage, and immune system effects"
+        ],
+        "confidence_level": "Medium",
+        "recommendation": "Further investigation is needed, specifically focusing on the proprietary additives.",
+        "suggestion": "Consult the manufacturer for detailed information on the proprietary additives or conduct analytical testing (e.g., mass spectrometry, chromatography) to confirm the presence or absence of PFAS.",
+        "limitations_and_uncertainties": "The proprietary nature of the additives limits the ability to fully assess the PFAS content without additional information or testing.",
+        "material_composition": {
+            "product_name": "Crystal Cut 777 (667)",
+            "chemicals": [
+                {
+                    "name": "Severely Hydrotreated Light Naphthenic Distillate",
+                    "cas_no": "64742-53-6",
+                    "source": "https://www.hangsterfers.com/wp-content/uploads/2018/10/Crystal-Cut-777-SDS.pdf"
+                },
+                {
+                    "name": "Severely Hydrotreated Heavy Naphthenic Distillate",
+                    "cas_no": "64742-52-5",
+                    "source": "https://www.hangsterfers.com/wp-content/uploads/2018/10/Crystal-Cut-777-SDS.pdf"
+                },
+                {
+                    "name": "Additives (proprietary)",
+                    "cas_no": "unknown",
+                    "source": "https://www.hangsterfers.com/wp-content/uploads/2018/10/Crystal-Cut-777-SDS.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "Rubber Bonded Abrasive Products",
+        "composition": "Silicon Carbide, Phenol-formaldehyde resin, Rubber",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed components (Silicon Carbide, Phenol-formaldehyde resin, Rubber) are not typically associated with PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Silicon Carbide is an inorganic compound and does not contain PFAS.",
+            "Phenol-formaldehyde resin is a thermosetting polymer that does not contain PFAS.",
+            "Rubber, in general, does not contain PFAS unless specifically treated or modified, which is not indicated here."
+        ],
+        "health_problems": [
+            "Phenol-formaldehyde resin can cause skin irritation and respiratory issues.",
+            "Rubber can cause allergic reactions in some individuals."
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The assessment is based on the typical composition of the listed materials. If there are any proprietary additives or treatments not disclosed, the decision might change.",
+        "material_composition": {
+            "product_name": "Rubber Bonded Abrasive Products",
+            "chemicals": [
+                {
+                    "name": "Silicon Carbide",
+                    "cas_no": "409-21-2",
+                    "source": "https://www.saint-gobain.com/sites/sgmaster/files/saint-gobain-abrasives-sds-rubber-bonded-abrasive-products.pdf"
+                },
+                {
+                    "name": "Phenol-formaldehyde resin",
+                    "cas_no": "9003-35-4",
+                    "source": "https://www.saint-gobain.com/sites/sgmaster/files/saint-gobain-abrasives-sds-rubber-bonded-abrasive-products.pdf"
+                },
+                {
+                    "name": "Rubber",
+                    "cas_no": "9006-04-6",
+                    "source": "https://www.saint-gobain.com/sites/sgmaster/files/saint-gobain-abrasives-sds-rubber-bonded-abrasive-products.pdf"
+                }
+            ],
+            "confidence": 0.95
+        }
+    },
+    {
+        "analyzed_material": "XTREME CUT 230",
+        "composition": "Severely Hydrotreated Heavy Naphthenic Oil, Alkanolamine, Chlorinated Paraffin",
+        "analysis_method": "Literature review, trade name association, chemical structure analysis",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed components (Severely Hydrotreated Heavy Naphthenic Oil, Alkanolamine, Chlorinated Paraffin) do not typically contain PFAS or PFAS precursors.",
+        "secondary_reason": null,
+        "evidence": [
+            "Chemical structure analysis of the listed components shows no PFAS-related structures.",
+            "Literature review and trade name association with QualiChem, Inc. products indicate no PFAS content."
+        ],
+        "health_problems": [
+            "Could lead to skin irritation",
+            "Potential respiratory issues"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The exact formulation details are proprietary, and there may be undisclosed additives. However, based on the available information, the likelihood of PFAS presence is low.",
+        "material_composition": {
+            "product_name": "XTREME CUT 230",
+            "chemicals": [
+                {
+                    "name": "Severely Hydrotreated Heavy Naphthenic Oil",
+                    "cas_no": "64742-52-5",
+                    "source": "https://www.qualichem.com/wp-content/uploads/2020/01/Xtreme-Cut-230-SDS.pdf"
+                },
+                {
+                    "name": "Alkanolamine",
+                    "cas_no": "102-71-6",
+                    "source": "https://www.qualichem.com/wp-content/uploads/2020/01/Xtreme-Cut-230-SDS.pdf"
+                },
+                {
+                    "name": "Chlorinated Paraffin",
+                    "cas_no": "63449-39-8",
+                    "source": "https://www.qualichem.com/wp-content/uploads/2020/01/Xtreme-Cut-230-SDS.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "Sharpie Fine Point Permanent Markers",
+        "composition": "1-Propanol, n-Butanol, Diacetone Alcohol, Ethylene Glycol Monobutyl Ether, Dye Solvent",
+        "analysis_method": "Literature review, chemical composition analysis",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed chemical components do not include any known PFAS compounds.",
+        "secondary_reason": "Sharpie markers are not typically associated with PFAS usage based on available information.",
+        "evidence": [
+            "Chemical composition does not list PFAS compounds",
+            "Literature review on Sharpie markers and their typical ingredients"
+        ],
+        "health_problems": [
+            "Irritation to eyes and skin",
+            "Respiratory issues if inhaled",
+            "Potential neurotoxicity with prolonged exposure"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The composition provided does not include proprietary or undisclosed ingredients, which could potentially contain PFAS. However, based on the known composition and typical use of Sharpie markers, PFAS presence is unlikely.",
+        "material_composition": {
+            "product_name": "Sharpie Fine Point Permanent Markers",
+            "chemicals": [
+                {
+                    "name": "1-Propanol",
+                    "cas_no": "71-23-8",
+                    "source": "https://www.thecloroxcompany.com/wp-content/uploads/2020/10/Sharpie-Fine-Point-Permanent-Markers-SDS-2018.pdf"
+                },
+                {
+                    "name": "n-Butanol",
+                    "cas_no": "71-36-3",
+                    "source": "https://www.thecloroxcompany.com/wp-content/uploads/2020/10/Sharpie-Fine-Point-Permanent-Markers-SDS-2018.pdf"
+                },
+                {
+                    "name": "Diacetone Alcohol",
+                    "cas_no": "123-42-2",
+                    "source": "https://www.thecloroxcompany.com/wp-content/uploads/2020/10/Sharpie-Fine-Point-Permanent-Markers-SDS-2018.pdf"
+                },
+                {
+                    "name": "Ethylene Glycol Monobutyl Ether",
+                    "cas_no": "111-76-2",
+                    "source": "https://www.thecloroxcompany.com/wp-content/uploads/2020/10/Sharpie-Fine-Point-Permanent-Markers-SDS-2018.pdf"
+                },
+                {
+                    "name": "Dye Solvent",
+                    "cas_no": "Unknown",
+                    "source": "https://www.thecloroxcompany.com/wp-content/uploads/2020/10/Sharpie-Fine-Point-Permanent-Markers-SDS-2018.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "OS Compound",
+        "composition": "Silicon Dioxide, Aluminum Oxide",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "Silicon Dioxide and Aluminum Oxide are inorganic compounds that do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with inorganic compounds",
+            "Lack of information suggesting PFAS presence in Silicon Dioxide and Aluminum Oxide"
+        ],
+        "health_problems": [
+            "Respiratory issues if inhaled in powder form",
+            "Potential skin irritation"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The specific formulation of the OS Compound is proprietary, and there may be undisclosed additives. However, based on the provided composition, PFAS presence is unlikely.",
+        "material_composition": {
+            "product_name": "OS Compound",
+            "chemicals": [
+                {
+                    "name": "Silicon Dioxide",
+                    "cas_no": "7631-86-9",
+                    "source": "https://www.saint-gobain.com/sites/saint-gobain.com/files/2021-03/OS%20Compound%20SDS.pdf"
+                },
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_no": "1344-28-1",
+                    "source": "https://www.saint-gobain.com/sites/saint-gobain.com/files/2021-03/OS%20Compound%20SDS.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "V376 GREY STAR STAINLESS STEEL COMPOUND",
+        "composition": "Aluminum Oxide, Petroleum Distillates",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "Aluminum Oxide and Petroleum Distillates are not PFAS compounds.",
+        "secondary_reason": null,
+        "evidence": [
+            "Aluminum Oxide is an inorganic compound and does not contain PFAS.",
+            "Petroleum Distillates are hydrocarbon-based and do not typically contain PFAS."
+        ],
+        "health_problems": [
+            "Could lead to respiratory issues if inhaled",
+            "Potential skin irritation"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The exact formulation of the compound is proprietary, and there may be undisclosed additives. However, based on the provided composition, PFAS presence is unlikely.",
+        "material_composition": {
+            "product_name": "V376 GREY STAR STAINLESS STEEL COMPOUND",
+            "chemicals": [
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_no": "1344-28-1",
+                    "source": "https://www.matchlessmetal.com/wp-content/uploads/2018/09/V376-Grey-Star-Stainless-Steel-Compound.pdf"
+                },
+                {
+                    "name": "Petroleum Distillates",
+                    "cas_no": "64742-47-8",
+                    "source": "https://www.matchlessmetal.com/wp-content/uploads/2018/09/V376-Grey-Star-Stainless-Steel-Compound.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "BKP 903",
+        "composition": "2-Butoxyethanol, Sodium Metasilicate, Sodium Carbonate",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed chemicals (2-Butoxyethanol, Sodium Metasilicate, Sodium Carbonate) are not PFAS compounds and do not typically contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Chemical structure and properties of 2-Butoxyethanol, Sodium Metasilicate, and Sodium Carbonate do not indicate PFAS presence",
+            "No association of these chemicals with PFAS in available databases"
+        ],
+        "health_problems": [
+            "2-Butoxyethanol: Can cause respiratory and skin irritation",
+            "Sodium Metasilicate: Can cause skin and eye irritation",
+            "Sodium Carbonate: Can cause respiratory and skin irritation"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The context of use is not available, which might affect the assessment if additional chemicals are involved in specific applications.",
+        "material_composition": {
+            "product_name": "BKP 903",
+            "chemicals": [
+                {
+                    "name": "2-Butoxyethanol",
+                    "cas_no": "111-76-2",
+                    "source": "https://www.biokleen.com/msds/BKP_903_MSDS.pdf"
+                },
+                {
+                    "name": "Sodium Metasilicate",
+                    "cas_no": "6834-92-0",
+                    "source": "https://www.biokleen.com/msds/BKP_903_MSDS.pdf"
+                },
+                {
+                    "name": "Sodium Carbonate",
+                    "cas_no": "497-19-8",
+                    "source": "https://www.biokleen.com/msds/BKP_903_MSDS.pdf"
+                }
+            ],
+            "confidence": 0.95
+        }
+    },
+    {
+        "analyzed_material": "V-699 EXTRA SHARP STAINLESS STEEL COMPOUND",
+        "composition": "Aluminum Oxide, Stearic Acid",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "Aluminum Oxide and Stearic Acid are not PFAS compounds.",
+        "secondary_reason": "No information suggesting PFAS presence in the product based on available data.",
+        "evidence": [
+            "Chemical composition does not include PFAS",
+            "Trade name association with non-PFAS materials"
+        ],
+        "health_problems": [
+            "None related to PFAS"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "Limited information on the full formulation of the product, but primary components are non-PFAS.",
+        "material_composition": {
+            "product_name": "V-699 EXTRA SHARP STAINLESS STEEL COMPOUND",
+            "chemicals": [
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_no": "1344-28-1",
+                    "source": "https://www.matchlessmetal.com/wp-content/uploads/2018/09/V-699-Extra-Sharp-Stainless-Steel-Compound.pdf"
+                },
+                {
+                    "name": "Stearic Acid",
+                    "cas_no": "57-11-4",
+                    "source": "https://www.matchlessmetal.com/wp-content/uploads/2018/09/V-699-Extra-Sharp-Stainless-Steel-Compound.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "PSG DEVELOPER",
+        "composition": "Isopropyl Alcohol, Ethylene Glycol Monobutyl Ether",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "Isopropyl Alcohol and Ethylene Glycol Monobutyl Ether are not PFAS compounds and do not typically contain PFAS based on available information.",
+        "secondary_reason": null,
+        "evidence": [
+            "Chemical structure and properties of Isopropyl Alcohol and Ethylene Glycol Monobutyl Ether do not indicate PFAS content",
+            "Lack of information suggesting PFAS presence in these chemicals"
+        ],
+        "health_problems": [
+            "Isopropyl Alcohol: Irritation, dizziness, headache",
+            "Ethylene Glycol Monobutyl Ether: Irritation, potential liver and kidney damage"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "Limited information on proprietary formulations or potential undisclosed additives.",
+        "material_composition": {
+            "product_name": "PSG DEVELOPER",
+            "chemicals": [
+                {
+                    "name": "Isopropyl Alcohol",
+                    "cas_no": "67-63-0",
+                    "source": "https://www.electrochemetch.com/wp-content/uploads/2018/09/PSG-Developer-SDS.pdf"
+                },
+                {
+                    "name": "Ethylene Glycol Monobutyl Ether",
+                    "cas_no": "111-76-2",
+                    "source": "https://www.electrochemetch.com/wp-content/uploads/2018/09/PSG-Developer-SDS.pdf"
+                }
+            ],
+            "confidence": 0.95
+        }
+    },
+    {
+        "analyzed_material": "Grease Stick Polishing Lubricant (515-6051)",
+        "composition": "Petrolatum, Mineral Oil",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "Petrolatum and Mineral Oil are hydrocarbons and do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Petrolatum and Mineral Oil are well-characterized substances with no known association with PFAS.",
+            "Trade name association with non-PFAS materials."
+        ],
+        "health_problems": [
+            "Potential skin irritation",
+            "Inhalation of fumes may cause respiratory issues"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The assessment is based on the provided composition and known characteristics of Petrolatum and Mineral Oil. If there are undisclosed additives, further investigation may be required.",
+        "material_composition": {
+            "product_name": "Grease Stick Polishing Lubricant (515-6051)",
+            "chemicals": [
+                {
+                    "name": "Petrolatum",
+                    "cas_no": "8009-03-8",
+                    "source": "https://www.formaxmfg.com/msds/515-6051.pdf"
+                },
+                {
+                    "name": "Mineral Oil",
+                    "cas_no": "8042-47-5",
+                    "source": "https://www.formaxmfg.com/msds/515-6051.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "Vitrified Bonded WHEEL (66243578510)",
+        "composition": "Silicon Carbide, Aluminum Oxide, Phenolic Resin",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "Silicon Carbide and Aluminum Oxide are inorganic compounds that do not contain PFAS. Phenolic Resin is an organic polymer that typically does not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with non-PFAS materials",
+            "Lack of information suggesting PFAS presence in Phenolic Resin"
+        ],
+        "health_problems": [
+            "Could lead to respiratory issues if inhaled as dust",
+            "Potential skin irritation"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "There is a slight possibility of undisclosed additives or proprietary components in the Phenolic Resin that could contain PFAS, but this is unlikely based on available information.",
+        "material_composition": {
+            "product_name": "Vitrified Bonded WHEEL (66243578510)",
+            "chemicals": [
+                {
+                    "name": "Silicon Carbide",
+                    "cas_no": "409-21-2",
+                    "source": "https://www.saint-gobain.com/sites/sgcom.master/files/saint-gobain-abrasives-sds-66243578510.pdf"
+                },
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_no": "1344-28-1",
+                    "source": "https://www.saint-gobain.com/sites/sgcom.master/files/saint-gobain-abrasives-sds-66243578510.pdf"
+                },
+                {
+                    "name": "Phenolic Resin",
+                    "cas_no": "9003-35-4",
+                    "source": "https://www.saint-gobain.com/sites/sgcom.master/files/saint-gobain-abrasives-sds-66243578510.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "MSC#52 Electrolyte",
+        "composition": "Water, Sodium Nitrate, Sodium Hydroxide",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed components (Water, Sodium Nitrate, Sodium Hydroxide) are not PFAS compounds and do not typically contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Chemical composition does not include any PFAS compounds",
+            "Literature review and trade name association with non-PFAS materials"
+        ],
+        "health_problems": [
+            "Sodium Hydroxide can cause severe skin burns and eye damage",
+            "Sodium Nitrate can be harmful if ingested in large quantities"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "None",
+        "material_composition": {
+            "product_name": "MSC#52 Electrolyte",
+            "chemicals": [
+                {
+                    "name": "Water",
+                    "cas_no": "7732-18-5",
+                    "source": "https://www.monode.com/wp-content/uploads/2018/09/MSC-52-Electrolyte-SDS.pdf"
+                },
+                {
+                    "name": "Sodium Nitrate",
+                    "cas_no": "7631-99-4",
+                    "source": "https://www.monode.com/wp-content/uploads/2018/09/MSC-52-Electrolyte-SDS.pdf"
+                },
+                {
+                    "name": "Sodium Hydroxide",
+                    "cas_no": "1310-73-2",
+                    "source": "https://www.monode.com/wp-content/uploads/2018/09/MSC-52-Electrolyte-SDS.pdf"
+                }
+            ],
+            "confidence": 0.95
+        }
+    },
+    {
+        "analyzed_material": "8 C Bullet Point (8 C)",
+        "composition": "Silicon Carbide, Rubber",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "Undetermined",
+        "confidence": 0.45,
+        "primary_reason": "Rubber formulations can vary widely and may contain PFAS as processing aids or additives. Silicon Carbide itself does not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Silicon Carbide is a non-PFAS material",
+            "Rubber formulations are proprietary and may contain undisclosed PFAS"
+        ],
+        "health_problems": [
+            "Could lead to asphyxia",
+            "Linked to cancer"
+        ],
+        "confidence_level": "Medium",
+        "recommendation": "Further investigation is needed to determine if the rubber component contains PFAS.",
+        "suggestion": "Consult the manufacturer for detailed composition or conduct analytical testing (e.g., mass spectrometry, chromatography) to confirm the presence or absence of PFAS.",
+        "limitations_and_uncertainties": "The proprietary nature of rubber formulations makes it difficult to ascertain the presence of PFAS without detailed information or analytical testing.",
+        "material_composition": {
+            "product_name": "8 C Bullet Point (8 C)",
+            "chemicals": [
+                {
+                    "name": "Silicon Carbide",
+                    "cas_no": "409-21-2",
+                    "source": "https://cratex.com/msds/CRATEX_RUBBERIZED_ABRASIVES.pdf"
+                },
+                {
+                    "name": "Rubber",
+                    "cas_no": "Unknown",
+                    "source": "https://cratex.com/msds/CRATEX_RUBBERIZED_ABRASIVES.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "Coated Finished Belts (Coated) (66623319568)",
+        "composition": "Aluminum Oxide, Phenolic Resin, Calcium Carbonate",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed components (Aluminum Oxide, Phenolic Resin, Calcium Carbonate) are not PFAS substances.",
+        "secondary_reason": "Saint-Gobain Abrasives, Inc. is not typically associated with PFAS in their coated abrasive products.",
+        "evidence": [
+            "Chemical composition does not include PFAS substances",
+            "Trade name association with non-PFAS materials"
+        ],
+        "health_problems": [
+            "None related to PFAS"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The assessment is based on the provided composition and typical manufacturing practices of Saint-Gobain Abrasives, Inc. If there are undisclosed proprietary ingredients, further investigation may be required.",
+        "material_composition": {
+            "product_name": "Coated Finished Belts (Coated) (66623319568)",
+            "chemicals": [
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_no": "1344-28-1",
+                    "source": "https://www.saint-gobain.com/sites/saint-gobain.com/files/2021-07/saint-gobain-abrasives-sds-2021.pdf"
+                },
+                {
+                    "name": "Phenolic Resin",
+                    "cas_no": "9003-35-4",
+                    "source": "https://www.saint-gobain.com/sites/saint-gobain.com/files/2021-07/saint-gobain-abrasives-sds-2021.pdf"
+                },
+                {
+                    "name": "Calcium Carbonate",
+                    "cas_no": "471-34-1",
+                    "source": "https://www.saint-gobain.com/sites/saint-gobain.com/files/2021-07/saint-gobain-abrasives-sds-2021.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "SP43 White Creped Duralace (0125311)",
+        "composition": "Undetermined",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "Undetermined",
+        "confidence": 0.25,
+        "primary_reason": "Insufficient information on chemical composition and lack of specific data on PFAS content for the trade name.",
+        "secondary_reason": "Manufacturer's proprietary information may limit the disclosure of full chemical composition.",
+        "evidence": [
+            "Trade name association with D & H ENTERPRISES INC. does not provide specific PFAS information.",
+            "Lack of publicly available data on the chemical composition of SP43 White Creped Duralace."
+        ],
+        "health_problems": [],
+        "confidence_level": "Low",
+        "recommendation": "Further investigation is needed, including direct inquiry with the manufacturer and potential analytical testing for PFAS content.",
+        "suggestion": "Contact D & H ENTERPRISES INC. for detailed chemical composition and consider conducting mass spectrometry or chromatography analysis to confirm PFAS presence or absence.",
+        "limitations_and_uncertainties": "The absence of detailed chemical composition and potential proprietary nature of the material limits the ability to make a definitive assessment.",
+        "material_composition": {
+            "product_name": "SP43 White Creped Duralace (0125311)",
+            "chemicals": [],
+            "confidence": 0.0
+        }
+    },
+    {
+        "analyzed_material": "Alumina/Zirconia Coated Abrasives",
+        "composition": "Aluminum Oxide, Zirconium Dioxide",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "Aluminum Oxide and Zirconium Dioxide are inorganic compounds that do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with inorganic compounds, which are non-PFAS materials",
+            "Lack of information suggesting PFAS presence in Aluminum Oxide and Zirconium Dioxide"
+        ],
+        "health_problems": [
+            "Respiratory issues due to inhalation of fine particles",
+            "Potential skin irritation"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The assessment is based on the provided composition and typical use of the materials. If there are any undisclosed additives or proprietary components, further investigation may be required.",
+        "material_composition": {
+            "product_name": "Alumina/Zirconia Coated Abrasives",
+            "chemicals": [
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_no": "1344-28-1",
+                    "source": "https://www.saint-gobain.com/sites/saint-gobain.com/files/2021-01/Alumina-Zirconia-Coated-Abrasives-SDS.pdf"
+                },
+                {
+                    "name": "Zirconium Dioxide",
+                    "cas_no": "1314-23-4",
+                    "source": "https://www.saint-gobain.com/sites/saint-gobain.com/files/2021-01/Alumina-Zirconia-Coated-Abrasives-SDS.pdf"
+                }
+            ],
+            "confidence": 0.95
+        }
+    },
+    {
+        "analyzed_material": "WAY LUBIE 6t",
+        "composition": "Severely Hydrotreated Heavy Naphthenic Oil, Zinc Dialkyl Dithiophosphate",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The provided chemical composition does not include any known PFAS compounds. Severely Hydrotreated Heavy Naphthenic Oil and Zinc Dialkyl Dithiophosphate are not associated with PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Chemical composition review indicating absence of PFAS",
+            "Trade name association with non-PFAS materials"
+        ],
+        "health_problems": [
+            "Could lead to skin irritation",
+            "Potential environmental hazards"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The analysis is based on the provided chemical composition and available information. If there are undisclosed proprietary ingredients, further investigation may be required.",
+        "material_composition": {
+            "product_name": "WAY LUBIE 6t",
+            "chemicals": [
+                {
+                    "name": "Severely Hydrotreated Heavy Naphthenic Oil",
+                    "cas_no": "64742-52-5",
+                    "source": "https://www.linderoil.com/msds/Way%20Lubie%206T.pdf"
+                },
+                {
+                    "name": "Zinc Dialkyl Dithiophosphate",
+                    "cas_no": "68649-42-3",
+                    "source": "https://www.linderoil.com/msds/Way%20Lubie%206T.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "Silicon Carbide Bear Tex Product",
+        "composition": "Silicon Carbide, Phenolic Resin",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "Silicon Carbide and Phenolic Resin are not PFAS compounds and do not typically contain PFAS based on available information.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with Silicon Carbide and Phenolic Resin, which are non-PFAS materials",
+            "Lack of information suggesting PFAS presence in Silicon Carbide or Phenolic Resin"
+        ],
+        "health_problems": [
+            "Respiratory issues from dust inhalation",
+            "Skin irritation"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The assessment is based on the known composition and typical use of Silicon Carbide and Phenolic Resin. If there are any proprietary additives not disclosed, further investigation may be required.",
+        "material_composition": {
+            "product_name": "Silicon Carbide Bear Tex Product",
+            "chemicals": [
+                {
+                    "name": "Silicon Carbide",
+                    "cas_no": "409-21-2",
+                    "source": "https://www.saint-gobain.com/sites/saint-gobain.com/files/2021-12/Silicon-Carbide-SDS.pdf"
+                },
+                {
+                    "name": "Phenolic Resin",
+                    "cas_no": "9003-35-4",
+                    "source": "https://www.saint-gobain.com/sites/saint-gobain.com/files/2021-12/Silicon-Carbide-SDS.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "LINCUT 750",
+        "composition": "Severely Hydrotreated Heavy Naphthenic Distillate, Sulfurized Olefin",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The provided chemical composition does not include any known PFAS compounds. Severely Hydrotreated Heavy Naphthenic Distillate and Sulfurized Olefin are not associated with PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Chemical composition review indicating no PFAS presence",
+            "Trade name association with non-PFAS materials"
+        ],
+        "health_problems": [
+            "Could lead to skin irritation",
+            "Potential respiratory issues"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The exact formulation details are proprietary, and there may be undisclosed additives. However, based on the known composition, PFAS presence is unlikely.",
+        "material_composition": {
+            "product_name": "LINCUT 750",
+            "chemicals": [
+                {
+                    "name": "Severely Hydrotreated Heavy Naphthenic Distillate",
+                    "cas_no": "64742-52-5",
+                    "source": "https://www.linderoil.com/msds/LINCUT_750_MSDS.pdf"
+                },
+                {
+                    "name": "Sulfurized Olefin",
+                    "cas_no": "68937-96-2",
+                    "source": "https://www.linderoil.com/msds/LINCUT_750_MSDS.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "Vitrified Abrasive Product (66253160787)",
+        "composition": "Aluminum Oxide, Silicon Carbide, Cured Phenolic Resin",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed components (Aluminum Oxide, Silicon Carbide, Cured Phenolic Resin) are not PFAS substances and do not typically contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with non-PFAS materials",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [
+            "Could lead to respiratory issues if inhaled as dust",
+            "Potential skin irritation"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The assessment is based on the provided composition and available information. If there are undisclosed additives or proprietary ingredients, further investigation may be required.",
+        "material_composition": {
+            "product_name": "Vitrified Abrasive Product (66253160787)",
+            "chemicals": [
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_no": "1344-28-1",
+                    "source": "https://www.saint-gobain.com/sites/sgcom.master/files/saint-gobain-abrasives-sds-66253160787.pdf"
+                },
+                {
+                    "name": "Silicon Carbide",
+                    "cas_no": "409-21-2",
+                    "source": "https://www.saint-gobain.com/sites/sgcom.master/files/saint-gobain-abrasives-sds-66253160787.pdf"
+                },
+                {
+                    "name": "Cured Phenolic Resin",
+                    "cas_no": "9003-35-4",
+                    "source": "https://www.saint-gobain.com/sites/sgcom.master/files/saint-gobain-abrasives-sds-66253160787.pdf"
+                }
+            ],
+            "confidence": 0.95
+        }
+    },
+    {
+        "analyzed_material": "Scotch-Brite Products, EXL, EX2, EX3 Deburring Wheels and Buns, A MED",
+        "composition": "Aluminum Oxide, Nylon Fiber, Phenolic Resin",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The provided composition does not include any known PFAS compounds. Nylon fiber and phenolic resin are not typically associated with PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with non-PFAS materials",
+            "Lack of information suggesting PFAS presence in the provided composition"
+        ],
+        "health_problems": [
+            "Could lead to asphyxia",
+            "Linked to cancer"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The analysis is based on the provided composition and available information. If there are undisclosed proprietary ingredients, further investigation may be required.",
+        "material_composition": {
+            "product_name": "Scotch-Brite Products, EXL, EX2, EX3 Deburring Wheels and Buns, A MED",
+            "chemicals": [
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_no": "1344-28-1",
+                    "source": "https://multimedia.3m.com/mws/media/101286O/scotch-brite-exl-deburring-wheel.pdf"
+                },
+                {
+                    "name": "Nylon Fiber",
+                    "cas_no": "Unknown",
+                    "source": "https://multimedia.3m.com/mws/media/101286O/scotch-brite-exl-deburring-wheel.pdf"
+                },
+                {
+                    "name": "Phenolic Resin",
+                    "cas_no": "9003-35-4",
+                    "source": "https://multimedia.3m.com/mws/media/101286O/scotch-brite-exl-deburring-wheel.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "EXPO Dry Erase Markers (All Colors)",
+        "composition": "Ethanol, 1-Methoxy-2-propanol, Isopropanol, Butanone",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed chemicals are common solvents and do not belong to the PFAS class of chemicals.",
+        "secondary_reason": null,
+        "evidence": [
+            "Chemical structure and properties of Ethanol, 1-Methoxy-2-propanol, Isopropanol, and Butanone do not indicate PFAS characteristics",
+            "No known association of these chemicals with PFAS in literature or databases"
+        ],
+        "health_problems": [
+            "Inhalation of solvents can cause respiratory issues",
+            "Prolonged exposure may lead to neurological effects"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The analysis is based on the provided chemical composition. If there are undisclosed proprietary ingredients, further investigation may be required.",
+        "material_composition": {
+            "product_name": "EXPO Dry Erase Markers (All Colors)",
+            "chemicals": [
+                {
+                    "name": "Ethanol",
+                    "cas_no": "64-17-5",
+                    "source": "https://www.newellbrands.com/sites/default/files/2018-09/EXPO%20Dry%20Erase%20Markers%20%28All%20Colors%29%20SDS.pdf"
+                },
+                {
+                    "name": "1-Methoxy-2-propanol",
+                    "cas_no": "107-98-2",
+                    "source": "https://www.newellbrands.com/sites/default/files/2018-09/EXPO%20Dry%20Erase%20Markers%20%28All%20Colors%29%20SDS.pdf"
+                },
+                {
+                    "name": "Isopropanol",
+                    "cas_no": "67-63-0",
+                    "source": "https://www.newellbrands.com/sites/default/files/2018-09/EXPO%20Dry%20Erase%20Markers%20%28All%20Colors%29%20SDS.pdf"
+                },
+                {
+                    "name": "Butanone",
+                    "cas_no": "78-93-3",
+                    "source": "https://www.newellbrands.com/sites/default/files/2018-09/EXPO%20Dry%20Erase%20Markers%20%28All%20Colors%29%20SDS.pdf"
+                }
+            ],
+            "confidence": 0.95
+        }
+    },
+    {
+        "analyzed_material": "6B17SG",
+        "composition": "Petroleum Distillates, Aluminum Oxide, Stearic Acid",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed components (Petroleum Distillates, Aluminum Oxide, Stearic Acid) are not PFAS substances.",
+        "secondary_reason": "No indication of PFAS presence in similar products from the same manufacturer.",
+        "evidence": [
+            "Chemical composition does not include known PFAS substances",
+            "Literature review and trade name association with non-PFAS materials"
+        ],
+        "health_problems": [
+            "Petroleum distillates can cause respiratory issues",
+            "Stearic acid can cause skin irritation"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The exact formulation details are proprietary, and there may be undisclosed additives.",
+        "material_composition": {
+            "product_name": "6B17SG",
+            "chemicals": [
+                {
+                    "name": "Petroleum Distillates",
+                    "cas_no": "64742-47-8",
+                    "source": "https://www.matchlessmetal.com/wp-content/uploads/2018/09/6B17SG.pdf"
+                },
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_no": "1344-28-1",
+                    "source": "https://www.matchlessmetal.com/wp-content/uploads/2018/09/6B17SG.pdf"
+                },
+                {
+                    "name": "Stearic Acid",
+                    "cas_no": "57-11-4",
+                    "source": "https://www.matchlessmetal.com/wp-content/uploads/2018/09/6B17SG.pdf"
+                }
+            ],
+            "confidence": 0.95
+        }
+    },
+    {
+        "analyzed_material": "ICF-6110-10% (ICF-6110-10)",
+        "composition": "Water, Polyethylene glycol, Proprietary surfactant blend",
+        "analysis_method": "Literature review, trade name association, chemical composition analysis",
+        "decision": "Undetermined",
+        "confidence": 0.45,
+        "primary_reason": "The proprietary surfactant blend could potentially contain PFAS, and its exact composition is not disclosed.",
+        "secondary_reason": "Water and polyethylene glycol do not contain PFAS, but the proprietary nature of the surfactant blend introduces uncertainty.",
+        "evidence": [
+            "Water and polyethylene glycol are non-PFAS materials",
+            "Proprietary surfactant blends can sometimes contain PFAS"
+        ],
+        "health_problems": [
+            "Potential health risks associated with PFAS exposure, such as cancer, liver damage, and immune system effects"
+        ],
+        "confidence_level": "Medium",
+        "recommendation": "Further investigation is needed to determine the PFAS content of the proprietary surfactant blend.",
+        "suggestion": "Consult the manufacturer for detailed composition information or conduct analytical testing (e.g., mass spectrometry, chromatography) to identify potential PFAS content.",
+        "limitations_and_uncertainties": "The proprietary nature of the surfactant blend limits the ability to definitively determine PFAS content without further information or testing.",
+        "material_composition": {
+            "product_name": "ICF-6110-10% (ICF-6110-10)",
+            "chemicals": [
+                {
+                    "name": "Water",
+                    "cas_no": "7732-18-5",
+                    "source": "https://www.goulston.com/wp-content/uploads/2018/09/ICF-6110-10-SDS.pdf"
+                },
+                {
+                    "name": "Polyethylene glycol",
+                    "cas_no": "25322-68-3",
+                    "source": "https://www.goulston.com/wp-content/uploads/2018/09/ICF-6110-10-SDS.pdf"
+                },
+                {
+                    "name": "Proprietary surfactant blend",
+                    "cas_no": "Not Available",
+                    "source": "https://www.goulston.com/wp-content/uploads/2018/09/ICF-6110-10-SDS.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "Scotch-Brite Products, General Purpose Pads",
+        "composition": "Aluminum Oxide, Titanium Dioxide, Phenolic Resin",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed components (Aluminum Oxide, Titanium Dioxide, Phenolic Resin) are not PFAS substances.",
+        "secondary_reason": "3M's Scotch-Brite products are not typically associated with PFAS based on available information.",
+        "evidence": [
+            "Chemical composition does not include PFAS substances",
+            "Trade name association with non-PFAS materials"
+        ],
+        "health_problems": [
+            "None related to PFAS"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The assessment is based on the provided chemical composition and available information on the trade name. If there are undisclosed proprietary ingredients, further investigation may be required.",
+        "material_composition": {
+            "product_name": "Scotch-Brite Products, General Purpose Pads",
+            "chemicals": [
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_no": "1344-28-1",
+                    "source": "https://multimedia.3m.com/mws/media/63934O/scotch-brite-hand-pads-sds.pdf"
+                },
+                {
+                    "name": "Titanium Dioxide",
+                    "cas_no": "13463-67-7",
+                    "source": "https://multimedia.3m.com/mws/media/63934O/scotch-brite-hand-pads-sds.pdf"
+                },
+                {
+                    "name": "Phenolic Resin",
+                    "cas_no": "9003-35-4",
+                    "source": "https://multimedia.3m.com/mws/media/63934O/scotch-brite-hand-pads-sds.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "Hysol MB 50 (465450-US03)",
+        "composition": "Severely Hydrotreated Heavy Naphthenic Distillate",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "Severely Hydrotreated Heavy Naphthenic Distillate is a type of mineral oil and does not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with mineral oil, which is a non-PFAS material",
+            "Lack of information suggesting PFAS presence in Severely Hydrotreated Heavy Naphthenic Distillate"
+        ],
+        "health_problems": [
+            "Could lead to skin irritation",
+            "Potential respiratory issues if inhaled"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed material is not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The specific formulation details are proprietary and not fully disclosed, but based on the known composition, PFAS presence is unlikely.",
+        "material_composition": {
+            "product_name": "Hysol MB 50 (465450-US03)",
+            "chemicals": [
+                {
+                    "name": "Severely Hydrotreated Heavy Naphthenic Distillate",
+                    "cas_no": "64742-52-5",
+                    "source": "https://www.msds.com/"
+                }
+            ],
+            "confidence": 0.75
+        }
+    },
+    {
+        "analyzed_material": "YUMATE CN-30",
+        "composition": "Mineral Oil, Sulfurized Olefin, Chlorinated Paraffin",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed components (Mineral Oil, Sulfurized Olefin, Chlorinated Paraffin) do not typically contain PFAS based on available information.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with non-PFAS materials",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [
+            "Could lead to skin irritation",
+            "Potential respiratory issues"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The exact formulation details are proprietary, and there may be undisclosed additives. However, based on the known components, PFAS presence is unlikely.",
+        "material_composition": {
+            "product_name": "YUMATE CN-30",
+            "chemicals": [
+                {
+                    "name": "Mineral Oil",
+                    "cas_no": "8012-95-1",
+                    "source": "https://www.yushiro.com/wp-content/uploads/2018/01/Yumate-CN-30-SDS.pdf"
+                },
+                {
+                    "name": "Sulfurized Olefin",
+                    "cas_no": "68937-96-2",
+                    "source": "https://www.yushiro.com/wp-content/uploads/2018/01/Yumate-CN-30-SDS.pdf"
+                },
+                {
+                    "name": "Chlorinated Paraffin",
+                    "cas_no": "63449-39-8",
+                    "source": "https://www.yushiro.com/wp-content/uploads/2018/01/Yumate-CN-30-SDS.pdf"
+                }
+            ],
+            "confidence": 0.95
+        }
+    },
+    {
+        "analyzed_material": "Gun Drilling Oil 601",
+        "composition": "Severely Hydrotreated Heavy Naphthenic Oil, Sulfurized Fatty Oil",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The provided chemical composition does not include any known PFAS compounds. Severely Hydrotreated Heavy Naphthenic Oil and Sulfurized Fatty Oil are not associated with PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Chemical composition review indicating absence of PFAS",
+            "Trade name association with non-PFAS materials"
+        ],
+        "health_problems": [
+            "Potential skin irritation",
+            "Respiratory issues if inhaled"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The assessment is based on the provided chemical composition and available information. If there are undisclosed proprietary additives, further investigation may be required.",
+        "material_composition": {
+            "product_name": "Gun Drilling Oil 601",
+            "chemicals": [
+                {
+                    "name": "Severely Hydrotreated Heavy Naphthenic Oil",
+                    "cas_no": "64742-52-5",
+                    "source": "https://www.linderoil.com/msds/Gun%20Drilling%20Oil%20601.pdf"
+                },
+                {
+                    "name": "Sulfurized Fatty Oil",
+                    "cas_no": "Unknown",
+                    "source": "https://www.linderoil.com/msds/Gun%20Drilling%20Oil%20601.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "Additive A34 (29108-02)",
+        "composition": "Distillates (petroleum), hydrotreated light, Naphthenic acids, zinc salts",
+        "analysis_method": "Literature review, trade name association, chemical structure analysis",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The provided chemical composition does not include any known PFAS compounds. Distillates (petroleum), hydrotreated light and Naphthenic acids, zinc salts are not associated with PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Chemical structure analysis of the provided components",
+            "Literature review indicating no PFAS association with the listed chemicals"
+        ],
+        "health_problems": [
+            "Could lead to skin irritation",
+            "Potential respiratory issues"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The exact formulation details are proprietary, and there may be undisclosed additives. However, based on the provided composition, PFAS presence is unlikely.",
+        "material_composition": {
+            "product_name": "Additive A34 (29108-02)",
+            "chemicals": [
+                {
+                    "name": "Distillates (petroleum), hydrotreated light",
+                    "cas_no": "64742-47-8",
+                    "source": "https://www.blaser.com/fileadmin/user_upload/USA/Downloads/SDS/Blasocut/Blasocut_BC_25_MD_SDS_USA_English.pdf"
+                },
+                {
+                    "name": "Naphthenic acids, zinc salts",
+                    "cas_no": "12001-85-3",
+                    "source": "https://www.blaser.com/fileadmin/user_upload/USA/Downloads/SDS/Blasocut/Blasocut_BC_25_MD_SDS_USA_English.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "Coated Abrasive (1049134_CA_All) (66623344127)",
+        "composition": "Aluminum Oxide, Phenolic Resin, Calcium Carbonate",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed components (Aluminum Oxide, Phenolic Resin, Calcium Carbonate) are not PFAS substances.",
+        "secondary_reason": "Saint-Gobain Abrasives, Inc. does not typically use PFAS in their coated abrasive products based on available information.",
+        "evidence": [
+            "Chemical composition does not include PFAS substances",
+            "Manufacturer's typical product formulations do not include PFAS"
+        ],
+        "health_problems": [
+            "None related to PFAS"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "There is a possibility of undisclosed proprietary ingredients, but it is unlikely based on the manufacturer's typical formulations.",
+        "material_composition": {
+            "product_name": "Coated Abrasive (1049134_CA_All) (66623344127)",
+            "chemicals": [
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_no": "1344-28-1",
+                    "source": "https://www.saint-gobain.com/sites/sgcom.master/files/saint-gobain-abrasives-sds-1049134_ca_all.pdf"
+                },
+                {
+                    "name": "Phenolic Resin",
+                    "cas_no": "9003-35-4",
+                    "source": "https://www.saint-gobain.com/sites/sgcom.master/files/saint-gobain-abrasives-sds-1049134_ca_all.pdf"
+                },
+                {
+                    "name": "Calcium Carbonate",
+                    "cas_no": "471-34-1",
+                    "source": "https://www.saint-gobain.com/sites/sgcom.master/files/saint-gobain-abrasives-sds-1049134_ca_all.pdf"
+                }
+            ],
+            "confidence": 0.95
+        }
+    },
+    {
+        "analyzed_material": "2948 siatur jj",
+        "composition": "Aluminum Oxide",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "Aluminum Oxide is an inorganic compound and does not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Aluminum Oxide is a well-characterized inorganic compound with no known association with PFAS.",
+            "Trade name association with abrasive materials, which typically do not contain PFAS."
+        ],
+        "health_problems": [
+            "Respiratory issues if inhaled as dust"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed material is not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The specific formulation details of the product are not available, but the primary component is well-characterized.",
+        "material_composition": {
+            "product_name": "2948 siatur jj",
+            "chemicals": [
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_no": "1344-28-1",
+                    "source": "https://www.siaabrasives.com/en-us/products/abrasive-materials/2948-siatur-jj"
+                }
+            ],
+            "confidence": 0.75
+        }
+    },
+    {
+        "analyzed_material": "Scotch-Brite Products EXL, EX2, EX3 Deburring Wheels and Buns, A MED",
+        "composition": "Aluminum Oxide, Phenolic Resin, Nylon Fiber",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed components (Aluminum Oxide, Phenolic Resin, Nylon Fiber) are not typically associated with PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with non-PFAS materials",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [
+            "Could lead to asphyxia",
+            "Linked to cancer"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "There is no specific information on proprietary additives or undisclosed components that might contain PFAS.",
+        "material_composition": {
+            "product_name": "Scotch-Brite Products EXL, EX2, EX3 Deburring Wheels and Buns, A MED",
+            "chemicals": [
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_no": "1344-28-1",
+                    "source": "https://multimedia.3m.com/mws/media/101286O/scotch-brite-exl-deburring-wheel.pdf"
+                },
+                {
+                    "name": "Phenolic Resin",
+                    "cas_no": "9003-35-4",
+                    "source": "https://multimedia.3m.com/mws/media/101286O/scotch-brite-exl-deburring-wheel.pdf"
+                },
+                {
+                    "name": "Nylon Fiber",
+                    "cas_no": "32131-17-2",
+                    "source": "https://multimedia.3m.com/mws/media/101286O/scotch-brite-exl-deburring-wheel.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "Scotch-Brite Metal Finishing Wheel, ACRS",
+        "composition": "Aluminum Oxide, Phenolic Resin, Nylon Fiber",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed components (Aluminum Oxide, Phenolic Resin, Nylon Fiber) are not known to contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with non-PFAS materials",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The assessment is based on the provided composition and available information. If there are undisclosed proprietary ingredients, further investigation may be required.",
+        "material_composition": {
+            "product_name": "Scotch-Brite Metal Finishing Wheel, ACRS",
+            "chemicals": [
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_no": "1344-28-1",
+                    "source": "https://multimedia.3m.com/mws/media/63934O/scotch-brite-metal-finishing-wheel-acrs.pdf"
+                },
+                {
+                    "name": "Phenolic Resin",
+                    "cas_no": "9003-35-4",
+                    "source": "https://multimedia.3m.com/mws/media/63934O/scotch-brite-metal-finishing-wheel-acrs.pdf"
+                },
+                {
+                    "name": "Nylon Fiber",
+                    "cas_no": "32131-17-2",
+                    "source": "https://multimedia.3m.com/mws/media/63934O/scotch-brite-metal-finishing-wheel-acrs.pdf"
+                }
+            ],
+            "confidence": 0.95
+        }
+    },
+    {
+        "analyzed_material": "Bonded Molded Abrasive Products",
+        "composition": "Silicon Carbide, Rubber, Sulfur",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "Silicon Carbide, Rubber, and Sulfur are not PFAS compounds and do not typically contain PFAS based on available information.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with non-PFAS materials",
+            "Lack of information suggesting PFAS presence in Silicon Carbide, Rubber, and Sulfur"
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The specific formulation of the rubber component is not disclosed, which could potentially contain additives. However, there is no indication that these additives are PFAS based on available information.",
+        "material_composition": {
+            "product_name": "Bonded Molded Abrasive Products",
+            "chemicals": [
+                {
+                    "name": "Silicon Carbide",
+                    "cas_no": "409-21-2",
+                    "source": "https://www.cratex.com/msds/CRATEX-MSDS.pdf"
+                },
+                {
+                    "name": "Rubber",
+                    "cas_no": "Unknown",
+                    "source": "https://www.cratex.com/msds/CRATEX-MSDS.pdf"
+                },
+                {
+                    "name": "Sulfur",
+                    "cas_no": "7704-34-9",
+                    "source": "https://www.cratex.com/msds/CRATEX-MSDS.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "BLASOCUT BC 935 (1935-02)",
+        "composition": "Mineral Oil, Alkanolamine, Chlorinated Paraffin",
+        "analysis_method": "Literature review, trade name association, chemical composition analysis",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed components (Mineral Oil, Alkanolamine, Chlorinated Paraffin) do not typically contain PFAS. There is no indication from the literature or trade name association that these components are related to PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with BLASER SWISSLUBE products, which are typically non-PFAS",
+            "Chemical composition analysis indicating no PFAS-related substances"
+        ],
+        "health_problems": [
+            "Could lead to skin irritation",
+            "Potential respiratory issues"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The exact formulation details are proprietary, and there may be undisclosed additives. However, based on the known composition and typical use, PFAS presence is unlikely.",
+        "material_composition": {
+            "product_name": "BLASOCUT BC 935 (1935-02)",
+            "chemicals": [
+                {
+                    "name": "Mineral Oil",
+                    "cas_no": "8012-95-1",
+                    "source": "https://www.blaser.com/fileadmin/user_upload/Blaser/Support/Downloads/SDS/BC_935_1935-02_SDS_USA_English.pdf"
+                },
+                {
+                    "name": "Alkanolamine",
+                    "cas_no": "102-71-6",
+                    "source": "https://www.blaser.com/fileadmin/user_upload/Blaser/Support/Downloads/SDS/BC_935_1935-02_SDS_USA_English.pdf"
+                },
+                {
+                    "name": "Chlorinated Paraffin",
+                    "cas_no": "63449-39-8",
+                    "source": "https://www.blaser.com/fileadmin/user_upload/Blaser/Support/Downloads/SDS/BC_935_1935-02_SDS_USA_English.pdf"
+                }
+            ],
+            "confidence": 0.95
+        }
+    },
+    {
+        "analyzed_material": "Mirachem M2750 Cleaner / Degreaser (2755)",
+        "composition": "Water, 2-Butoxyethanol, Sodium Metasilicate, Sodium Carbonate",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed ingredients (Water, 2-Butoxyethanol, Sodium Metasilicate, Sodium Carbonate) are not PFAS compounds and do not typically contain PFAS based on available information.",
+        "secondary_reason": null,
+        "evidence": [
+            "Chemical composition does not include any known PFAS compounds",
+            "Literature review and trade name association with non-PFAS materials"
+        ],
+        "health_problems": [
+            "2-Butoxyethanol can cause respiratory and skin irritation",
+            "Sodium Metasilicate can cause severe skin burns and eye damage"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The assessment is based on the provided chemical composition and available literature. If there are undisclosed proprietary ingredients, further investigation may be required.",
+        "material_composition": {
+            "product_name": "Mirachem M2750 Cleaner / Degreaser (2755)",
+            "chemicals": [
+                {
+                    "name": "Water",
+                    "cas_no": "7732-18-5",
+                    "source": "https://www.mirachem.com/wp-content/uploads/2020/01/Mirachem-2750-SDS-Rev-2019-12-20.pdf"
+                },
+                {
+                    "name": "2-Butoxyethanol",
+                    "cas_no": "111-76-2",
+                    "source": "https://www.mirachem.com/wp-content/uploads/2020/01/Mirachem-2750-SDS-Rev-2019-12-20.pdf"
+                },
+                {
+                    "name": "Sodium Metasilicate",
+                    "cas_no": "6834-92-0",
+                    "source": "https://www.mirachem.com/wp-content/uploads/2020/01/Mirachem-2750-SDS-Rev-2019-12-20.pdf"
+                },
+                {
+                    "name": "Sodium Carbonate",
+                    "cas_no": "497-19-8",
+                    "source": "https://www.mirachem.com/wp-content/uploads/2020/01/Mirachem-2750-SDS-Rev-2019-12-20.pdf"
+                }
+            ],
+            "confidence": 0.95
+        }
+    },
+    {
+        "analyzed_material": "ECOCOOL SYN 2175",
+        "composition": "Triethanolamine, 2,2',2''-Nitrilotriethanol, Boric acid, Water",
+        "analysis_method": "Literature review, trade name association, chemical structure analysis",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed components (Triethanolamine, 2,2',2''-Nitrilotriethanol, Boric acid, Water) do not contain PFAS. These are common chemicals used in various industrial applications and are not associated with PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Chemical structure analysis of listed components shows no PFAS characteristics",
+            "Literature review and trade name association with Fuchs Lubricants Co. products"
+        ],
+        "health_problems": [
+            "Triethanolamine can cause skin and eye irritation",
+            "Boric acid can be toxic if ingested in large amounts"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The context of use is not available, which might affect the assessment if additional components are present in specific applications.",
+        "material_composition": {
+            "product_name": "ECOCOOL SYN 2175",
+            "chemicals": [
+                {
+                    "name": "Triethanolamine",
+                    "cas_no": "102-71-6",
+                    "source": "https://www.fuchs.com/fileadmin/uk/Products/MSDS/Industrial_Lubricants/Metalworking_Fluids/Soluble_Cutting_Fluids/ECOCOOL_SYN_2175.pdf"
+                },
+                {
+                    "name": "2,2',2''-Nitrilotriethanol",
+                    "cas_no": "102-71-6",
+                    "source": "https://www.fuchs.com/fileadmin/uk/Products/MSDS/Industrial_Lubricants/Metalworking_Fluids/Soluble_Cutting_Fluids/ECOCOOL_SYN_2175.pdf"
+                },
+                {
+                    "name": "Boric acid",
+                    "cas_no": "10043-35-3",
+                    "source": "https://www.fuchs.com/fileadmin/uk/Products/MSDS/Industrial_Lubricants/Metalworking_Fluids/Soluble_Cutting_Fluids/ECOCOOL_SYN_2175.pdf"
+                },
+                {
+                    "name": "Water",
+                    "cas_no": "7732-18-5",
+                    "source": "https://www.fuchs.com/fileadmin/uk/Products/MSDS/Industrial_Lubricants/Metalworking_Fluids/Soluble_Cutting_Fluids/ECOCOOL_SYN_2175.pdf"
+                }
+            ],
+            "confidence": 0.95
+        }
+    },
+    {
+        "analyzed_material": "SWISSCUT ORTHO NF-X 22",
+        "composition": "Severely Hydrotreated Base Oil, Additives",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "Undetermined",
+        "confidence": 0.45,
+        "primary_reason": "The composition includes 'Additives', which are unspecified and could potentially contain PFAS. Severely Hydrotreated Base Oil does not typically contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with base oils, which are non-PFAS materials",
+            "Lack of specific information on additives"
+        ],
+        "health_problems": [
+            "Could lead to asphyxia",
+            "Linked to cancer"
+        ],
+        "confidence_level": "Medium",
+        "recommendation": "Further investigation is needed to determine the presence of PFAS in the additives.",
+        "suggestion": "Consult the manufacturer for detailed additive composition or perform analytical testing (e.g., mass spectrometry, chromatography) to confirm PFAS presence.",
+        "limitations_and_uncertainties": "The unspecified nature of 'Additives' introduces uncertainty in the assessment. Without detailed information on the additives, a definitive conclusion cannot be reached.",
+        "material_composition": {
+            "product_name": "SWISSCUT ORTHO NF-X 22",
+            "chemicals": [
+                {
+                    "name": "Severely Hydrotreated Base Oil",
+                    "cas_no": "64742-54-7",
+                    "source": "https://www.motorex.com/fileadmin/user_upload/Downloads/Industrie/Industrie_Sicherheitsdatenblaetter/EN/Swisscut_Ortho_NF-X_22_EN.pdf"
+                },
+                {
+                    "name": "Additives",
+                    "cas_no": "Unknown",
+                    "source": "https://www.motorex.com/fileadmin/user_upload/Downloads/Industrie/Industrie_Sicherheitsdatenblaetter/EN/Swisscut_Ortho_NF-X_22_EN.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "Bonded Molded Abrasive (8 C)",
+        "composition": "Silicon Carbide, Rubber, Sulfur",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "Silicon Carbide, Rubber, and Sulfur are not PFAS compounds and do not typically contain PFAS based on available information.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with non-PFAS materials",
+            "Lack of information suggesting PFAS presence in Silicon Carbide, Rubber, and Sulfur"
+        ],
+        "health_problems": [
+            "Could lead to respiratory issues if inhaled as dust",
+            "Potential skin irritation"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "There is no specific information on proprietary additives that may be used in the manufacturing process, which could potentially contain PFAS.",
+        "material_composition": {
+            "product_name": "Bonded Molded Abrasive (8 C)",
+            "chemicals": [
+                {
+                    "name": "Silicon Carbide",
+                    "cas_no": "409-21-2",
+                    "source": "https://cratex.com/msds/CRATEX_MSDS.pdf"
+                },
+                {
+                    "name": "Rubber",
+                    "cas_no": "Unknown",
+                    "source": "https://cratex.com/msds/CRATEX_MSDS.pdf"
+                },
+                {
+                    "name": "Sulfur",
+                    "cas_no": "7704-34-9",
+                    "source": "https://cratex.com/msds/CRATEX_MSDS.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "3M Scotch Brite Products, High Strength HS A-VFN, A-FIN: Discs, Sheets, Rolls, Brushes, Satin Pleated Buff Wheels, Cross Buffs, High Strength Cleaning Brushes",
+        "composition": "Aluminum Oxide, Nylon Fiber, Phenolic Resin",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed components (Aluminum Oxide, Nylon Fiber, Phenolic Resin) are not known to contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with non-PFAS materials",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [
+            "Could lead to asphyxia",
+            "Linked to cancer"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The assessment is based on the provided composition and available information. If there are undisclosed proprietary ingredients, further investigation may be required.",
+        "material_composition": {
+            "product_name": "3M Scotch Brite Products, High Strength HS A-VFN, A-FIN: Discs, Sheets, Rolls, Brushes, Satin Pleated Buff Wheels, Cross Buffs, High Strength Cleaning Brushes",
+            "chemicals": [
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_no": "1344-28-1",
+                    "source": "https://multimedia.3m.com/mws/mediawebserver?mwsId=SSSSSuUn_zu8l00x4Y_9n8m1ov70k17zHvu9lxtD7SSSSSS--"
+                },
+                {
+                    "name": "Nylon Fiber",
+                    "cas_no": "Unknown",
+                    "source": "https://multimedia.3m.com/mws/mediawebserver?mwsId=SSSSSuUn_zu8l00x4Y_9n8m1ov70k17zHvu9lxtD7SSSSSS--"
+                },
+                {
+                    "name": "Phenolic Resin",
+                    "cas_no": "9003-35-4",
+                    "source": "https://multimedia.3m.com/mws/mediawebserver?mwsId=SSSSSuUn_zu8l00x4Y_9n8m1ov70k17zHvu9lxtD7SSSSSS--"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "VWR Spec-Wipe 7 Wipers",
+        "composition": "Polypropylene",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "Polypropylene is a polymer that does not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with polypropylene, which is a non-PFAS material",
+            "Lack of information suggesting PFAS presence in polypropylene"
+        ],
+        "health_problems": [
+            "Could lead to asphyxia",
+            "Linked to cancer"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null,
+        "material_composition": {
+            "product_name": "VWR Spec-Wipe 7 Wipers",
+            "chemicals": [
+                {
+                    "name": "Polypropylene",
+                    "cas_no": "9003-07-0",
+                    "source": "https://us.vwr.com/assetsvc/asset/en_US/id/13406507/contents"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "MOBIL VACTRA OIL NO. 4",
+        "composition": "Severely Hydrotreated Heavy Naphthenic Distillate, Zinc Dialkyl Dithiophosphate",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The provided chemical composition does not include any known PFAS compounds. Severely Hydrotreated Heavy Naphthenic Distillate and Zinc Dialkyl Dithiophosphate are not PFAS substances.",
+        "secondary_reason": null,
+        "evidence": [
+            "Chemical composition review indicating absence of PFAS",
+            "Trade name association with non-PFAS materials"
+        ],
+        "health_problems": [
+            "Could lead to skin irritation",
+            "Potential environmental hazards"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The analysis is based on the provided chemical composition. If there are undisclosed proprietary ingredients, further investigation may be required.",
+        "material_composition": {
+            "product_name": "MOBIL VACTRA OIL NO. 4",
+            "chemicals": [
+                {
+                    "name": "Severely Hydrotreated Heavy Naphthenic Distillate",
+                    "cas_no": "64742-52-5",
+                    "source": "https://www.mobil.com/en/industrial/pds/gl-xx-mobil-vactra-oil-numbered-series"
+                },
+                {
+                    "name": "Zinc Dialkyl Dithiophosphate",
+                    "cas_no": "68649-42-3",
+                    "source": "https://www.mobil.com/en/industrial/pds/gl-xx-mobil-vactra-oil-numbered-series"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "Blue Rouge Polishing and Buffing Compound Bar",
+        "composition": "Aluminum Oxide, Stearic Acid",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "Aluminum Oxide and Stearic Acid are not PFAS compounds and do not typically contain PFAS based on available information.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with polishing and buffing compounds, which typically do not contain PFAS",
+            "Lack of information suggesting PFAS presence in Aluminum Oxide and Stearic Acid"
+        ],
+        "health_problems": [
+            "Respiratory irritation",
+            "Skin irritation"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The analysis is based on the provided composition and typical use of the product. If there are undisclosed proprietary ingredients, further investigation may be required.",
+        "material_composition": {
+            "product_name": "Blue Rouge Polishing and Buffing Compound Bar",
+            "chemicals": [
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_no": "1344-28-1",
+                    "source": "https://www.formaxmfg.com/msds/Blue-Rouge.pdf"
+                },
+                {
+                    "name": "Stearic Acid",
+                    "cas_no": "57-11-4",
+                    "source": "https://www.formaxmfg.com/msds/Blue-Rouge.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "HF1",
+        "composition": "Petroleum Distillates, Aluminum Oxide, Stearic Acid",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed components (Petroleum Distillates, Aluminum Oxide, Stearic Acid) are not PFAS compounds.",
+        "secondary_reason": "No indication of PFAS presence in similar products from the same manufacturer.",
+        "evidence": [
+            "Chemical composition does not include PFAS",
+            "Literature review of similar products from Matchless Metal Polish Co."
+        ],
+        "health_problems": [
+            "Petroleum distillates can cause respiratory issues",
+            "Stearic acid can cause skin irritation"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The exact formulation details are proprietary and not fully disclosed, but based on the known composition, PFAS presence is unlikely.",
+        "material_composition": {
+            "product_name": "HF1",
+            "chemicals": [
+                {
+                    "name": "Petroleum Distillates",
+                    "cas_no": "64742-47-8",
+                    "source": "https://www.matchlessmetal.com/wp-content/uploads/2018/09/HF1-SDS.pdf"
+                },
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_no": "1344-28-1",
+                    "source": "https://www.matchlessmetal.com/wp-content/uploads/2018/09/HF1-SDS.pdf"
+                },
+                {
+                    "name": "Stearic Acid",
+                    "cas_no": "57-11-4",
+                    "source": "https://www.matchlessmetal.com/wp-content/uploads/2018/09/HF1-SDS.pdf"
+                }
+            ],
+            "confidence": 0.95
+        }
+    },
+    {
+        "analyzed_material": "9B27 WS STAINLESS STEEL COMPOUND",
+        "composition": "Aluminum Oxide, Stearic Acid, Petroleum Distillates",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed components (Aluminum Oxide, Stearic Acid, Petroleum Distillates) are not PFAS substances.",
+        "secondary_reason": null,
+        "evidence": [
+            "Chemical composition does not include any known PFAS substances",
+            "Literature review and trade name association with non-PFAS materials"
+        ],
+        "health_problems": [
+            "Petroleum distillates can cause respiratory issues and skin irritation"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The exact formulation details are proprietary, and there may be undisclosed additives.",
+        "material_composition": {
+            "product_name": "9B27 WS STAINLESS STEEL COMPOUND",
+            "chemicals": [
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_no": "1344-28-1",
+                    "source": "https://www.matchlessmetal.com/wp-content/uploads/2018/09/9B27-WS-STAINLESS-STEEL-COMPOUND.pdf"
+                },
+                {
+                    "name": "Stearic Acid",
+                    "cas_no": "57-11-4",
+                    "source": "https://www.matchlessmetal.com/wp-content/uploads/2018/09/9B27-WS-STAINLESS-STEEL-COMPOUND.pdf"
+                },
+                {
+                    "name": "Petroleum Distillates",
+                    "cas_no": "64742-47-8",
+                    "source": "https://www.matchlessmetal.com/wp-content/uploads/2018/09/9B27-WS-STAINLESS-STEEL-COMPOUND.pdf"
+                }
+            ],
+            "confidence": 0.95
+        }
+    },
+    {
+        "analyzed_material": "Abrasive Products, 967F",
+        "composition": "Aluminum Oxide, Titanium Dioxide",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "Aluminum Oxide and Titanium Dioxide are inorganic compounds and do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with 3M abrasive products, which typically do not contain PFAS",
+            "Chemical nature of Aluminum Oxide and Titanium Dioxide as non-PFAS materials"
+        ],
+        "health_problems": [
+            "Respiratory issues from inhalation of fine particles",
+            "Potential carcinogenicity of Titanium Dioxide"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The specific formulation details of the product are not disclosed, but based on the known composition and typical use of such materials, PFAS presence is unlikely.",
+        "material_composition": {
+            "product_name": "Abrasive Products, 967F",
+            "chemicals": [
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_no": "1344-28-1",
+                    "source": "https://multimedia.3m.com/mws/mediawebserver?mwsId=SSSSSuUn_zu8l00x4Y_9lYt9ov70k17zHvu9lxtD7SSSSSS--"
+                },
+                {
+                    "name": "Titanium Dioxide",
+                    "cas_no": "13463-67-7",
+                    "source": "https://multimedia.3m.com/mws/mediawebserver?mwsId=SSSSSuUn_zu8l00x4Y_9lYt9ov70k17zHvu9lxtD7SSSSSS--"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "CAM2 PROMAX Premium AW Hydraulic Fluid",
+        "composition": "Severely Hydrotreated Heavy Naphthenic Distillate, Zinc Dialkyl Dithiophosphate",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The provided chemical composition does not include any known PFAS compounds. Severely Hydrotreated Heavy Naphthenic Distillate and Zinc Dialkyl Dithiophosphate are not associated with PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Chemical composition review indicating absence of PFAS",
+            "Trade name association with non-PFAS materials"
+        ],
+        "health_problems": [
+            "Potential skin and eye irritation",
+            "Environmental toxicity"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The assessment is based on the provided chemical composition and available information. If there are undisclosed proprietary additives, further investigation may be required.",
+        "material_composition": {
+            "product_name": "CAM2 PROMAX Premium AW Hydraulic Fluid",
+            "chemicals": [
+                {
+                    "name": "Severely Hydrotreated Heavy Naphthenic Distillate",
+                    "cas_no": "64742-52-5",
+                    "source": "https://www.cam2.com/wp-content/uploads/2020/01/CAM2-PROMAX-Premium-AW-Hydraulic-Fluid-SDS.pdf"
+                },
+                {
+                    "name": "Zinc Dialkyl Dithiophosphate",
+                    "cas_no": "68649-42-3",
+                    "source": "https://www.cam2.com/wp-content/uploads/2020/01/CAM2-PROMAX-Premium-AW-Hydraulic-Fluid-SDS.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "Performance Bio NC Ultra Lite (468311-US03)",
+        "composition": "Unknown",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "Undetermined",
+        "confidence": 0.25,
+        "primary_reason": "The chemical composition is unknown, and there is no available information on the specific product.",
+        "secondary_reason": "The manufacturer and trade name do not provide sufficient information to determine PFAS content.",
+        "evidence": [
+            "Lack of specific chemical composition data",
+            "No available information on the product in PFAS databases"
+        ],
+        "health_problems": [],
+        "confidence_level": "Low",
+        "recommendation": "Further investigation is needed, including obtaining the chemical composition from the manufacturer or conducting analytical testing.",
+        "suggestion": "Contact BP Lubricants USA Inc. for detailed chemical composition or perform mass spectrometry and chromatography analysis to identify potential PFAS content.",
+        "limitations_and_uncertainties": "The lack of chemical composition data and specific product information limits the ability to make a definitive assessment.",
+        "material_composition": {
+            "product_name": "Performance Bio NC Ultra Lite (468311-US03)",
+            "chemicals": [
+                {
+                    "name": "Unknown",
+                    "cas_no": "Unknown",
+                    "source": "Unknown"
+                }
+            ],
+            "confidence": 0.0
+        }
+    },
+    {
+        "analyzed_material": "MOBIL DTE 10 EXCEL 32 (201560103630)",
+        "composition": "Severely Hydrotreated Heavy Naphthenic Distillate, Zinc Dialkyl Dithiophosphate",
+        "analysis_method": "Literature review, trade name association, chemical composition analysis",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The provided chemical composition does not include any known PFAS compounds. Severely Hydrotreated Heavy Naphthenic Distillate and Zinc Dialkyl Dithiophosphate are not associated with PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Chemical composition analysis indicating no PFAS compounds",
+            "Trade name association with non-PFAS materials"
+        ],
+        "health_problems": [
+            "Could lead to skin irritation",
+            "Potential environmental impact if not disposed of properly"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The analysis is based on the provided chemical composition and available information. If there are undisclosed proprietary additives, further investigation may be required.",
+        "material_composition": {
+            "product_name": "MOBIL DTE 10 EXCEL 32",
+            "chemicals": [
+                {
+                    "name": "Severely Hydrotreated Heavy Naphthenic Distillate",
+                    "cas_no": "64742-52-5",
+                    "source": "https://www.mobil.com/en/industrial/pds/gl-xx-mobil-dte-10-excel-series"
+                },
+                {
+                    "name": "Zinc Dialkyl Dithiophosphate",
+                    "cas_no": "68649-42-3",
+                    "source": "https://www.mobil.com/en/industrial/pds/gl-xx-mobil-dte-10-excel-series"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "Abrasive Products, 384F",
+        "composition": "Aluminum Oxide, Phenolic Resin",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "Aluminum Oxide and Phenolic Resin are not PFAS compounds and do not typically contain PFAS based on available information.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with non-PFAS materials",
+            "Lack of information suggesting PFAS presence in Aluminum Oxide and Phenolic Resin"
+        ],
+        "health_problems": [
+            "Could lead to respiratory issues if inhaled as dust",
+            "Phenolic resin can cause skin irritation"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The specific formulation of the phenolic resin is not disclosed, which could potentially contain PFAS additives, though unlikely based on typical usage.",
+        "material_composition": {
+            "product_name": "Abrasive Products, 384F",
+            "chemicals": [
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_no": "1344-28-1",
+                    "source": "https://multimedia.3m.com/mws/media/63934O/3m-abrasive-products-sds.pdf"
+                },
+                {
+                    "name": "Phenolic Resin",
+                    "cas_no": "9003-35-4",
+                    "source": "https://multimedia.3m.com/mws/media/63934O/3m-abrasive-products-sds.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "ROTO-BRITE XD-45",
+        "composition": "Sodium Nitrite, Sodium Metasilicate, Sodium Carbonate",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed chemicals (Sodium Nitrite, Sodium Metasilicate, Sodium Carbonate) are inorganic compounds and do not belong to the PFAS class.",
+        "secondary_reason": null,
+        "evidence": [
+            "Chemical structure and properties of Sodium Nitrite, Sodium Metasilicate, and Sodium Carbonate do not align with PFAS characteristics",
+            "No indication of PFAS presence in similar products from the same manufacturer"
+        ],
+        "health_problems": [
+            "Sodium Nitrite: Methemoglobinemia, potential carcinogen",
+            "Sodium Metasilicate: Corrosive, can cause skin and eye irritation",
+            "Sodium Carbonate: Irritant, can cause respiratory issues"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The exact formulation details are proprietary and not fully disclosed, but based on the known composition, PFAS presence is highly unlikely.",
+        "material_composition": {
+            "product_name": "ROTO-BRITE XD-45",
+            "chemicals": [
+                {
+                    "name": "Sodium Nitrite",
+                    "cas_no": "7632-00-0",
+                    "source": "https://www.hubbardhall.com/product_files/ROTO-BRITE_XD-45_SDS.pdf"
+                },
+                {
+                    "name": "Sodium Metasilicate",
+                    "cas_no": "6834-92-0",
+                    "source": "https://www.hubbardhall.com/product_files/ROTO-BRITE_XD-45_SDS.pdf"
+                },
+                {
+                    "name": "Sodium Carbonate",
+                    "cas_no": "497-19-8",
+                    "source": "https://www.hubbardhall.com/product_files/ROTO-BRITE_XD-45_SDS.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "Rex-Cut Abrasives cotton fiber abrasive products",
+        "composition": "Aluminum Oxide, Resin, Cotton Fiber",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed components (Aluminum Oxide, Resin, Cotton Fiber) are not typically associated with PFAS. There is no indication that these materials contain PFAS based on available information.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with non-PFAS materials",
+            "Lack of information suggesting PFAS presence in the listed components"
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The specific formulation of the resin is not disclosed, which could potentially contain PFAS, but this is unlikely based on typical resin compositions used in such products.",
+        "material_composition": {
+            "product_name": "Rex-Cut Abrasives cotton fiber abrasive products",
+            "chemicals": [
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_no": "1344-28-1",
+                    "source": "https://www.rexcut.com/hubfs/Resources/SDS%20PDFs/Cotton%20Fiber%20Abrasives%20SDS.pdf"
+                },
+                {
+                    "name": "Resin",
+                    "cas_no": "Unknown",
+                    "source": "https://www.rexcut.com/hubfs/Resources/SDS%20PDFs/Cotton%20Fiber%20Abrasives%20SDS.pdf"
+                },
+                {
+                    "name": "Cotton Fiber",
+                    "cas_no": "Unknown",
+                    "source": "https://www.rexcut.com/hubfs/Resources/SDS%20PDFs/Cotton%20Fiber%20Abrasives%20SDS.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "3M Abrasive Product, 302D, 304D, 332D - P400-P600",
+        "composition": "Aluminum Oxide, Phenolic Resin",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "Aluminum Oxide and Phenolic Resin are not PFAS compounds. No evidence suggests PFAS presence in these materials.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with non-PFAS materials",
+            "Lack of information suggesting PFAS presence in Aluminum Oxide and Phenolic Resin"
+        ],
+        "health_problems": [
+            "Respiratory issues from dust inhalation",
+            "Skin irritation"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "Limited information on potential proprietary additives, but primary components are non-PFAS.",
+        "material_composition": {
+            "product_name": "3M Abrasive Product, 302D, 304D, 332D - P400-P600",
+            "chemicals": [
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_no": "1344-28-1",
+                    "source": "https://multimedia.3m.com/mws/media/63911O/3m-coated-abrasive-products-sds.pdf"
+                },
+                {
+                    "name": "Phenolic Resin",
+                    "cas_no": "9003-35-4",
+                    "source": "https://multimedia.3m.com/mws/media/63911O/3m-coated-abrasive-products-sds.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "Ionoplus (7837842)",
+        "composition": "Unknown",
+        "analysis_method": "Trade name association, manufacturer lookup",
+        "decision": "Undetermined",
+        "confidence": 0.25,
+        "primary_reason": "The chemical composition is unknown, and there is insufficient information available about the product.",
+        "secondary_reason": "The manufacturer does not provide detailed information on the material's composition.",
+        "evidence": [
+            "Lack of detailed chemical composition information",
+            "No specific data on PFAS content from the manufacturer"
+        ],
+        "health_problems": [],
+        "confidence_level": "Low",
+        "recommendation": "Further investigation is needed to determine the PFAS content of the material.",
+        "suggestion": "Consult the manufacturer for detailed chemical composition and perform analytical testing (e.g., mass spectrometry, chromatography) to identify potential PFAS content.",
+        "limitations_and_uncertainties": "The lack of detailed chemical composition information and the absence of specific data on PFAS content from the manufacturer limit the ability to make a definitive assessment.",
+        "material_composition": {
+            "product_name": "Ionoplus (7837842)",
+            "chemicals": [
+                {
+                    "name": "Unknown",
+                    "cas_no": "Unknown",
+                    "source": "Unknown"
+                }
+            ],
+            "confidence": 0.0
+        }
+    },
+    {
+        "analyzed_material": "Abrasive Products, 314D, Grades P80 - P400 Utility Cloth",
+        "composition": "Aluminum Oxide, Phenolic Resin",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "Aluminum Oxide and Phenolic Resin are not PFAS compounds. There is no indication that these materials contain PFAS based on available information.",
+        "secondary_reason": null,
+        "evidence": [
+            "Aluminum Oxide is a common abrasive material and does not contain PFAS.",
+            "Phenolic Resin is a type of synthetic polymer that does not typically contain PFAS."
+        ],
+        "health_problems": [
+            "Respiratory issues from inhalation of dust",
+            "Skin irritation"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "There is no specific information on the potential presence of PFAS in the manufacturing process or as additives, but the primary components do not suggest PFAS content.",
+        "material_composition": {
+            "product_name": "Abrasive Products, 314D, Grades P80 - P400 Utility Cloth",
+            "chemicals": [
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_no": "1344-28-1",
+                    "source": "https://multimedia.3m.com/mws/mediawebserver?mwsId=SSSSSuUn_zu8l00x4Y_9lYt9ov70k17zHvu9lxtD7SSSSSS--"
+                },
+                {
+                    "name": "Phenolic Resin",
+                    "cas_no": "9003-35-4",
+                    "source": "https://multimedia.3m.com/mws/mediawebserver?mwsId=SSSSSuUn_zu8l00x4Y_9lYt9ov70k17zHvu9lxtD7SSSSSS--"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "Vasco 5000 (2850)",
+        "composition": "Severely Hydrotreated Heavy Naphthenic Distillate, Alkanes, C14-16, Chloro, Sulfurized Olefin",
+        "analysis_method": "Literature review, trade name association, chemical structure analysis",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed components do not belong to the PFAS family. Severely Hydrotreated Heavy Naphthenic Distillate, Alkanes, C14-16, Chloro, and Sulfurized Olefin are not fluorinated compounds.",
+        "secondary_reason": null,
+        "evidence": [
+            "Chemical structure analysis of the listed components shows no fluorine atoms, which are characteristic of PFAS.",
+            "Trade name association and literature review did not indicate the presence of PFAS in Vasco 5000 (2850)."
+        ],
+        "health_problems": [
+            "Potential skin and eye irritation",
+            "Respiratory issues if inhaled"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The analysis is based on the provided composition. If there are undisclosed proprietary ingredients, further investigation may be required.",
+        "material_composition": {
+            "product_name": "Vasco 5000 (2850)",
+            "chemicals": [
+                {
+                    "name": "Severely Hydrotreated Heavy Naphthenic Distillate",
+                    "cas_no": "64742-52-5",
+                    "source": "https://www.blaser.com/fileadmin/user_upload/Produkte/Sicherheitsdatenblaetter/Blasocut/BC20SW.pdf"
+                },
+                {
+                    "name": "Alkanes, C14-16, Chloro",
+                    "cas_no": "63449-39-8",
+                    "source": "https://www.blaser.com/fileadmin/user_upload/Produkte/Sicherheitsdatenblaetter/Blasocut/BC20SW.pdf"
+                },
+                {
+                    "name": "Sulfurized Olefin",
+                    "cas_no": "Unknown",
+                    "source": "https://www.blaser.com/fileadmin/user_upload/Produkte/Sicherheitsdatenblaetter/Blasocut/BC20SW.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "KIMTECH PURE CL4 Pre-Sat Wipers - 70% Isopropyl Alcohol; KIMTECH PURE W4 Pre-Saturated Sterile Wipers - 70% Isopropyl Alcohol (06070)",
+        "composition": "Isopropyl Alcohol",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "Isopropyl Alcohol is not a PFAS compound. Wipers are typically made from non-PFAS materials such as cellulose or polyester.",
+        "secondary_reason": null,
+        "evidence": [
+            "Isopropyl Alcohol is a well-known chemical with no PFAS association",
+            "Wipers are generally made from non-PFAS materials"
+        ],
+        "health_problems": [
+            "Isopropyl Alcohol can cause skin irritation and respiratory issues if inhaled in large quantities"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The exact composition of the wiper material is not provided, but typical wiper materials do not contain PFAS.",
+        "material_composition": {
+            "product_name": "KIMTECH PURE CL4 Pre-Sat Wipers - 70% Isopropyl Alcohol; KIMTECH PURE W4 Pre-Saturated Sterile Wipers - 70% Isopropyl Alcohol (06070)",
+            "chemicals": [
+                {
+                    "name": "Isopropyl Alcohol",
+                    "cas_no": "67-63-0",
+                    "source": "https://www.kcprofessional.com/-/media/Project/KC/KC-Professional/Files/MSDS/06070-00.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "Acid, Muriatic 20 Deg (H002381)",
+        "composition": "Hydrochloric Acid, Water",
+        "analysis_method": "Literature review, chemical composition analysis",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "Hydrochloric Acid and Water are not PFAS compounds and do not contain fluorine atoms.",
+        "secondary_reason": null,
+        "evidence": [
+            "Chemical structure of Hydrochloric Acid and Water do not include fluorine atoms",
+            "No known association of Hydrochloric Acid or Water with PFAS"
+        ],
+        "health_problems": [
+            "Corrosive to skin and eyes",
+            "Can cause respiratory issues if inhaled"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": null,
+        "material_composition": {
+            "product_name": "Acid, Muriatic 20 Deg (H002381)",
+            "chemicals": [
+                {
+                    "name": "Hydrochloric Acid",
+                    "cas_no": "7647-01-0",
+                    "source": "https://www.havilandusa.com/wp-content/uploads/2018/05/H002381.pdf"
+                },
+                {
+                    "name": "Water",
+                    "cas_no": "7732-18-5",
+                    "source": "https://www.havilandusa.com/wp-content/uploads/2018/05/H002381.pdf"
+                }
+            ],
+            "confidence": 0.95
+        }
+    },
+    {
+        "analyzed_material": "OS Compound",
+        "composition": "Silicon Dioxide, Aluminum Oxide",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "Silicon Dioxide and Aluminum Oxide are inorganic compounds that do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with Saint-Gobain Ceramics & Plastics, Inc., which typically produces non-PFAS materials",
+            "Lack of information suggesting PFAS presence in Silicon Dioxide and Aluminum Oxide"
+        ],
+        "health_problems": [
+            "Could lead to respiratory issues if inhaled as dust"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The analysis is based on the provided composition and typical manufacturing practices of Saint-Gobain Ceramics & Plastics, Inc. If there are undisclosed proprietary additives, further investigation may be required.",
+        "material_composition": {
+            "product_name": "OS Compound",
+            "chemicals": [
+                {
+                    "name": "Silicon Dioxide",
+                    "cas_no": "7631-86-9",
+                    "source": "https://www.saint-gobain.com/sites/saint-gobain.com/files/2021-03/OS-Compound-SDS.pdf"
+                },
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_no": "1344-28-1",
+                    "source": "https://www.saint-gobain.com/sites/saint-gobain.com/files/2021-03/OS-Compound-SDS.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "Ceramic Media: RCP, RCP/2",
+        "composition": "Aluminum Oxide, Silicon Dioxide, Kaolin",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The provided chemical composition (Aluminum Oxide, Silicon Dioxide, Kaolin) does not include any PFAS compounds.",
+        "secondary_reason": "Ceramic media typically do not contain PFAS based on their intended use and composition.",
+        "evidence": [
+            "Chemical composition does not list any PFAS compounds",
+            "Ceramic media are generally composed of inorganic materials"
+        ],
+        "health_problems": [],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "None",
+        "material_composition": {
+            "product_name": "Ceramic Media: RCP, RCP/2",
+            "chemicals": [
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_no": "1344-28-1",
+                    "source": "https://www.rosler.com/fileadmin/content/usa/Downloads/Safety_Data_Sheets/SDS_Ceramic_Media.pdf"
+                },
+                {
+                    "name": "Silicon Dioxide",
+                    "cas_no": "7631-86-9",
+                    "source": "https://www.rosler.com/fileadmin/content/usa/Downloads/Safety_Data_Sheets/SDS_Ceramic_Media.pdf"
+                },
+                {
+                    "name": "Kaolin",
+                    "cas_no": "1332-58-7",
+                    "source": "https://www.rosler.com/fileadmin/content/usa/Downloads/Safety_Data_Sheets/SDS_Ceramic_Media.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "Buffclean 16L Soak Cleaner",
+        "composition": "Sodium Metasilicate, Sodium Carbonate",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "Both Sodium Metasilicate and Sodium Carbonate are inorganic compounds and do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Chemical structure and properties of Sodium Metasilicate and Sodium Carbonate indicate no PFAS content",
+            "No association of these chemicals with PFAS in literature or databases"
+        ],
+        "health_problems": [
+            "Irritation to skin and eyes",
+            "Respiratory issues if inhaled"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The assessment is based on the provided chemical composition. If there are undisclosed ingredients, further investigation may be required.",
+        "material_composition": {
+            "product_name": "Buffclean 16L Soak Cleaner",
+            "chemicals": [
+                {
+                    "name": "Sodium Metasilicate",
+                    "cas_no": "6834-92-0",
+                    "source": "https://www.matchlessmetal.com/wp-content/uploads/2018/09/Buffclean-16L-Soak-Cleaner-SDS.pdf"
+                },
+                {
+                    "name": "Sodium Carbonate",
+                    "cas_no": "497-19-8",
+                    "source": "https://www.matchlessmetal.com/wp-content/uploads/2018/09/Buffclean-16L-Soak-Cleaner-SDS.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "Ultra FG",
+        "composition": "White mineral oil, Proprietary additives",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "Undetermined",
+        "confidence": 0.45,
+        "primary_reason": "The presence of proprietary additives makes it difficult to conclusively determine the PFAS content.",
+        "secondary_reason": "White mineral oil does not contain PFAS, but the proprietary additives could potentially include PFAS.",
+        "evidence": [
+            "White mineral oil is a non-PFAS material",
+            "Proprietary additives are not disclosed, making it impossible to rule out PFAS presence"
+        ],
+        "health_problems": [
+            "Potential health risks associated with PFAS exposure include cancer, liver damage, and immune system effects"
+        ],
+        "confidence_level": "Medium",
+        "recommendation": "Further investigation is needed to determine the PFAS content of the proprietary additives.",
+        "suggestion": "Consult the manufacturer for detailed information on the proprietary additives or conduct analytical testing (e.g., mass spectrometry, chromatography) to identify potential PFAS.",
+        "limitations_and_uncertainties": "The proprietary nature of the additives limits the ability to conclusively determine the PFAS content without additional information or testing.",
+        "material_composition": {
+            "product_name": "Ultra FG",
+            "chemicals": [
+                {
+                    "name": "White mineral oil",
+                    "cas_no": "8042-47-5",
+                    "source": "https://www.irco.com/ircorpassets/pdf/UltraFG_MSDS.pdf"
+                },
+                {
+                    "name": "Proprietary additives",
+                    "cas_no": "unknown",
+                    "source": "https://www.irco.com/ircorpassets/pdf/UltraFG_MSDS.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "V376 GREY STAR STAINLESS STEEL COMPOUND",
+        "composition": "Aluminum Oxide, Petroleum Distillates",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "Aluminum Oxide and Petroleum Distillates are not PFAS compounds.",
+        "secondary_reason": null,
+        "evidence": [
+            "Aluminum Oxide is an inorganic compound and does not contain PFAS.",
+            "Petroleum Distillates are hydrocarbon-based and do not typically contain PFAS."
+        ],
+        "health_problems": [
+            "Respiratory issues",
+            "Skin irritation"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "There is no specific information on proprietary additives that might be present in the compound.",
+        "material_composition": {
+            "product_name": "V376 GREY STAR STAINLESS STEEL COMPOUND",
+            "chemicals": [
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_no": "1344-28-1",
+                    "source": "https://www.matchlessmetal.com/wp-content/uploads/2018/09/V376-Grey-Star-Stainless-Steel-Compound.pdf"
+                },
+                {
+                    "name": "Petroleum Distillates",
+                    "cas_no": "64742-47-8",
+                    "source": "https://www.matchlessmetal.com/wp-content/uploads/2018/09/V376-Grey-Star-Stainless-Steel-Compound.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "Ultra FG",
+        "composition": "White mineral oil, Proprietary additives",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "Undetermined",
+        "confidence": 0.45,
+        "primary_reason": "Presence of proprietary additives which may contain undisclosed PFAS.",
+        "secondary_reason": "Lack of specific information on proprietary additives.",
+        "evidence": [
+            "White mineral oil does not contain PFAS.",
+            "Proprietary additives could potentially include PFAS."
+        ],
+        "health_problems": [
+            "Potential PFAS-related health issues if present, such as cancer, liver damage, and immune system effects."
+        ],
+        "confidence_level": "Medium",
+        "recommendation": "Further investigation is needed to determine the presence of PFAS in proprietary additives.",
+        "suggestion": "Consult the manufacturer for detailed composition information or conduct analytical testing (e.g., mass spectrometry, chromatography) to identify potential PFAS.",
+        "limitations_and_uncertainties": "Proprietary additives are not disclosed, leading to uncertainty in the assessment.",
+        "material_composition": {
+            "product_name": "Ultra FG",
+            "chemicals": [
+                {
+                    "name": "White mineral oil",
+                    "cas_no": "8042-47-5",
+                    "source": "https://www.irco.com/ircorpassets/pdf/UltraFG_MSDS.pdf"
+                },
+                {
+                    "name": "Proprietary additives",
+                    "cas_no": "unknown",
+                    "source": "https://www.irco.com/ircorpassets/pdf/UltraFG_MSDS.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    },
+    {
+        "analyzed_material": "APC-ALL PURPOSE NEUTRALIZER (APC)",
+        "composition": "Water, Sodium Bicarbonate, Sodium Carbonate",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.95,
+        "primary_reason": "The listed ingredients (Water, Sodium Bicarbonate, Sodium Carbonate) are not PFAS compounds and do not typically contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Chemical composition review indicating no PFAS presence",
+            "Lack of information suggesting PFAS presence in similar neutralizer products"
+        ],
+        "health_problems": [
+            "None related to PFAS"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "None",
+        "material_composition": {
+            "product_name": "APC-ALL PURPOSE NEUTRALIZER (APC)",
+            "chemicals": [
+                {
+                    "name": "Water",
+                    "cas_no": "7732-18-5",
+                    "source": "https://www.monode.com/images/APC_MSDS.pdf"
+                },
+                {
+                    "name": "Sodium Bicarbonate",
+                    "cas_no": "144-55-8",
+                    "source": "https://www.monode.com/images/APC_MSDS.pdf"
+                },
+                {
+                    "name": "Sodium Carbonate",
+                    "cas_no": "497-19-8",
+                    "source": "https://www.monode.com/images/APC_MSDS.pdf"
+                }
+            ],
+            "confidence": 0.95
+        }
+    },
+    {
+        "analyzed_material": "Additive A34 (29108-02)",
+        "composition": "Distillates (petroleum), hydrotreated light, Naphtha (petroleum), hydrotreated heavy",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "Undetermined",
+        "confidence": 0.45,
+        "primary_reason": "The provided chemical composition does not explicitly list PFAS, but the proprietary nature of trade names and potential undisclosed additives necessitate further investigation.",
+        "secondary_reason": "Lack of specific information on PFAS content in the provided composition.",
+        "evidence": [
+            "Trade name association with petroleum distillates, which typically do not contain PFAS",
+            "No explicit mention of PFAS in the provided composition"
+        ],
+        "health_problems": [
+            "Could lead to asphyxia",
+            "Linked to cancer"
+        ],
+        "confidence_level": "Medium",
+        "recommendation": "Further investigation is needed to confirm the absence of PFAS, including consulting specific databases and potentially conducting analytical testing.",
+        "suggestion": "Consult specific PFAS databases and consider analytical testing (e.g., mass spectrometry, chromatography) to confirm the absence of PFAS.",
+        "limitations_and_uncertainties": "The proprietary nature of trade names and potential undisclosed additives create uncertainty in the assessment.",
+        "material_composition": {
+            "product_name": "Additive A34 (29108-02)",
+            "chemicals": [
+                {
+                    "name": "Distillates (petroleum), hydrotreated light",
+                    "cas_no": "64742-47-8",
+                    "source": "https://www.blaser.com/fileadmin/user_upload/Blaser_SDS_Additive_A34_29108-02.pdf"
+                },
+                {
+                    "name": "Naphtha (petroleum), hydrotreated heavy",
+                    "cas_no": "64742-48-9",
+                    "source": "https://www.blaser.com/fileadmin/user_upload/Blaser_SDS_Additive_A34_29108-02.pdf"
+                }
+            ],
+            "confidence": 0.95
+        }
+    },
+    {
+        "analyzed_material": "TRIM MicroSol 585XT (1015)",
+        "composition": "Water, Alkanolamine, Petroleum Distillates, Hydrotreated Light, Chlorinated Paraffin",
+        "analysis_method": "Literature review, trade name association, chemical composition analysis",
+        "decision": "Undetermined",
+        "confidence": 0.45,
+        "primary_reason": "The provided composition does not explicitly list PFAS, but the presence of proprietary or undisclosed ingredients cannot be ruled out. Chlorinated paraffins and petroleum distillates may sometimes be associated with PFAS in certain formulations.",
+        "secondary_reason": "Lack of specific information on the exact formulation and potential proprietary ingredients.",
+        "evidence": [
+            "Chemical composition analysis does not list PFAS explicitly",
+            "Chlorinated paraffins and petroleum distillates may sometimes be associated with PFAS"
+        ],
+        "health_problems": [
+            "Potential respiratory issues",
+            "Skin irritation",
+            "Possible carcinogenic effects"
+        ],
+        "confidence_level": "Medium",
+        "recommendation": "Further investigation is needed, including consulting specific databases and possibly conducting analytical testing (e.g., mass spectrometry, chromatography) to confirm the presence or absence of PFAS.",
+        "suggestion": "Consult the manufacturer for detailed formulation information and consider analytical testing for PFAS.",
+        "limitations_and_uncertainties": "The exact formulation and potential proprietary ingredients are not disclosed, leading to uncertainty in the assessment.",
+        "material_composition": {
+            "product_name": "TRIM MicroSol 585XT (1015)",
+            "chemicals": [
+                {
+                    "name": "Water",
+                    "cas_no": "7732-18-5",
+                    "source": "https://www1.mscdirect.com/MSDS/MSDS00007/01790583-20110708.PDF"
+                },
+                {
+                    "name": "Alkanolamine",
+                    "cas_no": "102-71-6",
+                    "source": "https://www1.mscdirect.com/MSDS/MSDS00007/01790583-20110708.PDF"
+                },
+                {
+                    "name": "Petroleum Distillates, Hydrotreated Light",
+                    "cas_no": "64742-47-8",
+                    "source": "https://www1.mscdirect.com/MSDS/MSDS00007/01790583-20110708.PDF"
+                },
+                {
+                    "name": "Chlorinated Paraffin",
+                    "cas_no": "63449-39-8",
+                    "source": "https://www1.mscdirect.com/MSDS/MSDS00007/01790583-20110708.PDF"
+                }
+            ],
+            "confidence": 0.85
+        }
+    },
+    {
+        "analyzed_material": "Duramedia 30, Duramedia 40, Duramedia WK, Duramedia C, Duramedia HE, Duramedia TB, Duramedia PK-40",
+        "composition": "Aluminum Oxide, Silicon Carbide, Zirconium Oxide",
+        "analysis_method": "Literature review, trade name association",
+        "decision": "PFAS (No)",
+        "confidence": 0.85,
+        "primary_reason": "The listed components (Aluminum Oxide, Silicon Carbide, Zirconium Oxide) are inorganic compounds and do not contain PFAS.",
+        "secondary_reason": null,
+        "evidence": [
+            "Trade name association with ceramic media, which typically does not contain PFAS",
+            "Chemical nature of Aluminum Oxide, Silicon Carbide, and Zirconium Oxide as non-PFAS materials"
+        ],
+        "health_problems": [
+            "Respiratory issues if inhaled as dust",
+            "Potential skin irritation"
+        ],
+        "confidence_level": "High",
+        "recommendation": "No further investigation is needed as the analyzed materials are not expected to contain PFAS.",
+        "suggestion": null,
+        "limitations_and_uncertainties": "The exact formulation and potential proprietary additives are not disclosed, but the primary components are non-PFAS.",
+        "material_composition": {
+            "product_name": "Duramedia 30, Duramedia 40, Duramedia WK, Duramedia C, Duramedia HE, Duramedia TB, Duramedia PK-40",
+            "chemicals": [
+                {
+                    "name": "Aluminum Oxide",
+                    "cas_no": "1344-28-1",
+                    "source": "https://www.washingtonmills.com/sites/default/files/downloads/duramedia-sds.pdf"
+                },
+                {
+                    "name": "Silicon Carbide",
+                    "cas_no": "409-21-2",
+                    "source": "https://www.washingtonmills.com/sites/default/files/downloads/duramedia-sds.pdf"
+                },
+                {
+                    "name": "Zirconium Oxide",
+                    "cas_no": "1314-23-4",
+                    "source": "https://www.washingtonmills.com/sites/default/files/downloads/duramedia-sds.pdf"
+                }
+            ],
+            "confidence": 0.9
+        }
+    }
+]

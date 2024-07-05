@@ -21,7 +21,7 @@ manufacturer_names = manufacturer.loc[manufacturer['id'].isin(manufacturer_ids),
 df = pd.DataFrame({"material_name": material_names, "manufacturer_ids": manufacturer_ids})
 
 # Limit to 10 materials
-df = df.sample(n=10, random_state=1).reset_index(drop=True)
+df = df.sample(n=2, random_state=1).reset_index(drop=True)
 
 askai = AskViridium()
 
