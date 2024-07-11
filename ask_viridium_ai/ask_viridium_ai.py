@@ -37,14 +37,14 @@ class AskViridium:
         self.logger = AppInsightsConnector().get_logger()  # Initialize the logger
         self.loginfo = dict()  # Dictionary to store log information
         self.constants = GlobalConstants()  # Initialize global constants
-        self.model_name = self.constants.model_name  # Model name from constants
+        self.model_name = self.constants.model_name  # Model name from constants GPT 4o
         self.deployment_name = self.constants.deployment_name  # Deployment name from constants
 
         self.llm = AzureChatOpenAI(
             deployment_name=self.deployment_name,
             temperature=0,
             max_tokens=800,
-            n=3
+            n=1
         )
 
         # Initialize prompts and functions
@@ -72,7 +72,7 @@ class AskViridium:
 
         prompt = ChatPromptTemplate.from_messages([
             ("system", cheminfo_system_prompt),
-            ("human", "Material Name: {material}"),
+            ("human", "Material Name: {material}, manufacturer: {manufacturer}"),
         ])
         return prompt
 
@@ -89,7 +89,7 @@ class AskViridium:
         prompt = ChatPromptTemplate.from_messages([
             ("system", analysis_system_prompt),
             ("human",
-             "Material Name: {material}, manufactured by {manufacturer}. CONTEXT: used as {usecase}. Its chemical composition is: {chemical_composition}. Additional info: {additional_info}")
+             "Material Name: {material}, manufactured by {manufacturer}. Its chemical composition is: {chemical_composition}.")
         ])
         return prompt
 
@@ -167,6 +167,7 @@ class AskViridium:
             tokens_for_cheminfo = 0
             cost_for_cheminfo = 0
 
+        # second llm call
         try:
             with get_openai_callback() as cb:
                 # Invoke the analysis chain and get the analysis result
