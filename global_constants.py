@@ -136,9 +136,6 @@ class GlobalConstants(DotAccessDict):
     web_app_base_url = "http://127.0.0.1:5000/v1"
     ui_base_url = "https://dev-vir-ui.azurewebsites.net/"
 
-    username = "naadkd@gmail.com"
-    password = "Viridum"
-
     test_cases = [
         ("Isopropyl Alcohol", "3M", ""),
         ("Copper Sulphate", "Saint-Gobain", ""),
