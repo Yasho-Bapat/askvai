@@ -1,4 +1,9 @@
+import logging
 import pandas as pd
+from opencensus.ext.azure.log_exporter import AzureLogHandler
+
+from global_constants import GlobalConstants
+
 
 class Logger:
     def __init__(self):
@@ -29,6 +34,7 @@ class Logger:
         # self.df = pd.concat([tdf, self.df])
         self.df.to_csv(filename, index=False)
 
+
 class ExperimentLogger():
     def __init__(self):
         self.columns = ["material_id", "material_name", "manufacturer_id", "manufacturer_name", "pfas_status"]
@@ -42,4 +48,29 @@ class ExperimentLogger():
     def save(self, filename):
         tdf = pd.read_csv(filename)
         self.df = pd.concat([tdf, self.df])
-        self.df.to_csv(filename, index=False) # saving
+        self.df.to_csv(filename, index=False)  # saving
+
+
+class AppInsightsConnector():
+    def __init__(self):
+        # Configure logger
+        self.global_constants = GlobalConstants
+        self.logger = logging.getLogger(__name__)
+
+        # Set log level to INFO
+        self.logger.setLevel(logging.INFO)
+
+        formatter = logging.Formatter("[%(process)d] [%(levelname)s] %(message)s")
+        # Add AzureLogHandler to the logger
+        self.azure_handler = AzureLogHandler(connection_string=self.global_constants.azure_app_insights_connector)
+        self.azure_handler.setFormatter(formatter)
+        self.logger.addHandler(self.azure_handler)
+
+        # Add Console Handler
+        console_handler = logging.StreamHandler()
+        console_handler.setLevel(logging.INFO)
+        console_handler.setFormatter(formatter)
+        self.logger.addHandler(console_handler)
+
+    def get_logger(self):
+        return self.logger

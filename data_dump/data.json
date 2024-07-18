@@ -1138,5 +1138,66 @@
             "suggestion": null,
             "limitations_and_uncertainties": "The assessment is based on the provided chemical composition and available information. If there are undisclosed proprietary ingredients, further investigation may be required."
         }
+    },
+    {
+        "timestamp": "2024-07-18 15:59:47",
+        "duration": 6.450039374874905,
+        "material": "CHEM-CREST 270",
+        "manufacturer": "CREST ULTRASONICS CORPORATION",
+        "tokens_used_for_chemical_composition": 0,
+        "tokens_used_for_analysis": 1372,
+        "cost_chemical_composition": 0,
+        "cost_analysis": 0.00856,
+        "total_cost": 0.00856,
+        "chemical_composition": null,
+        "PFAS_status": "Undetermined",
+        "result": {
+            "analyzed_material": "CHEM-CREST 270",
+            "composition": "Undetermined",
+            "analysis_method": "Literature review, trade name association",
+            "decision": "Undetermined",
+            "confidence": 0.3,
+            "primary_reason": "The chemical composition is not provided, and there is insufficient information available to determine PFAS content.",
+            "secondary_reason": null,
+            "evidence": [
+                "Lack of detailed chemical composition information",
+                "No specific data on PFAS content for CHEM-CREST 270"
+            ],
+            "health_problems": [],
+            "confidence_level": "Low",
+            "recommendation": "Further investigation is needed to determine PFAS content.",
+            "suggestion": "Consult the manufacturer for detailed chemical composition and perform analytical testing (e.g., mass spectrometry, chromatography) to confirm PFAS presence or absence.",
+            "limitations_and_uncertainties": "The absence of chemical composition data limits the ability to make a definitive assessment."
+        }
+    },
+    {
+        "timestamp": "2024-07-18 16:01:10",
+        "duration": 4.833382833050564,
+        "material": "Vitrified Bonded Stick",
+        "manufacturer": "",
+        "tokens_used_for_chemical_composition": 0,
+        "tokens_used_for_analysis": 1370,
+        "cost_chemical_composition": 0,
+        "cost_analysis": 0.00861,
+        "total_cost": 0.00861,
+        "chemical_composition": null,
+        "PFAS_status": "Undetermined",
+        "result": {
+            "analyzed_material": "Vitrified Bonded Stick",
+            "composition": "Undetermined",
+            "analysis_method": "Literature review, trade name association",
+            "decision": "Undetermined",
+            "confidence": 0.3,
+            "primary_reason": "Insufficient information on the chemical composition of the material.",
+            "secondary_reason": "Vitrified bonded materials can vary widely in composition, and without specific details, it is not possible to determine PFAS content.",
+            "evidence": [
+                "Lack of specific chemical composition data"
+            ],
+            "health_problems": [],
+            "confidence_level": "Low",
+            "recommendation": "Further investigation is needed to determine the PFAS content of the material.",
+            "suggestion": "Obtain detailed chemical composition from the manufacturer or perform analytical testing (e.g., mass spectrometry, chromatography) to identify potential PFAS content.",
+            "limitations_and_uncertainties": "The absence of detailed chemical composition data limits the ability to make a definitive assessment."
+        }
     }
 ]

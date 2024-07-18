@@ -1,5 +1,3 @@
-from typing import List
-
 from pydantic.v1 import BaseModel, Field
 
 
@@ -11,7 +9,7 @@ class ChemicalInfo(BaseModel):
 
 class MaterialComposition(BaseModel):
     product_name: str = Field(description="Name of the product specified")
-    chemicals: List[ChemicalInfo] = Field(description="List of chemicals present in the product.")
+    chemicals: list[ChemicalInfo] = Field(description="List of chemicals present in the product.")
     confidence: int = Field(description="Confidence score of the result")
 
 
@@ -24,8 +22,8 @@ class MaterialInfo(BaseModel):
     confidence: float = Field(description="Confidence score of response.")
     primary_reason: str = Field(description="Primary reasoning of response content.")
     secondary_reason: str = Field(description="Secondary reasoning of response content.")
-    evidence: List[str] = Field(description="Evidence supporting the response given.")
-    health_problems: List[str] = Field(description="List of health problems that could potentially be attached to the product.")
+    evidence: list[str] = Field(description="Evidence supporting the response given.")
+    health_problems: list[str] = Field(description="List of health problems that could potentially be attached to the product.")
     confidence_level: str = Field(description="Confidence level of the response: low, medium, high")
     recommendation: str = Field(description="Recommendation of what to do with the material with regards to its PFAS compliance.")
     suggestion: str = Field(description="Suggestion of what to do with the material with regards to its PFAS compliance.")

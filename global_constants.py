@@ -130,3 +130,16 @@ class GlobalConstants(DotAccessDict):
 
     model_name = os.getenv("AZURE_MODEL_NAME")
     deployment_name = os.getenv("AZURE_DEPLOYMENT_NAME")
+    azure_app_insights_connector = os.getenv("AZURE_APP_INSIGHTS_CONNECTION_STRING")
+
+    # Tests
+    web_app_base_url = "http://127.0.0.1:5000/v1"
+    ui_base_url = "https://dev-vir-ui.azurewebsites.net/"
+
+    username = "naadkd@gmail.com"
+    password = "Viridum"
+
+    test_cases = [
+        ("Isopropyl Alcohol", "3M", ""),
+        ("Copper Sulphate", "Saint-Gobain", ""),
+    ]
